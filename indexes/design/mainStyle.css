@@ -43,3 +43,28 @@ footer p { font-size: 0.9rem; }
 #nav_icon:hover{
   cursor: pointer
 }
+
+/* Responsive Styles */
+.feature:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+/*selection*/
+::selection {
+  background: #f39c12;
+  color: #fff;
+}
+
+/*lists*/
+.parts ul {
+  padding-left: 20px;
+  margin: 0;
+  list-style-type: disc;
+}
+.parts ul li {
+  margin-bottom: 10px;
+  color: #c62727;
+  font-size: 1.1rem;
+}
