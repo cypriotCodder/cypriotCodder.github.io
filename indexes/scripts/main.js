@@ -18,6 +18,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 const sirtLink     = document.getElementById('sirtLink');
+const programsSec  = document.getElementById('gif1');
 // 2. Define your GIF URLs
 const sirtGifs = [
   './assets/sirt.gif',
@@ -28,7 +29,6 @@ const sirtGifs = [
 sirtLink.addEventListener('click', e => {
   e.preventDefault();               // don’t reload the page
   programsSec.innerHTML = '';       // clear out any old content
-
   // 3. Create and append <img> for each GIF
   sirtGifs.forEach(src => {
     const img = document.createElement('img');
