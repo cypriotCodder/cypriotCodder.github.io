@@ -14,9 +14,9 @@ header { background: #222; color: #fff; padding: 1rem 2rem; position: fixed; wid
 
 /* Hero Section */
 .hero { background: url('hero-bg.jpg') center/cover no-repeat; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 1rem; }
-.hero-content { background: rgba(0,0,0,0.5); padding: 2rem; border-radius: 8px; }
-.hero h1 { font-size: 3rem; color: #fff; margin-bottom: 1rem; }
-.hero p { font-size: 1.25rem; color: #ddd; margin-bottom: 1.5rem; }
+.hero-content { background: rgb(49, 48, 48); padding: 2rem; border-radius: 8px; position: relative;}
+.hero h1 { font-size: 3rem; color: #ffffff; margin-bottom: 1rem; }
+.hero p { font-size: 1.25rem; color: #ffffff; margin-bottom: 1.5rem; }
 .btn { display: inline-block; padding: 0.75rem 1.5rem; background: #f39c12; color: #fff; border-radius: 4px; font-weight: 700; transition: background 0.3s; }
 .btn:hover { background: #e67e22; }
 
@@ -58,13 +58,33 @@ footer p { font-size: 0.9rem; }
 }
 
 /*lists*/
-.parts ul {
-  padding-left: 20px;
-  margin: 0;
-  list-style-type: disc;
-}
-.parts ul li {
+.parts{
   margin-bottom: 10px;
-  color: #c62727;
-  font-size: 1.1rem;
+  color: #f4f4f4;
+  font-size: 1.5rem;
+}
+
+.parts li{
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  background: #393E46;
+  display: inline-flexbox;
+}
+
+/*btn geri*/
+.hero-content .btn_geri{
+  position: absolute;
+  /*takeitoutofthenormalflow*/top: 1rem;
+  /*adjusttotaste*/left: 1rem;
+  /*adjusttotaste*//*optionalstyling*/padding: 0.5rem 1rem;
+  background: #1f2937;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn_geri:hover{
+  background: #374151;
+  cursor: pointer;
 }
