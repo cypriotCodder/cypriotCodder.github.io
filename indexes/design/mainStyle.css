@@ -107,6 +107,7 @@ footer p { font-size: 0.9rem; }
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
   align-items: center;
   justify-self: center;
+  display: none;
 }
 
 .small-gifs{
@@ -115,7 +116,7 @@ footer p { font-size: 0.9rem; }
 }
 
 .hidden{
-  display: none;
+  display: block;
 }
 
 /*carousel*/
