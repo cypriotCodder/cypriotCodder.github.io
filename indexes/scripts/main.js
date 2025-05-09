@@ -4,17 +4,20 @@ toggle.addEventListener('click', () => {
   links.style.display = links.style.display === 'block' ? 'none' : 'block';
 });
 
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener('DOMContentLoaded', () => {
 
-  document.getElementById("strength").addEventListener("click", () => {
-  window.location.href = "./training.html";
-    console.log("Strength button clicked!");
-  })
-
-  document.getElementById("goback").addEventListener("click", () => {
-    window.location.href = "./home.html";   
-    console.log("geri button clicked!");
-  });
+  const strength = document.getElementById('strength');
+  const backbtn  = document.getElementById('backbtn');
+  if (strength) {
+    strength.addEventListener('click', () => {
+      window.location.href = 'training.html';
+    });
+  }
+  if (backbtn) {
+    backbtn.addEventListener('click', () => {
+      window.location.href = 'home.html';
+    });
+  }
 });
 
 const sirtLink     = document.getElementById('sirtLink');
