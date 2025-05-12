@@ -120,6 +120,10 @@ footer p { font-size: 0.9rem; }
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 1rem;
   display: none;
+  @media screen and (max-width: 768px) {
+    flex: 1 1 100%;
+    
+  }
 }
 
 .small-gifs{
