@@ -114,6 +114,15 @@ footer p { font-size: 0.9rem; }
 }
 
 /*gif area*/
+.mainGif{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5%;
+}
+
 .gifs{
   flex: 1 1 500px;
   display: blocks;
@@ -127,7 +136,8 @@ footer p { font-size: 0.9rem; }
 }
 
 .small-gifs{
-  width: 100%;
+  padding: 0.5rem;
+  width: 50%;
   height: auto;
   display: block;
   border-radius: 8px;
@@ -148,3 +158,57 @@ footer p { font-size: 0.9rem; }
 
 /*carousel*/
 /*TODO*/
+
+
+/* 1. Make the page a two-column flex */
+.page-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* 2. Sidebar styling */
+.sidebar {
+  flex: 0 0 200px;           /* fixed 200px wide */
+  background: #222;           /* same dark tone as header */
+  color: #fff;
+  padding: 2rem 1rem;
+}
+.sidebar__title {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.sidebar__list {
+  list-style: none;
+  padding: 0;
+}
+.sidebar__link {
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+.sidebar__link:hover {
+  background: #f39c12;
+  color: #222;
+  cursor: pointer;
+}
+
+/* 3. Shift your main content over */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* 4. Make it stack on narrow screens */
+@media (max-width: 768px) {
+  .page-wrapper {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    flex: none;
+  }
+}

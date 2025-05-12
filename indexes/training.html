@@ -19,50 +19,65 @@
             <li><a href="home.html">Ana Sayfa</a></li>
             <li><a href="home.html#programs">Programlar</a></li>
             <li><a href="#trainers">Trainers</a></li>
-            <li><a href="#contact">İletişim</a></li>
+            <li><a href="#contacts">İletişim</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="parts-list">
-
-      <div id="" class="hero-content">
-        <button id="backbtn" class="btngeri">🢪</button>
-        <h1>Kas Grupları</h1>
-        <p>Tekin Adalı Spor Tesisi olarak, spor yapmayı sevenler için çeşitli programlar sunuyoruz. Aşağıda mevcut programlarımızı bulabilirsiniz:</p>
-        <!-- list of muscle groups -->
-        <ul class="parts">
-          <li><a id="backPart" href="#">Sırt</a></li>
-          <li><a id="chestPart" href="#">Göğüs</a></li>
-          <li><a id="armsPart" href="#">Kol</a></li>
-          <li><a id="shoulderPart" href="#">Omuz</a></li>
-          <li><a id="legsPart" href="#">Bacak</a></li>
-          <li><a id="glutePart" href="#">Kalça</a></li>
-          <li><a id="absPart" href="#">Karın</a></li>
-          <li><a id="cardioPart" href="#">Kardiyo</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- gifs display area -->
-    <div id="backGifs" class="gifs">
-      <div>
-        <a id="gif1" class="gif-elem"><img class="small-gifs" src="design/assets/back.gif" alt="sırt" ></a>
-      </div>
-      
-      <div>
-        <a id="gif2" class="gif-elem"><img class="small-gifs" src="design/assets/back2.gif" alt="sırt" ></a>
-      </div>
-    </div>
     
-  </section> 
+
+  <div class="page-wrapper">
+  <!-- ← Sidebar -->
+    <aside class="sidebar">
+      <h2 class="sidebar__title">Programlar</h2>
+      <ul class="sidebar__list">
+        <li><a id="backPart"    class="sidebar__link">Sırt</a></li>
+          <li><a id="chestPart" class="sidebar__link">Göğüs</a></li>
+          <li><a id="armsPart"  class="sidebar__link">Kol</a></li>
+          <li><a id="shoulderPart" class="sidebar__link">Omuz</a></li>
+          <li><a id="legsPart" class="sidebar__link">Bacak</a></li>
+          <li><a id="glutePart" class="sidebar__link">Kalça</a></li>
+          <li><a id="absPart" class="sidebar__link">Karın</a></li>
+          <li><a id="cardioPart" class="sidebar__link">Kardiyo</a></li>
+      </ul>
+    </aside>
+
+    <!-- → Your existing content -->
+    <main class="main-content">
+      <section class="gifs-section">
+        <div class="mainGif">
+          <!-- …buttons, headings, gifs… -->
+          <div id="backGifs" class="gifs">
+            <a class="gif-elem"><img class="small-gifs" src="design/assets/backPullDown.gif" alt="sırt" ></a>
+            <a class="gif-elem"><img class="small-gifs" src="design/assets/backLatPulldown.gif" alt="sırt" ></a>
+            <a class="gif-elem"><img class="small-gifs" src="design/assets/backRow.gif" alt="sırt" ></a>
+          </div>
+          <div id="chestGifs" class="gifs">
+            <a class="gif-elem"><img class="small-gifs" src="design/assets/chestFly.gif" alt="göğüs" ></a>
+            <a class="gif-elem"><img class="small-gifs" src="design/assets/chestPress.gif" alt="göğüs" ></a>
+            <a class="gif-elem"><img class="small-gifs" src="design/assets/chestButterFly.gif" alt="göğüs" ></a>
+          </div>
+          <div id="armGifs" class="gifs">
+            <a class="gif-elem"><img class="small-gifs" src="design/assets/tricepsDips.gif" alt="kol" ></a>
+            <a class="gif-elem"><img class="small-gifs" src="design/assets/TricepsPushdown.gif" alt="kol" ></a>
+          </div>
+        </div>
+      </section>
+      <!-- etc… -->
+    </main>
+  </div>
+
+  <!-- gifs display area -->
+  <div id="backGifs" class="gifs">
+    
+  </div>
+    
 
 
   <footer>
     <p>&copy; 2025 Tekin Adalı Spor Tesisi, AL-BEL LTD. All rights reserved.</p>
-    <div class="social-links">
+    <div id="contacts" class="social-links">
       <a href="#">Facebook</a>
       <a href="https://www.instagram.com/tekinadalisporkompleksi" rel="noopener" target="_blank">Instagram</a>
       <a href="#">Twitter</a>
