@@ -22,9 +22,7 @@ function bodyPartsSideBarToggle() {
   const title = coll.querySelector('.sidebar__title');
 
   // body parts sidebar wrap
-  if(coll.checkVisibility() == true){
-    coll.classList.toggle("open")
-  }
+  coll.classList.toggle("open")
 }
 
 
@@ -68,6 +66,9 @@ window.addEventListener('DOMContentLoaded', () => {
       backgifs.classList.toggle('hidden');
       toggleOff(backgifs, gifSections);
       console.log("clicked");
+
+      if(window.innerWidth <= 768)
+        bodyPartsSideBarToggle()
     })
   }
   if(chestgifs){
@@ -75,6 +76,9 @@ window.addEventListener('DOMContentLoaded', () => {
       chestgifs.classList.toggle('hidden')
       toggleOff(chestgifs, gifSections);
       console.log("clicked")
+
+      if(window.innerWidth <= 768)
+        bodyPartsSideBarToggle()
     })
   }
   if(armsgifs){
@@ -82,6 +86,9 @@ window.addEventListener('DOMContentLoaded', () => {
       armsgifs.classList.toggle('hidden')
       toggleOff(armsgifs, gifSections);
       console.log("clicked")
+
+      if(window.innerWidth <= 768)
+        bodyPartsSideBarToggle()
     })
   }
 
@@ -92,6 +99,9 @@ window.addEventListener('DOMContentLoaded', () => {
       coll.classList.toggle('open');
   });
   bodyPartsSideBarToggle()
+
+  
+    
 
 });
 

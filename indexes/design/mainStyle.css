@@ -18,7 +18,7 @@ header {
 }
 
 .nav-container { display: flex; justify-content: space-between; align-items: center; }
-.logo { font-size: 2rem; font-weight: 700; }
+.logo { font-size: 1.5rem; font-weight: 700; }
 .nav-links li { display: inline-block; margin-left: 1.5rem; }
 .nav-links a { color: #fff; -webkit-transition: color 0.3s; -moz-transition: color 0.3s; -ms-transition: color 0.3s; -o-transition: color 0.3s; transition: color 0.3s; }
 .nav-links a:hover { color: #f39c12; }
@@ -70,6 +70,10 @@ footer p { font-size: 0.9rem; }
   transform: scale(1.05);
   transition: transform 0.3s;
   cursor: pointer;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 /*selection*/
@@ -196,7 +200,10 @@ footer p { font-size: 0.9rem; }
   background: #222;           /* same dark tone as header */
   color: #fff;
   padding: 2rem 1rem;
+  position: sticky;
+  height: auto;
 }
+
 .sidebar__title {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
