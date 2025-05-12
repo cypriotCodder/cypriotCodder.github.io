@@ -182,9 +182,6 @@ footer p { font-size: 0.9rem; }
   position: sticky;
 }
 
-/*carousel*/
-/*TODO*/
-
 
 /* 1. Make the page a two-column flex */
 .page-wrapper {
@@ -204,6 +201,11 @@ footer p { font-size: 0.9rem; }
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
 }
+.sidebar__title:hover{
+  cursor: pointer;
+  color: #e67e22;
+}
+
 .sidebar__list {
   list-style: none;
   padding: 0;
@@ -221,6 +223,15 @@ footer p { font-size: 0.9rem; }
   background: #f39c12;
   color: #222;
   cursor: pointer;
+}
+
+.sidebar__list{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.sidebar.open .sidebar__list{
+  max-height: 500px; 
 }
 
 /* 3. Shift your main content over */

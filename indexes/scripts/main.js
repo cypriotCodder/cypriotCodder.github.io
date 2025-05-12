@@ -16,6 +16,17 @@ function toggleOff(element, gifSections){
   }
 }
 
+//side bar toggle function
+function bodyPartsSideBarToggle() {
+  const coll = document.querySelector('.sidebar');
+  const title = coll.querySelector('.sidebar__title');
+
+  // body parts sidebar wrap
+  if(coll.checkVisibility() == true){
+    coll.classList.toggle("open")
+  }
+}
+
 
 //load the page
 window.addEventListener('DOMContentLoaded', () => {
@@ -74,8 +85,14 @@ window.addEventListener('DOMContentLoaded', () => {
     })
   }
 
+  const coll = document.querySelector('.sidebar');
+  const title = coll.querySelector('.sidebar__title');
+
+  title.addEventListener('click', () => {
+      coll.classList.toggle('open');
+  });
+  bodyPartsSideBarToggle()
+
 });
 
-const sirtLink     = document.getElementById('sirtLink');
-const programsSec  = document.getElementById('gif1');
 
