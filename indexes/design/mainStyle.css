@@ -245,11 +245,9 @@ footer p { font-size: 0.9rem; }
 }
 
 .gif-headers {
-  background-color: #55637a;
-  width: 49.40%;
+  background-color: #393E46;
+  width: 100%;
   color: white;
-  margin: 0.2rem;
-  margin-bottom: 0rem;
   display: flex;
   flex: 0 0 200px;
   border-radius: 2px;
@@ -258,6 +256,8 @@ footer p { font-size: 0.9rem; }
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
   padding-left: 5px;
+  height: 50px;
+  font-size: 2rem;
 }
 
 /* Media Queries */
@@ -275,4 +275,69 @@ footer p { font-size: 0.9rem; }
 
   /* Hero padding adjust */
   .hero { padding: 5% 1rem 0; }
+}
+
+.gifs {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* each card flexes the image and text side by side */
+.gif-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #fff;
+  padding: 1rem;
+  padding-top: 0rem;
+  padding-left: 0rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/* the image stays a fixed size */
+.gif-card__img {
+  flex: 0 0 200px;
+  /*orwhateverwidthyoulike*/
+  max-width: 50%;
+  width: 50%;
+  border-radius:4px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  -ms-border-radius:4px;
+  -o-border-radius:4px;
+}
+
+/* text body takes remaining space */
+.gif-card__body {
+  flex: 1;
+}
+
+/* title styling */
+.gif-card__title {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #302f2e;
+}
+
+/* description styling */
+.gif-card__desc {
+  margin: 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* on small screens, stack image above text */
+@media (max-width: 600px) {
+  .gif-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .gif-card__img {
+    width: 50%;
+    flex: none;
+  }
 }
