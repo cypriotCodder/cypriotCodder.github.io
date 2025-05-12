@@ -58,7 +58,6 @@ window.addEventListener('DOMContentLoaded', () => {
       toggleOff(backgifs, gifSections);
       console.log("clicked");
     })
-    
   }
   if(chestgifs){
     chest.addEventListener('click', () =>{
