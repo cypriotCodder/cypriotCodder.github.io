@@ -5,7 +5,7 @@ a { text-decoration: none; color: inherit; }
 ul { list-style: none; }
 
 /* Navigation */
-header { background: #222; color: #fff; padding: 1rem 2rem; position: fixed; width: 100%; top: 0; z-index: 100; }
+header { background: #222; color: #fff; padding: 1rem 2rem; position: relative; width: 100%; top: 0; z-index: 100; }
 .nav-container { display: flex; justify-content: space-between; align-items: center; }
 .logo { font-size: 2rem; font-weight: 700; }
 .nav-links li { display: inline-block; margin-left: 1.5rem; }
@@ -199,7 +199,6 @@ footer p { font-size: 0.9rem; }
 /* 3. Shift your main content over */
 .main-content {
   flex: 1;
-  padding: 2rem;
 }
 
 /* 4. Make it stack on narrow screens */
