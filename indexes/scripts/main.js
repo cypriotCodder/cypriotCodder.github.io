@@ -100,9 +100,6 @@ window.addEventListener('DOMContentLoaded', () => {
   });
   bodyPartsSideBarToggle()
 
-  
-    
-
 });
 
 
