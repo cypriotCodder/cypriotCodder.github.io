@@ -196,7 +196,7 @@ footer p { font-size: 0.9rem; }
 
 /* 2. Sidebar styling */
 .sidebar {
-  flex: 0 0 200px;           /* fixed 200px wide */
+  flex: 0 0 150px;           /* fixed 200px wide */
   background: #222;           /* same dark tone as header */
   color: #fff;
   padding: 2rem 1rem;
@@ -238,7 +238,7 @@ footer p { font-size: 0.9rem; }
   transition: max-height 0.3s ease;
 }
 .sidebar.open .sidebar__list{
-  max-height: 500px; 
+  max-height: 900px; 
 }
 
 /* 3. Shift your main content over */
@@ -311,7 +311,7 @@ footer p { font-size: 0.9rem; }
   padding-left: 0rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  margin-right: 20px;
+  margin-right: 40px;
   margin-bottom: 10px;
 }
 
