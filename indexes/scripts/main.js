@@ -66,7 +66,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   //gif sections array
   const gifSections = [];
-  gifSections.push(backgifs, chestgifs, armsgifs, shouldergifs, absgifs, cardiogifs, glutegifs);
+  gifSections.push(backgifs, chestgifs, armsgifs, shouldergifs, absgifs, cardiogifs, glutegifs, leggifs);
 
   const hash = window.location.hash;
   if (hash) {
