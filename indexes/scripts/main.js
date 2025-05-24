@@ -26,6 +26,8 @@ function bodyPartsSideBarToggle() {
 }
 
 
+//FUNCTIONS END #################################################
+
 //load the page
 window.addEventListener('DOMContentLoaded', () => {
   //buttons
@@ -46,19 +48,25 @@ window.addEventListener('DOMContentLoaded', () => {
   //muscle parts
   const back = document.getElementById('backPart');
   const chest = document.getElementById('chestPart');
+  const shoulders = document.getElementById('shoulderPart');
   const arms = document.getElementById('armsPart');
   const legs = document.getElementById('legsPart');
   const abs = document.getElementById('absPart');
-  const glutes = document.getElementById('glutesPart');
-  const shoulders = document.getElementById('shouldersPart');
+  const glutes = document.getElementById('glutePart');
 
   //gif sections
   const backgifs = document.querySelector('#backGifs');
   const chestgifs = document.querySelector('#chestGifs');
   const armsgifs = document.querySelector('#armGifs');
+  const shouldergifs = document.querySelector("#shoulderGifs");
+  const leggifs = document.querySelector("#legGifs");
+  const glutegifs = document.querySelector("#gluteGifs");
+  const absgifs = document.querySelector("#absGifs");
+  const cardiogifs = document.querySelector("#cardioGifs");
+
   //gif sections array
-  const gifSections = []
-  gifSections.push(backgifs, chestgifs, armsgifs)
+  const gifSections = [];
+  gifSections.push(backgifs, chestgifs, armsgifs, shouldergifs, absgifs, cardiogifs, glutegifs);
 
   const hash = window.location.hash;
   if (hash) {
@@ -77,8 +85,8 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 
   // toggle gifs by body part
-  if(backgifs){
-    back.addEventListener('click', () =>{
+    if(backgifs) {
+      back.addEventListener('click', () =>{
       backgifs.classList.toggle('hidden');
       toggleOff(backgifs, gifSections);
       console.log("clicked");
@@ -86,49 +94,90 @@ window.addEventListener('DOMContentLoaded', () => {
       if(window.innerWidth <= 768)
         bodyPartsSideBarToggle()
     })
-  }
-  if(chestgifs){
-    chest.addEventListener('click', () =>{
-      chestgifs.classList.toggle('hidden')
-      toggleOff(chestgifs, gifSections);
-      console.log("clicked")
+    }
+    if(chestgifs) {
+      chest.addEventListener('click', () =>{
+        chestgifs.classList.toggle('hidden');
+        toggleOff(chestgifs, gifSections);
+        console.log("clicked");
 
-      if(window.innerWidth <= 768)
-        bodyPartsSideBarToggle()
-    })
-  }
-  if(armsgifs){
-    arms.addEventListener('click', () =>{
-      armsgifs.classList.toggle('hidden')
-      toggleOff(armsgifs, gifSections);
-      console.log("clicked")
+        if(window.innerWidth <= 768)
+          bodyPartsSideBarToggle()
+      })
+  } 
+    if(shouldergifs) {
+      shoulders.addEventListener('click', () =>{
+      shouldergifs.classList.toggle('hidden');
+      toggleOff(shouldergifs, gifSections);
+      console.log("clicked");
 
       if(window.innerWidth <= 768)
         bodyPartsSideBarToggle()
     })
     }
+    if(armsgifs) {
+      arms.addEventListener('click', () =>{
+      armsgifs.classList.toggle('hidden');
+      toggleOff(armsgifs, gifSections);
+      console.log("clicked");
+
+      if(window.innerWidth <= 768)
+        bodyPartsSideBarToggle()
+    })
+    }
+    if(leggifs) {
+      legs.addEventListener('click', () =>{
+      leggifs.classList.toggle('hidden');
+      toggleOff(leggifs, gifSections);
+      console.log("clicked");
+
+      if(window.innerWidth <= 768)
+        bodyPartsSideBarToggle()
+    })
+    }
+    if(absgifs) {
+      abs.addEventListener('click', () =>{
+      absgifs.classList.toggle('hidden');
+      toggleOff(absgifs, gifSections);
+      console.log("clicked");
+
+      if(window.innerWidth <= 768)
+        bodyPartsSideBarToggle()
+    })
+    }
+    if(glutegifs) {
+      glutes.addEventListener('click', () =>{
+      glutegifs.classList.toggle('hidden');
+      toggleOff(glutegifs, gifSections);
+      console.log("clicked");
+
+      if(window.innerWidth <= 768)
+        bodyPartsSideBarToggle()
+    })
+    }
+    
+  //TODO cardio  
 
   const coll = document.querySelector('.sidebar');
   const title = coll.querySelector('.sidebar__title');
-
   title.addEventListener('click', () => {
       coll.classList.toggle('open');
   });
   bodyPartsSideBarToggle()
-
+  
+  //scroll to top button
+  const goTopBtn = document.getElementById('goTopBtn');
+  
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        goTopBtn.style.display = 'block';
+      } else {
+        goTopBtn.style.display = 'none';
+      }
+    });
+  
+    goTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 });
 
-//scroll to top button
-const goTopBtn = document.getElementById('goTopBtn');
-
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) {
-      goTopBtn.style.display = 'block';
-    } else {
-      goTopBtn.style.display = 'none';
-    }
-  });
-
-  goTopBtn.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
