@@ -60,6 +60,22 @@ window.addEventListener('DOMContentLoaded', () => {
   const gifSections = []
   gifSections.push(backgifs, chestgifs, armsgifs)
 
+  const hash = window.location.hash;
+  if (hash) {
+    const target = document.querySelector(hash);
+    if (target && target.classList.contains("gifs")) {
+      // Hide all gifs sections
+      document.querySelectorAll(".gifs").forEach(section => {
+        toggleOff(section, gifSections)
+      });
+
+      // Show the one matching the hash
+      target.classList.toggle('hidden');
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+    
+  }
+
   // toggle gifs by body part
   if(backgifs){
     back.addEventListener('click', () =>{
@@ -90,7 +106,7 @@ window.addEventListener('DOMContentLoaded', () => {
       if(window.innerWidth <= 768)
         bodyPartsSideBarToggle()
     })
-  }
+    }
 
   const coll = document.querySelector('.sidebar');
   const title = coll.querySelector('.sidebar__title');
@@ -102,4 +118,17 @@ window.addEventListener('DOMContentLoaded', () => {
 
 });
 
+//scroll to top button
+const goTopBtn = document.getElementById('goTopBtn');
 
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      goTopBtn.style.display = 'block';
+    } else {
+      goTopBtn.style.display = 'none';
+    }
+  });
+
+  goTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
