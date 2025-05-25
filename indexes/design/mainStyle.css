@@ -17,11 +17,13 @@ header {
   background: #222;   /* re‐declare so it covers content scrolling under */
 }
 
-.nav-container { display: flex; justify-content: space-between; align-items: center; }
-.logo { font-size: 1.5rem; font-weight: 700; }
-.nav-links li { display: inline-block; margin-left: 1.5rem; }
+.nav-container { display: flexbox;  align-items: center; }
+.logo { font-size: 1.5rem; font-weight: 700; justify-content: start;}
+.nav-links li { display: inline-block; margin-left: 1.5rem;} 
 .nav-links a { color: #fff; -webkit-transition: color 0.3s; -moz-transition: color 0.3s; -ms-transition: color 0.3s; -o-transition: color 0.3s; transition: color 0.3s; }
 .nav-links a:hover { color: #f39c12; }
+nav { display: flex; align-items: center; justify-content: end;}
+.nav-toggle {margin-right: 0px; justify-content: end;}
 
 /* Hero Section */
 .hero { 
