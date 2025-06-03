@@ -17,7 +17,7 @@ header {
   background: #222;   /* re‐declare so it covers content scrolling under */
 }
 
-.nav-container { display: flexbox;  align-items: center; }
+.nav-container { display: flexbox;  align-items: center;}
 .logo { font-size: 1.5rem; font-weight: 700; justify-content: start;}
 .nav-links li { display: inline-block; margin-left: 1.5rem;} 
 .nav-links a { color: #fff; -webkit-transition: color 0.3s; -moz-transition: color 0.3s; -ms-transition: color 0.3s; -o-transition: color 0.3s; transition: color 0.3s; }
@@ -34,7 +34,7 @@ nav { display: flex; align-items: center; justify-content: end;}
   justify-content: center; 
   text-align: center; 
   padding: 10% 1rem 0; 
-  margin-top: 8rem;    /* space for the fixed header */
+  margin-top: 11rem;    /* space for the fixed header */
 }
 
 .hero-content { position: sticky; flex: 1 1 350px;  margin: 0 auto; background: rgb(49, 48, 48); padding: 2rem; border-radius: 8px; }
@@ -246,6 +246,7 @@ footer p { font-size: 0.9rem; }
 /* 3. Shift your main content over */
 .main-content {
   flex: 1;
+  margin-top: 3rem;
 }
 
 /* 4. Make it stack on narrow screens */
