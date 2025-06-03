@@ -397,3 +397,8 @@ footer p { font-size: 0.9rem; }
 .go-top:hover {
   background: #e67e22;
 }
+
+.TAlogo {
+  width: 150px;
+  height: 90px;
+}
