@@ -17,12 +17,12 @@ header {
   background: #222;   /* re‐declare so it covers content scrolling under */
 }
 
-.nav-container { display: flexbox;  align-items: center;}
-.logo { font-size: 1.5rem; font-weight: 700; justify-content: start;}
+.nav-container { display: flexbox;  align-items: center; }
+.logo { margin-right: auto; font-size: 1.5rem; font-weight: 700; justify-self: start; display: flex;}
 .nav-links li { display: inline-block; margin-left: 1.5rem;} 
 .nav-links a { color: #fff; -webkit-transition: color 0.3s; -moz-transition: color 0.3s; -ms-transition: color 0.3s; -o-transition: color 0.3s; transition: color 0.3s; }
-.nav-links a:hover { color: #f39c12; }
-nav { display: flex; align-items: center; justify-content: end;}
+.nav-links a:hover { color: #4eae2f; } /*old color: f39c12*/
+nav { display: flex; align-items: center; justify-content: end; padding: 0 20px;}
 .nav-toggle {margin-right: 0px; justify-content: end;}
 
 /* Hero Section */
@@ -40,8 +40,8 @@ nav { display: flex; align-items: center; justify-content: end;}
 .hero-content { position: sticky; flex: 1 1 350px;  margin: 0 auto; background: rgb(49, 48, 48); padding: 2rem; border-radius: 8px; }
 .hero h1 { font-size: 3rem; color: #ffffff; margin-bottom: 1rem; }
 .hero p { font-size: 1.25rem; color: #ffffff; margin-bottom: 1.5rem; }
-.btn { display: inline-block; padding: 0.75rem 1.5rem; background: #f39c12; color: #fff; border-radius: 4px; font-weight: 700; transition: background 0.3s; }
-.btn:hover { background: #e67e22; }
+.btn { display: inline-block; padding: 0.75rem 1.5rem; background: #6bab58; color: #fff; border-radius: 4px; font-weight: 700; transition: background 0.3s; }
+.btn:hover { background: #577b49; }
 
 /* Features Section */
 .features { padding: 4rem 2rem; background: #edeeef; }
@@ -55,7 +55,7 @@ nav { display: flex; align-items: center; justify-content: end;}
 footer { background: #222; color: #fff; padding: 2rem; text-align: center; }
 footer p { font-size: 0.9rem; }
 .social-links a { margin: 0 0.5rem; color: #fff; font-size: 1.2rem; transition: color 0.3s; }
-.social-links a:hover { color: #f39c12; }
+.social-links a:hover { color: #84c172; }
 
 /* Responsive Nav Toggle */
 @media (max-width: 768px) {
@@ -80,7 +80,7 @@ footer p { font-size: 0.9rem; }
 
 /*selection*/
 ::selection {
-  background: #f39c12;
+  background: #87b17b;
   color: #fff;
 }
 
@@ -177,7 +177,7 @@ footer p { font-size: 0.9rem; }
 
 
 .parts li:hover{
-  color: #f39c12;
+  color: #6bab58;
 }
 
 .hidden{
@@ -212,7 +212,7 @@ footer p { font-size: 0.9rem; }
 }
 .sidebar__title:hover{
   cursor: pointer;
-  color: #e67e22;
+  color: #6bab58;
 }
 
 .sidebar__list {
@@ -229,7 +229,7 @@ footer p { font-size: 0.9rem; }
   transition: background 0.2s, color 0.2s;
 }
 .sidebar__link:hover {
-  background: #f39c12;
+  background: #6bab58;
   color: #222;
   cursor: pointer;
 }
@@ -396,10 +396,11 @@ footer p { font-size: 0.9rem; }
   color: #fff;
 }
 .go-top:hover {
-  background: #e67e22;
+  background: #7bc466;
 }
 
 .TAlogo {
   width: 150px;
   height: 90px;
+  justify-content: start;
 }
