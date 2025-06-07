@@ -17,4 +17,10 @@ def generate_qr_code(url, filename):
 
     print(f"QR code saved as {filename}")
 
-generate_qr_code("file:///C:/Users/PC/Desktop/gymWebsite/indexes/training.html#backGifs", "sirt.png")
+print("Enter the URL: ")
+url = input()
+print("Choose the file name: ")
+name = input()
+name = name+".png"
+
+generate_qr_code(url=url, filename=name)
