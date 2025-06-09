@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tekin Adali Spor | Ana Sayfa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="design/mainStyle.css">
+</head>
+<body>
+  
+  <div class="page-wrapper">
+    
+  
+
+    <!-- → Your existing content -->
+    <main class="main-content">
+
+      <header>
+        <div class="nav-container">
+          <nav>
+          <div class="logo"> <img class="TAlogo" src="design/logo/logo.png" alt="logo"></div>
+            <a id="nav_icon" class="nav-toggle">☰</a> 
+            <ul class="nav-links">
+                <li><a id="home"      href="home.html">     Ana Sayfa   </a></li>
+                <li><a id="program"   href="#programs">     Programlar  </a></li>
+                <li><a id="program"   href="machines.html"> Aletler     </a></li>
+                <li><a id="trainer"   href="#trainers">     Trainers    </a></li>
+                <li><a id="contacts"  href="#contact">      İletişim    </a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section class="machines">
+        <div class="machine-grid">
+
+            <!-- Machine card -->
+            <div class="machine-card" data-machine="pec-deck">
+            <img src="../assets/pec-deck.jpg" alt="Pec Deck" class="machine-card__img">
+            <h3 class="machine-card__name">Pec Deck</h3>
+            </div>
+
+            <div class="machine-card" data-machine="lat-pulldown">
+            <img src="../assets/lat-pulldown.jpg" alt="Lat Pulldown" class="machine-card__img">
+            <h3 class="machine-card__name">Lat Pulldown</h3>
+            </div>
+
+            <div class="machine-card" data-machine="lat-pulldown">
+            <img src="../assets/lat-pulldown.jpg" alt="Lat Pulldown" class="machine-card__img">
+            <h3 class="machine-card__name">Cable Cross</h3>
+            </div>
+
+        </div>
+      </section>
+    
+    </main>
+  </div>
+    
+  <footer>
+    <p>&copy; 2025 Tekin Adalı Spor Tesisi, AL-BEL LTD. All rights reserved.</p>
+    <div id="contacts" class="social-links">
+      <a href="#">Facebook</a>
+      <a href="https://www.instagram.com/tekinadalisporkompleksi" rel="noopener" target="_blank">Instagram</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <button class="go-top" aria-label="Scroll to top" >
+      <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="scripts/memeLoader.js"></script>
+  <script src="scripts/main.js">  </script>
+</body>
+</html>
+

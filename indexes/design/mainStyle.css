@@ -193,7 +193,7 @@ footer p { font-size: 0.9rem; }
 .page-wrapper {
   display: flex;
   min-height: 100vh;
-  margin-top: 4rem;    /* space for the fixed header */
+  margin-top: 2rem;    /* space for the fixed header */
 }
 
 /* 2. Sidebar styling */
@@ -207,6 +207,7 @@ footer p { font-size: 0.9rem; }
 }
 
 .sidebar__title {
+  position: fixed;
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
 }
@@ -235,7 +236,9 @@ footer p { font-size: 0.9rem; }
 }
 
 .sidebar__list{
+  position: fixed;
   max-height: 0;
+  margin-top: 50px;
   overflow: hidden;
   transition: max-height 0.3s ease;
 }
@@ -257,6 +260,13 @@ footer p { font-size: 0.9rem; }
   .sidebar {
     width: 100%;
     flex: none;
+  }
+  .sidebar__list{
+    position: sticky;
+    margin-top: 0;
+  }
+  .sidebar__title{
+    position: sticky;
   }
 }
 
@@ -404,3 +414,52 @@ footer p { font-size: 0.9rem; }
   height: 90px;
   justify-content: start;
 }
+
+/* machine cards */
+.machines {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.machines__title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.machine-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.machine-card {
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.machine-card:hover {
+  transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+}
+.machine-card__img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.machine-card__name {
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+
