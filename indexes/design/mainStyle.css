@@ -446,19 +446,22 @@ footer p { font-size: 0.9rem; }
 }
 .machine-card:hover {
   transform: scale(1.25);
-  -webkit-transform: scale(1.25);
-  -moz-transform: scale(1.25);
-  -ms-transform: scale(1.25);
-  -o-transform: scale(1.25);
+  background-color: #ecf2f7;
+  transition:  transform 0.7s;
+  -webkit-transition:  transform 0.7s  ;
+  -moz-transition:  transform 0.7s  ;
+  -ms-transition:  transform 0.7s  ;
+  -o-transition:  transform 0.7s  ;
 }
 .machine-card__img {
-  width: 100%;
+  width: 50%;
+  height: 60%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
 .machine-card__name {
   padding: 0.75rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #222;
 }
 
