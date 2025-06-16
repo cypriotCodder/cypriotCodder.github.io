@@ -1,7 +1,7 @@
 /* Reset & Base */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { 
-  background-image: url('assets/stock/woman-holding-weights-near-barbells.jpg');
+  background: url('assets/stock/womanbg-comp.jpeg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed; 
