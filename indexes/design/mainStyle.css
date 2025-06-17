@@ -28,12 +28,12 @@ header {
   background: #222;   /* re‐declare so it covers content scrolling under */
 }
 
-.nav-container { display: flexbox;  align-items: center; }
+.nav-container { display: flexbox;  align-items: center; height: min-content;}
 .logo { margin-right: auto; font-size: 1.5rem; font-weight: 700; justify-self: start; display: flex;}
 .nav-links li { display: inline-block; margin-left: 1.5rem;} 
 .nav-links a { color: #fff; -webkit-transition: color 0.3s; -moz-transition: color 0.3s; -ms-transition: color 0.3s; -o-transition: color 0.3s; transition: color 0.3s; }
 .nav-links a:hover { color: #4eae2f; } /*old color: f39c12*/
-nav { display: flex; align-items: center; justify-content: end; padding: 0 20px;}
+nav { display: flex; align-items: center; justify-content: end; padding: 0 10px; height: min-content;}
 .nav-toggle {margin-right: 0px; justify-content: end;}
 
 /* Hero Section */
@@ -466,8 +466,8 @@ footer p { font-size: 0.9rem; }
 }
 
 .TAlogo {
-  width: 150px;
-  height: 90px;
+  width: 112px;
+  height: 67px;
   justify-content: start;
 }
 
