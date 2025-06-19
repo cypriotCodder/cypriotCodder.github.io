@@ -1,0 +1,206 @@
+[
+  {
+    "title": "Abduction",
+    "src": "design/assets/abduction.gif",
+    "alt": "Abduction",
+    "description": "Makinede oturarak bacaklarınızı yana doğru açın, kalça dış kaslarınızı sıkın ve kontrollü şekilde geri kapatın."
+  },
+  {
+    "title": "Adduction",
+    "src": "design/assets/adduction.gif",
+    "alt": "Adduction",
+    "description": "Makinede oturarak bacaklarınızı içe doğru kapatın, iç uyluk kaslarınızı sıkın ve başlangıç pozisyonuna kontrollü dönün."
+  },
+  {
+    "title": "Abs Leg Raises",
+    "src": "design/assets/abs_legRaises.gif",
+    "alt": "Abs Leg Raises",
+    "description": "Sırtüstü uzanın, bacaklarınızı dikey pozisyona kadar kaldırın ve alt karın kaslarınızı kullanarak yavaşça indirin."
+  },
+  {
+    "title": "Crunch",
+    "src": "design/assets/abs1.gif",
+    "alt": "Crunch",
+    "description": "Sırtüstü uzanın, dizlerinizi kırık tutarak gövdenizi karın kaslarınızı sıkıp kaldırın, ardından kontrollü indirin."
+  },
+  {
+    "title": "Seated Cable Row",
+    "src": "design/assets/backRow.gif",
+    "alt": "Seated Cable Row",
+    "description": "Oturun, göğsünüzü dik tutun ve tutamakları karın bölgenize doğru çekerek kürek kemiklerinizi sıkın."
+  },
+  {
+    "title": "Lat Pulldown",
+    "src": "design/assets/cable_bicepsCurl.gif",
+    "alt": "Lat Pulldown",
+    "description": "Oturun, barı geniş tutuşla kavrayın ve çenenizin altına kadar çekin, lat kaslarınızı sıkarak hareketi tamamlayın."
+  },
+  {
+    "title": "Cable Shoulder Lateral Raises",
+    "src": "design/assets/cablecross_shoulderlateralRaises.gif",
+    "alt": "Cable Shoulder Lateral Raises",
+    "description": "Kablosu yana pozisyonda tutun, kolunuzu dirsekten bükülü tutarak omuz seviyesine kadar kaldırın."
+  },
+  {
+    "title": "Cable Crunch 1",
+    "src": "design/assets/cableCrunch1.gif",
+    "alt": "Cable Crunch 1",
+    "description": "Dizlerinizi bükün, kablo tutuşunu başınızın arkasında tutarak karın kaslarınızı büküp gövdenizi çekin."
+  },
+  {
+    "title": "Cable Crunch 2",
+    "src": "design/assets/cableCrunch2.gif",
+    "alt": "Cable Crunch 2",
+    "description": "Ayakta durarak kablo tutuşunu göğüs önünde tutun, karın kaslarınızı kullanarak öne doğru eğilin."
+  },
+  {
+    "title": "Cable Overhead Extension",
+    "src": "design/assets/cableOverheadExtension.gif",
+    "alt": "Cable Overhead Extension",
+    "description": "Kablo başının üstünden kavrayarak kollarınızı öne ve yukarı doğru uzatın, triceps kaslarınızı sıkın."
+  },
+  {
+    "title": "Cable Side Bends",
+    "src": "design/assets/cableSideBends.gif",
+    "alt": "Cable Side Bends",
+    "description": "Kablo tutuşunu bir elde sabitleyin ve gövdenizi yan tarafa doğru bükerek oblik kaslarınızı sıkın."
+  },
+  {
+    "title": "Calf Raises",
+    "src": "design/assets/calfRaises.gif",
+    "alt": "Calf Raises",
+    "description": "Ayak uçlarınızda durarak topuklarınızı yukarı kaldırın ve baldır kaslarınızı sıkarak indirin."
+  },
+  {
+    "title": "Face Pulls",
+    "src": "design/assets/facePulls.gif",
+    "alt": "Face Pulls",
+    "description": "Kabloyu yüz seviyesinde kavrayın, dirsekleri geriye çekerek arka omuz kaslarınızı sıkın."
+  },
+  {
+    "title": "Hyperextension",
+    "src": "design/assets/hyper_extension1.gif",
+    "alt": "Hyperextension",
+    "description": "Hyperextension sehpasına yerleşin, belinizi düz tutarak gövdenizi yukarı kaldırın, ardından kontrollü indirin."
+  },
+  {
+    "title": "Leg Extension",
+    "src": "design/assets/leg_extension.gif",
+    "alt": "Leg Extension",
+    "description": "Oturun, bacak pedini ayak bileklerinize yerleştirin ve dizlerinizi düzleştirerek quad kaslarınızı sıkın."
+  },
+  {
+    "title": "Leg Press",
+    "src": "design/assets/leg_press.gif",
+    "alt": "Leg Press",
+    "description": "Ayaklarınızı platforma yerleştirin, dizleri bükülü pozisyondan düzelterek ağırlığı itin ve kontrollü indirin."
+  },
+  {
+    "title": "Lying Leg Curl",
+    "src": "design/assets/lyingLegcurl.gif",
+    "alt": "Lying Leg Curl",
+    "description": "Yüzüstü uzanın, topuklarınızı makine pedine doğru çekip hamstring kaslarınızı sıkın."
+  },
+  {
+    "title": "Preacher Curl",
+    "src": "design/assets/preachercurl.gif",
+    "alt": "Preacher Curl",
+    "description": "Kolunuzu pad üzerine yerleştirin ve dirsekten bükerek bileği omuza çekerek biceps kaslarınızı sıkın."
+  },
+  {
+    "title": "Rear Delt Fly",
+    "src": "design/assets/rearDeltFly.gif",
+    "alt": "Rear Delt Fly",
+    "description": "Öne eğilin, kolları yana doğru açarak arka omuz kaslarınızı sıkın ve başlangıca dönün."
+  },
+  {
+    "title": "Rear Shoulder Press",
+    "src": "design/assets/rearShoulderPress.gif",
+    "alt": "Rear Shoulder Press",
+    "description": "Makinede dik oturarak kolları geriye itip omuz arka kısmınızı çalıştırın."
+  },
+  {
+    "title": "Reverse Grip Triceps",
+    "src": "design/assets/reverseGripTriceps.gif",
+    "alt": "Reverse Grip Triceps",
+    "description": "Kabloyu ters tutuşla kavrayın ve dirsekleri yerinde sabitleyerek kolu aşağı doğru çekin."
+  },
+  {
+    "title": "Rotator Cuff",
+    "src": "design/assets/rotatorCuff.gif",
+    "alt": "Rotator Cuff",
+    "description": "Yan oturarak veya ayakta, dirseği vücuda sabitleyip önkolla dışa rotasyon yapın."
+  },
+  {
+    "title": "Seated Leg Curl",
+    "src": "design/assets/seatedLegcurl.gif",
+    "alt": "Seated Leg Curl",
+    "description": "Oturun, bacak pedini topuklarına yerleştirin, dizleri bükerek hamstring kaslarınızı sıkın."
+  },
+  {
+    "title": "Smith Good Mornings",
+    "src": "design/assets/smithGoodMornings.gif",
+    "alt": "Smith Good Mornings",
+    "description": "Smith makinesinde çubuğu omuz arkasına yerleştirin, belden öne eğilip kalkın."
+  },
+  {
+    "title": "Smith Squat",
+    "src": "design/assets/smithSquat.gif",
+    "alt": "Smith Squat",
+    "description": "Smith makinesinde çubuğu omuz hizasına getirin, çömelme yaparak quadriceps ve glute kaslarınızı çalıştırın."
+  },
+  {
+    "title": "Shoulder Press (Smith)",
+    "src": "design/assets/shoulderPress_smith.gif",
+    "alt": "Shoulder Press (Smith)",
+    "description": "Smith makinesinde oturarak çubuğu omuz hizasından yukarı doğru itin ve indirin."
+  },
+  {
+    "title": "Titled Lateral Raises",
+    "src": "design/assets/titledLateralRaises.gif",
+    "alt": "Titled Lateral Raises",
+    "description": "Yana kalkık bankta yana açış yaparak deltoid kaslarınızı çalıştırın."
+  },
+  {
+    "title": "Triceps Pushdown",
+    "src": "design/assets/triceps_pushdown.gif",
+    "alt": "Triceps Pushdown",
+    "description": "Ayakta durun, kablo tutacaklarını dirsek sabitken aşağıya doğru iterek triceps kaslarınızı sıkın."
+  },
+  {
+    "title": "Triceps Pushdown Rope",
+    "src": "design/assets/triceps_pushdown_rope.gif",
+    "alt": "Triceps Pushdown Rope",
+    "description": "Kablo halatını iki elde tutarak dirsek sabitken aşağı doğru çekin ve dirsekleri açarak son noktada sıkın."
+  },
+  {
+    "title": "Cable Biceps Curl",
+    "src": "design/assets/cable_bicepsCurl.gif",
+    "alt": "Cable Biceps Curl",
+    "description": "Ayakta durun, kabloyu avuç içleriniz yukarı bakacak şekilde tutun, dirsekten büküp biceps kaslarınızı sıkın."
+  },
+  {
+    "title": "Side Hip Abduction",
+    "src": "design/assets/sideHipAbduction.gif",
+    "alt": "Side Hip Abduction",
+    "description": "Yan oturarak bacağı yana doğru kaldırın, kalça dış kaslarınızı sıkın ve kontrollü indirin."
+  },
+  {
+    "title": "Leg Raises 2",
+    "src": "design/assets/legraises2.gif",
+    "alt": "Leg Raises 2",
+    "description": "Bar tutunarak asılı pozisyonda bacaklarınızı öne doğru kaldırın, alt karın kaslarınızı sıkın."
+  },
+  {
+    "title": "Leg Raises 3",
+    "src": "design/assets/legraises3.gif",
+    "alt": "Leg Raises 3",
+    "description": "Bar tutunarak asılı durumda dizleri bükerek karın kaslarınızı çalıştırın."
+  },
+  {
+    "title": "Twisted Hyperextension Abs",
+    "src": "design/assets/twistedHyperExtensionAbs.gif",
+    "alt": "Twisted Hyperextension Abs",
+    "description": "Hyperextension sehpasında yan bükülerek karın yan kaslarınızı sıkın ve başlangıca dönün."
+  }
+]
