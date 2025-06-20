@@ -37,7 +37,9 @@ document.addEventListener('DOMContentLoaded', function() {
     let exJson_eng ="exercises_eng";
     let exJson_ru = "exercises_ru";
 
-    fetch(`./design/data/${exJson_tr}.json`)
+    let lang = localStorage.getItem('language') || 'tr'; // Default to Turkish if not set
+    
+    fetch(`./design/data/exercises_${lang}.json`)
     .then(res => {
         if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
         return res.json();

@@ -1,0 +1,247 @@
+[
+  {
+    "title": "Abduction",
+    "src": "design/assets/allGifs/abduction.gif",
+    "alt": "Abduction",
+    "description": "While seated in the machine, spread your legs outward, squeeze your outer hip muscles, and return them in a controlled manner.",
+    "machine": "hip-abduction-machine"
+  },
+  {
+    "title": "Adduction",
+    "src": "design/assets/allGifs/adduction.gif",
+    "alt": "Adduction",
+    "description": "While seated in the machine, bring your legs inward, squeeze your inner thigh muscles, and return to the starting position in a controlled manner.",
+    "machine": "hip-abduction-machine"
+  },
+  {
+    "title": "Abs Leg Raises",
+    "src": "design/assets/allGifs/abs_legRaises.gif",
+    "alt": "Abs Leg Raises",
+    "description": "Lie on your back, lift your legs until they are vertical, and slowly lower them using your lower abdominal muscles.",
+    "machine": "captains-chair"
+  },
+  {
+    "title": "Crunch",
+    "src": "design/assets/allGifs/abs1.gif",
+    "alt": "Crunch",
+    "description": "Lie on your back with your knees bent, curl your torso up by contracting your abdominal muscles, then lower back down in a controlled manner.",
+    "machine": "mat"
+  },
+  {
+    "title": "Seated Cable Row",
+    "src": "design/assets/allGifs/backRow.gif",
+    "alt": "Seated Cable Row",
+    "description": "Sit with your chest upright and pull the handles toward your midsection, squeezing your shoulder blades together.",
+    "machine": "cable-row-machine"
+  },
+  {
+    "title": "Lat Pulldown",
+    "src": "design/assets/backGifs/backLatPulldown.gif",
+    "alt": "Lat Pulldown",
+    "description": "Sit and grip the bar wide, pull it down until it's below your chin, and finish the movement by squeezing your lats.",
+    "machine": "lat-pulldown-machine"
+  },
+  {
+    "title":"Back Row",
+    "src": "design/assets/backGifs/backRow.gif",
+    "alt": "Back Row",
+    "description": "Sit with an upright posture, pull the bar toward your midsection by squeezing your shoulder blades, and lower it in a controlled manner.",
+    "machine": "seated-row-machine"
+  },
+  {
+    "title": "Cable Shoulder Lateral Raises",
+    "src": "design/assets/allGifs/cablecross_shoulderlateralRaises.gif",
+    "alt": "Cable Shoulder Lateral Raises",
+    "description": "Hold the cable to your side and, with your elbow bent, raise your arm to shoulder level.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Cable Crunch 1",
+    "src": "design/assets/allGifs/cableCrunch1.gif",
+    "alt": "Cable Crunch 1",
+    "description": "Bend your knees, hold the cable behind your head, crunch your abs, and pull your torso downward.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Cable Crunch 2",
+    "src": "design/assets/allGifs/cableCrunch2.gif",
+    "alt": "Cable Crunch 2",
+    "description": "Kneel, hold the cable above your head, and bend forward using your abdominal muscles.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Cable Overhead Extension",
+    "src": "design/assets/allGifs/cableOverheadExtension.gif",
+    "alt": "Cable Overhead Extension",
+    "description": "Grasp the cable overhead and extend your arms forward and upward, squeezing your triceps.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Cable Side Bends",
+    "src": "design/assets/allGifs/cableSideBends.gif",
+    "alt": "Cable Side Bends",
+    "description": "Hold the cable with one hand steady and bend your torso to the side, tightening your obliques.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Calf Raises",
+    "src": "design/assets/allGifs/calfRaises.gif",
+    "alt": "Calf Raises",
+    "description": "Stand on your toes, lift your heels up, and lower them by contracting your calf muscles.",
+    "machine": "calf-raise-machine"
+  },
+  {
+    "title": "Face Pulls",
+    "src": "design/assets/allGifs/facePulls.gif",
+    "alt": "Face Pulls",
+    "description": "Grip the cable at face level, pull your elbows back, and squeeze your rear deltoids.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Hyperextension",
+    "src": "design/assets/allGifs/hyper_extension1.gif",
+    "alt": "Hyperextension",
+    "description": "Position yourself on the hyperextension bench, keep your back straight, lift your torso upward, then lower it in a controlled manner.",
+    "machine": "hyperextension-bench"
+  },
+  {
+    "title": "Leg Extension",
+    "src": "design/assets/allGifs/leg_extension.gif",
+    "alt": "Leg Extension",
+    "description": "Sit, place the pad on your ankles, extend your knees, and squeeze your quads.",
+    "machine": "leg-extension-machine"
+  },
+  {
+    "title": "Leg Press",
+    "src": "design/assets/allGifs/leg_press.gif",
+    "alt": "Leg Press",
+    "description": "Place your feet on the platform, push the weight by straightening your knees from a bent position, and lower it in a controlled manner.",
+    "machine": "leg-press-machine"
+  },
+  {
+    "title": "Lying Leg Curl",
+    "src": "design/assets/allGifs/lyingLegcurl.gif",
+    "alt": "Lying Leg Curl",
+    "description": "Lie face down, pull your heels toward the machine pad, and contract your hamstrings.",
+    "machine": "lying-leg-curl-machine"
+  },
+  {
+    "title": "Preacher Curl",
+    "src": "design/assets/allGifs/preachercurl.gif",
+    "alt": "Preacher Curl",
+    "description": "Place your arm on the pad, curl your wrist toward your shoulder by bending at the elbow, and squeeze your biceps.",
+    "machine": "preacher-curl-machine"
+  },
+  {
+    "title": "Chest Butterfly",
+    "src": "design/assets/chestGifs/chestButterfly.gif",
+    "alt": "Chest Butterfly",
+    "description": "Sit in the machine, open your arms to the sides, squeeze your chest muscles, and return to the starting position.",
+    "machine": "pec-deck"
+  },
+  {
+    "title": "Rear Delt Fly",
+    "src": "design/assets/allGifs/rearDeltFly.gif",
+    "alt": "Rear Delt Fly",
+    "description": "Lean forward, open your arms out to the sides, squeeze your rear delts, and return to start.",
+    "machine": "pec-deck"
+  },
+  {
+    "title": "Reverse Grip Triceps",
+    "src": "design/assets/allGifs/reverseGripTriceps.gif",
+    "alt": "Reverse Grip Triceps",
+    "description": "Grip the cable with a reverse grip, keep your elbows stationary, and pull the arm downward.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Rotator Cuff",
+    "src": "design/assets/allGifs/rotatorCuff.gif",
+    "alt": "Rotator Cuff",
+    "description": "Sitting sideways or standing, keep your elbow against your body and externally rotate your forearm.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Seated Leg Curl",
+    "src": "design/assets/allGifs/seatedLegcurl.gif",
+    "alt": "Seated Leg Curl",
+    "description": "Sit, place the pad on your heels, bend your knees, and contract your hamstrings.",
+    "machine": "seated-leg-curl-machine"
+  },
+  {
+    "title": "Smith Good Mornings",
+    "src": "design/assets/allGifs/smithGoodMornings.gif",
+    "alt": "Smith Good Mornings",
+    "description": "Position the bar on your shoulders in the Smith machine, hinge forward at the hips, then return upright.",
+    "machine": "smith-machine"
+  },
+  {
+    "title": "Smith Squat",
+    "src": "design/assets/allGifs/smithSquat.gif",
+    "alt": "Smith Squat",
+    "description": "Set the bar at shoulder height on the Smith machine, squat down to work your quads and glutes.",
+    "machine": "smith-machine"
+  },
+  {
+    "title": "Shoulder Press (Smith)",
+    "src": "design/assets/allGifs/shoulderPress_smith.gif",
+    "alt": "Shoulder Press (Smith)",
+    "description": "Seated in the Smith machine, press the bar upward from shoulder level and lower it.",
+    "machine": "smith-machine"
+  },
+  {
+    "title": "Titled Lateral Raises",
+    "src": "design/assets/allGifs/titledLateralRaises.gif",
+    "alt": "Titled Lateral Raises",
+    "description": "On an inclined bench, raise your arms out to the sides, working your deltoids.",
+    "machine": "incline-bench"
+  },
+  {
+    "title": "Triceps Pushdown",
+    "src": "design/assets/allGifs/triceps_pushdown.gif",
+    "alt": "Triceps Pushdown",
+    "description": "Stand, push the cable handles downward with your elbows fixed, and contract your triceps.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Triceps Pushdown Rope",
+    "src": "design/assets/allGifs/triceps_pushdown_rope.gif",
+    "alt": "Triceps Pushdown Rope",
+    "description": "Hold the rope attachment with both hands, pull down with your elbows fixed, then flare your elbows and squeeze at the end.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Cable Biceps Curl",
+    "src": "design/assets/allGifs/cable_bicepsCurl.gif",
+    "alt": "Cable Biceps Curl",
+    "description": "Stand, hold the cable with palms facing up, curl at the elbow, and squeeze your biceps.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Side Hip Abduction",
+    "src": "design/assets/allGifs/sideHipAbduction.gif",
+    "alt": "Side Hip Abduction",
+    "description": "Sitting on your side, lift your leg outward, squeeze your outer hip muscles, and lower it in a controlled manner.",
+    "machine": "kickback-machine"
+  },
+  {
+    "title": "Leg Raises 2",
+    "src": "design/assets/allGifs/legraises2.gif",
+    "alt": "Leg Raises 2",
+    "description": "Hang from the bar and lift your legs forward, engaging your lower abs.",
+    "machine": "pull-up-bar"
+  },
+  {
+    "title": "Leg Raises 3",
+    "src": "design/assets/allGifs/legraises3.gif",
+    "alt": "Leg Raises 3",
+    "description": "Hang from the bar and bend your knees to engage your abs.",
+    "machine": "pull-up-bar"
+  },
+  {
+    "title": "Twisted Hyperextension Abs",
+    "src": "design/assets/allGifs/twistedHyperExtensionAbs.gif",
+    "alt": "Twisted Hyperextension Abs",
+    "description": "On the hyperextension bench, twist to one side, squeeze your obliques, and return to the starting position.",
+    "machine": "hyperextension-bench"
+  }
+]

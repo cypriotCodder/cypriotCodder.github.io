@@ -1,0 +1,247 @@
+[
+  {
+    "title": "Abduction",
+    "src": "design/assets/allGifs/abduction.gif",
+    "alt": "Abduction",
+    "description": "Сидя в тренажёре, разведите ноги в стороны, напрягите внешние мышцы бедра и верните их в исходное положение контролируемо.",
+    "machine": "hip-abduction-machine"
+  },
+  {
+    "title": "Adduction",
+    "src": "design/assets/allGifs/adduction.gif",
+    "alt": "Adduction",
+    "description": "Сидя в тренажёре, сведите ноги внутрь, напрягите внутренние мышцы бедра и вернитесь в стартовую позицию контролируемо.",
+    "machine": "hip-abduction-machine"
+  },
+  {
+    "title": "Abs Leg Raises",
+    "src": "design/assets/allGifs/abs_legRaises.gif",
+    "alt": "Abs Leg Raises",
+    "description": "Лягте на спину, поднимите ноги до вертикального положения и медленно опустите их, используя нижние мышцы живота.",
+    "machine": "captains-chair"
+  },
+  {
+    "title": "Crunch",
+    "src": "design/assets/allGifs/abs1.gif",
+    "alt": "Crunch",
+    "description": "Лягте на спину, согните колени, поднимайте корпус, напрягая мышцы живота, затем контролируемо опуститесь.",
+    "machine": "mat"
+  },
+  {
+    "title": "Seated Cable Row",
+    "src": "design/assets/allGifs/backRow.gif",
+    "alt": "Seated Cable Row",
+    "description": "Сядьте с прямой грудью и тяните рукояти к области живота, сжимая лопатки вместе.",
+    "machine": "cable-row-machine"
+  },
+  {
+    "title": "Lat Pulldown",
+    "src": "design/assets/backGifs/backLatPulldown.gif",
+    "alt": "Lat Pulldown",
+    "description": "Сядьте и возьмитесь за гриф широким хватом, подтяните его ниже подбородка и завершите движение, сжав широчайшие мышцы спины.",
+    "machine": "lat-pulldown-machine"
+  },
+  {
+    "title":"Back Row",
+    "src": "design/assets/backGifs/backRow.gif",
+    "alt": "Back Row",
+    "description": "Сядьте прямо, тяните штангу к животу, сжимая лопатки, и опускайте её контролируемо.",
+    "machine": "seated-row-machine"
+  },
+  {
+    "title": "Cable Shoulder Lateral Raises",
+    "src": "design/assets/allGifs/cablecross_shoulderlateralRaises.gif",
+    "alt": "Cable Shoulder Lateral Raises",
+    "description": "Держите кабель сбоку, локоть согнут, поднимите руку до уровня плеча.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Cable Crunch 1",
+    "src": "design/assets/allGifs/cableCrunch1.gif",
+    "alt": "Cable Crunch 1",
+    "description": "Согните колени, держите кабель за головой, сократите мышцы живота и опустите корпус вниз.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Cable Crunch 2",
+    "src": "design/assets/allGifs/cableCrunch2.gif",
+    "alt": "Cable Crunch 2",
+    "description": "Стойте на коленях, держите кабель над головой и наклоняйтесь вперёд, используя мышцы живота.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Cable Overhead Extension",
+    "src": "design/assets/allGifs/cableOverheadExtension.gif",
+    "alt": "Cable Overhead Extension",
+    "description": "Возьмитесь за кабель сверху и выпрямляйте руки вперёд и вверх, сжимая трицепсы.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Cable Side Bends",
+    "src": "design/assets/allGifs/cableSideBends.gif",
+    "alt": "Cable Side Bends",
+    "description": "Держите кабель одной рукой и наклоняйте корпус в сторону, напрягая косые мышцы живота.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Calf Raises",
+    "src": "design/assets/allGifs/calfRaises.gif",
+    "alt": "Calf Raises",
+    "description": "Встаньте на носки, поднимите пятки и опустите их, напрягая икроножные мышцы.",
+    "machine": "calf-raise-machine"
+  },
+  {
+    "title": "Face Pulls",
+    "src": "design/assets/allGifs/facePulls.gif",
+    "alt": "Face Pulls",
+    "description": "Возьмитесь за кабель на уровне лица, тяните локти назад и сжимайте задние дельты.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Hyperextension",
+    "src": "design/assets/allGifs/hyper_extension1.gif",
+    "alt": "Hyperextension",
+    "description": "Расположитесь на скамье для гиперэкстензии, держите спину ровно, поднимайте корпус вверх и опускайте контролируемо.",
+    "machine": "hyperextension-bench"
+  },
+  {
+    "title": "Leg Extension",
+    "src": "design/assets/allGifs/leg_extension.gif",
+    "alt": "Leg Extension",
+    "description": "Сядьте, разместите валик на щиколотках, распрямите колени и сожмите квадрицепсы.",
+    "machine": "leg-extension-machine"
+  },
+  {
+    "title": "Leg Press",
+    "src": "design/assets/allGifs/leg_press.gif",
+    "alt": "Leg Press",
+    "description": "Поставьте ноги на платформу, выпрямите колени, чтобы выжать вес, и опустите его контролируемо.",
+    "machine": "leg-press-machine"
+  },
+  {
+    "title": "Lying Leg Curl",
+    "src": "design/assets/allGifs/lyingLegcurl.gif",
+    "alt": "Lying Leg Curl",
+    "description": "Лягте лицом вниз, подтяните пятки к валику и сократите бицепсы бедра.",
+    "machine": "lying-leg-curl-machine"
+  },
+  {
+    "title": "Preacher Curl",
+    "src": "design/assets/allGifs/preachercurl.gif",
+    "alt": "Preacher Curl",
+    "description": "Положите руку на скамью, сгибайте предплечье к плечу и сжимайте бицепс.",
+    "machine": "preacher-curl-machine"
+  },
+  {
+    "title": "Chest Butterfly",
+    "src": "design/assets/chestGifs/chestButterfly.gif",
+    "alt": "Chest Butterfly",
+    "description": "Сядьте в тренажёр, разведите руки в стороны, сожмите грудные мышцы и вернитесь в исходное положение.",
+    "machine": "pec-deck"
+  },
+  {
+    "title": "Rear Delt Fly",
+    "src": "design/assets/allGifs/rearDeltFly.gif",
+    "alt": "Rear Delt Fly",
+    "description": "Наклонитесь вперёд, разведите руки в стороны, сожмите задние дельты и вернитесь.",
+    "machine": "pec-deck"
+  },
+  {
+    "title": "Reverse Grip Triceps",
+    "src": "design/assets/allGifs/reverseGripTriceps.gif",
+    "alt": "Reverse Grip Triceps",
+    "description": "Возьмитесь за кабель обратным хватом, держите локти неподвижно и тяните вниз.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Rotator Cuff",
+    "src": "design/assets/allGifs/rotatorCuff.gif",
+    "alt": "Rotator Cuff",
+    "description": "Сидя боком или стоя, прижмите локоть к телу и выполняйте наружную ротацию предплечья.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Seated Leg Curl",
+    "src": "design/assets/allGifs/seatedLegcurl.gif",
+    "alt": "Seated Leg Curl",
+    "description": "Сядьте, разместите валик на пятках, согните колени и сократите бицепсы бедра.",
+    "machine": "seated-leg-curl-machine"
+  },
+  {
+    "title": "Smith Good Mornings",
+    "src": "design/assets/allGifs/smithGoodMornings.gif",
+    "alt": "Smith Good Mornings",
+    "description": "Установите штангу на плечи в Смите, наклонитесь вперёд в бедрах, затем вернитесь.",
+    "machine": "smith-machine"
+  },
+  {
+    "title": "Smith Squat",
+    "src": "design/assets/allGifs/smithSquat.gif",
+    "alt": "Smith Squat",
+    "description": "Установите штангу на уровне плеч, присядьте, прорабатывая квадрицепсы и ягодицы.",
+    "machine": "smith-machine"
+  },
+  {
+    "title": "Shoulder Press (Smith)",
+    "src": "design/assets/allGifs/shoulderPress_smith.gif",
+    "alt": "Shoulder Press (Smith)",
+    "description": "Сидя в Смите, жмите штангу вверх от уровня плеч и опускайте обратно.",
+    "machine": "smith-machine"
+  },
+  {
+    "title": "Titled Lateral Raises",
+    "src": "design/assets/allGifs/titledLateralRaises.gif",
+    "alt": "Titled Lateral Raises",
+    "description": "На наклонной скамье отводите руки в стороны, прорабатывая дельты.",
+    "machine": "incline-bench"
+  },
+  {
+    "title": "Triceps Pushdown",
+    "src": "design/assets/allGifs/triceps_pushdown.gif",
+    "alt": "Triceps Pushdown",
+    "description": "Стоя, опускайте рукояти кабеля вниз при фиксированных локтях и напрягайте трицепсы.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Triceps Pushdown Rope",
+    "src": "design/assets/allGifs/triceps_pushdown_rope.gif",
+    "alt": "Triceps Pushdown Rope",
+    "description": "Держите канат двумя руками, тяните вниз при фиксированных локтях, в конце раздвиньте локти и сожмите мышцы.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Cable Biceps Curl",
+    "src": "design/assets/allGifs/cable_bicepsCurl.gif",
+    "alt": "Cable Biceps Curl",
+    "description": "Стоя, держите кабель хватом снизу, сгибайте локти и сжимайте бицепсы.",
+    "machine": "cable-machine"
+  },
+  {
+    "title": "Side Hip Abduction",
+    "src": "design/assets/allGifs/sideHipAbduction.gif",
+    "alt": "Side Hip Abduction",
+    "description": "Сидя на боку, поднимите ногу в сторону, напрягите внешние мышцы бедра и опустите контролируемо.",
+    "machine": "kickback-machine"
+  },
+  {
+    "title": "Leg Raises 2",
+    "src": "design/assets/allGifs/legraises2.gif",
+    "alt": "Leg Raises 2",
+    "description": "Повисните на перекладине и поднимите ноги вперёд, работая нижним прессом.",
+    "machine": "pull-up-bar"
+  },
+  {
+    "title": "Leg Raises 3",
+    "src": "design/assets/allGifs/legraises3.gif",
+    "alt": "Leg Raises 3",
+    "description": "Повисните на перекладине и согните колени, напрягая пресс.",
+    "machine": "pull-up-bar"
+  },
+  {
+    "title": "Twisted Hyperextension Abs",
+    "src": "design/assets/allGifs/twistedHyperExtensionAbs.gif",
+    "alt": "Twisted Hyperextension Abs",
+    "description": "На скамье для гиперэкстензии повернитесь в сторону, напрягите косые мышцы живота и вернитесь.",
+    "machine": "hyperextension-bench"
+  }
+]
