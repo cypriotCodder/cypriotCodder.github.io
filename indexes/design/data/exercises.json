@@ -11,7 +11,7 @@
     "src": "design/assets/allGifs/adduction.gif",
     "alt": "Adduction",
     "description": "Makinede oturarak bacaklarınızı içe doğru kapatın, iç uyluk kaslarınızı sıkın ve başlangıç pozisyonuna kontrollü dönün.",
-    "machine": "hip-adduction-machine"
+    "machine": "hip-abduction-machine"
   },
   {
     "title": "Abs Leg Raises",
@@ -66,7 +66,7 @@
     "title": "Cable Crunch 2",
     "src": "design/assets/allGifs/cableCrunch2.gif",
     "alt": "Cable Crunch 2",
-    "description": "Ayakta durarak kablo tutuşunu göğüs önünde tutun, karın kaslarınızı kullanarak öne doğru eğilin.",
+    "description": "Diz üstünde durarak kabloyu başınızın üstünde tutun, karın kaslarınızı kullanarak öne doğru eğilin.",
     "machine": "cable-machine"
   },
   {
@@ -147,13 +147,6 @@
     "machine": "pec-deck"
   },
   {
-    "title": "Rear Shoulder Press",
-    "src": "design/assets/allGifs/rearShoulderPress.gif",
-    "alt": "Rear Shoulder Press",
-    "description": "Makinede dik oturarak kolları geriye itip omuz arka kısmınızı çalıştırın.",
-    "machine": "shoulder-press-machine"
-  },
-  {
     "title": "Reverse Grip Triceps",
     "src": "design/assets/allGifs/reverseGripTriceps.gif",
     "alt": "Reverse Grip Triceps",
@@ -228,7 +221,7 @@
     "src": "design/assets/allGifs/sideHipAbduction.gif",
     "alt": "Side Hip Abduction",
     "description": "Yan oturarak bacağı yana doğru kaldırın, kalça dış kaslarınızı sıkın ve kontrollü indirin.",
-    "machine": "hip-abduction-machine"
+    "machine": "kickback-machine"
   },
   {
     "title": "Leg Raises 2",

@@ -190,5 +190,13 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+const head = document.querySelector('head');
+head.insertAdjacentHTML('beforeend', `
+    <link rel="stylesheet" href="design/langButton.css">    
+  `);
 
+const body = document.querySelector('body');
+body.insertAdjacentHTML('beforeend', `
+    <script src="scripts/langButton.js"></script>
+  `);
 
