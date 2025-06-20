@@ -45,6 +45,15 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  //click on logo to go home
+  const logo = document.querySelector('.logo');
+  if (logo) {
+    logo.addEventListener('click', () => {  
+      window.location.href = 'home.html';
+    });
+  }
+
+
   //muscle parts
   const back = document.getElementById('backPart');
   const chest = document.getElementById('chestPart');
@@ -181,28 +190,5 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-//machines section selectors
-const pecdeck = document.querySelector('#pec-deck');
-const latpulldown = document.querySelector('#lat-pulldown');
-const benchpress = document.querySelector('#bench-press');
 
-//machines section event listeners => goes to gif display
-if (latpulldown) {
-  latpulldown.addEventListener('click', () => {
-    console.log('Lat Pulldown clicked');
-    window.location.href = 'machinesDisplay.html';
-  });
-}
-if (benchpress) {
-  benchpress.addEventListener('click', () => {
-    console.log('Bench Press clicked');
-    window.location.href = 'machinesDisplay.html';
-  });
-}
-if (pecdeck) {
-  pecdeck.addEventListener('click', () => {
-    console.log('Pec Deck clicked');
-    window.location.href = 'machinesDisplay.html';
-  });
-}
 

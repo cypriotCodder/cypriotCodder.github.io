@@ -1,206 +1,254 @@
 [
   {
     "title": "Abduction",
-    "src": "design/assets/abduction.gif",
+    "src": "design/assets/allGifs/abduction.gif",
     "alt": "Abduction",
-    "description": "Makinede oturarak bacaklarınızı yana doğru açın, kalça dış kaslarınızı sıkın ve kontrollü şekilde geri kapatın."
+    "description": "Makinede oturarak bacaklarınızı yana doğru açın, kalça dış kaslarınızı sıkın ve kontrollü şekilde geri kapatın.",
+    "machine": "hip-abduction-machine"
   },
   {
     "title": "Adduction",
-    "src": "design/assets/adduction.gif",
+    "src": "design/assets/allGifs/adduction.gif",
     "alt": "Adduction",
-    "description": "Makinede oturarak bacaklarınızı içe doğru kapatın, iç uyluk kaslarınızı sıkın ve başlangıç pozisyonuna kontrollü dönün."
+    "description": "Makinede oturarak bacaklarınızı içe doğru kapatın, iç uyluk kaslarınızı sıkın ve başlangıç pozisyonuna kontrollü dönün.",
+    "machine": "hip-adduction-machine"
   },
   {
     "title": "Abs Leg Raises",
-    "src": "design/assets/abs_legRaises.gif",
+    "src": "design/assets/allGifs/abs_legRaises.gif",
     "alt": "Abs Leg Raises",
-    "description": "Sırtüstü uzanın, bacaklarınızı dikey pozisyona kadar kaldırın ve alt karın kaslarınızı kullanarak yavaşça indirin."
+    "description": "Sırtüstü uzanın, bacaklarınızı dikey pozisyona kadar kaldırın ve alt karın kaslarınızı kullanarak yavaşça indirin.",
+    "machine": "captains-chair"
   },
   {
     "title": "Crunch",
-    "src": "design/assets/abs1.gif",
+    "src": "design/assets/allGifs/abs1.gif",
     "alt": "Crunch",
-    "description": "Sırtüstü uzanın, dizlerinizi kırık tutarak gövdenizi karın kaslarınızı sıkıp kaldırın, ardından kontrollü indirin."
+    "description": "Sırtüstü uzanın, dizlerinizi kırık tutarak gövdenizi karın kaslarınızı sıkıp kaldırın, ardından kontrollü indirin.",
+    "machine": "mat"
   },
   {
     "title": "Seated Cable Row",
-    "src": "design/assets/backRow.gif",
+    "src": "design/assets/allGifs/backRow.gif",
     "alt": "Seated Cable Row",
-    "description": "Oturun, göğsünüzü dik tutun ve tutamakları karın bölgenize doğru çekerek kürek kemiklerinizi sıkın."
+    "description": "Oturun, göğsünüzü dik tutun ve tutamakları karın bölgenize doğru çekerek kürek kemiklerinizi sıkın.",
+    "machine": "cable-row-machine"
   },
   {
     "title": "Lat Pulldown",
-    "src": "design/assets/cable_bicepsCurl.gif",
+    "src": "design/assets/backGifs/backLatPulldown.gif",
     "alt": "Lat Pulldown",
-    "description": "Oturun, barı geniş tutuşla kavrayın ve çenenizin altına kadar çekin, lat kaslarınızı sıkarak hareketi tamamlayın."
+    "description": "Oturun, barı geniş tutuşla kavrayın ve çenenizin altına kadar çekin, lat kaslarınızı sıkarak hareketi tamamlayın.",
+    "machine": "lat-pulldown-machine"
+  },
+  {
+    "title":"Back Row",
+    "src": "design/assets/backGifs/backRow.gif",
+    "alt": "Back Row",
+    "description": "Oturun, gövdenizi dik tutarak barı karın bölgenize doğru çekin, kürek kemiklerinizi sıkın ve kontrollü şekilde indirin.",
+    "machine": "seated-row-machine"
   },
   {
     "title": "Cable Shoulder Lateral Raises",
-    "src": "design/assets/cablecross_shoulderlateralRaises.gif",
+    "src": "design/assets/allGifs/cablecross_shoulderlateralRaises.gif",
     "alt": "Cable Shoulder Lateral Raises",
-    "description": "Kablosu yana pozisyonda tutun, kolunuzu dirsekten bükülü tutarak omuz seviyesine kadar kaldırın."
+    "description": "Kablosu yana pozisyonda tutun, kolunuzu dirsekten bükülü tutarak omuz seviyesine kadar kaldırın.",
+    "machine": "cable-machine"
   },
   {
     "title": "Cable Crunch 1",
-    "src": "design/assets/cableCrunch1.gif",
+    "src": "design/assets/allGifs/cableCrunch1.gif",
     "alt": "Cable Crunch 1",
-    "description": "Dizlerinizi bükün, kablo tutuşunu başınızın arkasında tutarak karın kaslarınızı büküp gövdenizi çekin."
+    "description": "Dizlerinizi bükün, kablo tutuşunu başınızın arkasında tutarak karın kaslarınızı büküp gövdenizi çekin.",
+    "machine": "cable-machine"
   },
   {
     "title": "Cable Crunch 2",
-    "src": "design/assets/cableCrunch2.gif",
+    "src": "design/assets/allGifs/cableCrunch2.gif",
     "alt": "Cable Crunch 2",
-    "description": "Ayakta durarak kablo tutuşunu göğüs önünde tutun, karın kaslarınızı kullanarak öne doğru eğilin."
+    "description": "Ayakta durarak kablo tutuşunu göğüs önünde tutun, karın kaslarınızı kullanarak öne doğru eğilin.",
+    "machine": "cable-machine"
   },
   {
     "title": "Cable Overhead Extension",
-    "src": "design/assets/cableOverheadExtension.gif",
+    "src": "design/assets/allGifs/cableOverheadExtension.gif",
     "alt": "Cable Overhead Extension",
-    "description": "Kablo başının üstünden kavrayarak kollarınızı öne ve yukarı doğru uzatın, triceps kaslarınızı sıkın."
+    "description": "Kablo başının üstünden kavrayarak kollarınızı öne ve yukarı doğru uzatın, triceps kaslarınızı sıkın.",
+    "machine": "cable-machine"
   },
   {
     "title": "Cable Side Bends",
-    "src": "design/assets/cableSideBends.gif",
+    "src": "design/assets/allGifs/cableSideBends.gif",
     "alt": "Cable Side Bends",
-    "description": "Kablo tutuşunu bir elde sabitleyin ve gövdenizi yan tarafa doğru bükerek oblik kaslarınızı sıkın."
+    "description": "Kablo tutuşunu bir elde sabitleyin ve gövdenizi yan tarafa doğru bükerek oblik kaslarınızı sıkın.",
+    "machine": "cable-machine"
   },
   {
     "title": "Calf Raises",
-    "src": "design/assets/calfRaises.gif",
+    "src": "design/assets/allGifs/calfRaises.gif",
     "alt": "Calf Raises",
-    "description": "Ayak uçlarınızda durarak topuklarınızı yukarı kaldırın ve baldır kaslarınızı sıkarak indirin."
+    "description": "Ayak uçlarınızda durarak topuklarınızı yukarı kaldırın ve baldır kaslarınızı sıkarak indirin.",
+    "machine": "calf-raise-machine"
   },
   {
     "title": "Face Pulls",
-    "src": "design/assets/facePulls.gif",
+    "src": "design/assets/allGifs/facePulls.gif",
     "alt": "Face Pulls",
-    "description": "Kabloyu yüz seviyesinde kavrayın, dirsekleri geriye çekerek arka omuz kaslarınızı sıkın."
+    "description": "Kabloyu yüz seviyesinde kavrayın, dirsekleri geriye çekerek arka omuz kaslarınızı sıkın.",
+    "machine": "cable-machine"
   },
   {
     "title": "Hyperextension",
-    "src": "design/assets/hyper_extension1.gif",
+    "src": "design/assets/allGifs/hyper_extension1.gif",
     "alt": "Hyperextension",
-    "description": "Hyperextension sehpasına yerleşin, belinizi düz tutarak gövdenizi yukarı kaldırın, ardından kontrollü indirin."
+    "description": "Hyperextension sehpasına yerleşin, belinizi düz tutarak gövdenizi yukarı kaldırın, ardından kontrollü indirin.",
+    "machine": "hyperextension-bench"
   },
   {
     "title": "Leg Extension",
-    "src": "design/assets/leg_extension.gif",
+    "src": "design/assets/allGifs/leg_extension.gif",
     "alt": "Leg Extension",
-    "description": "Oturun, bacak pedini ayak bileklerinize yerleştirin ve dizlerinizi düzleştirerek quad kaslarınızı sıkın."
+    "description": "Oturun, bacak pedini ayak bileklerinize yerleştirin ve dizlerinizi düzleştirerek quad kaslarınızı sıkın.",
+    "machine": "leg-extension-machine"
   },
   {
     "title": "Leg Press",
-    "src": "design/assets/leg_press.gif",
+    "src": "design/assets/allGifs/leg_press.gif",
     "alt": "Leg Press",
-    "description": "Ayaklarınızı platforma yerleştirin, dizleri bükülü pozisyondan düzelterek ağırlığı itin ve kontrollü indirin."
+    "description": "Ayaklarınızı platforma yerleştirin, dizleri bükülü pozisyondan düzelterek ağırlığı itin ve kontrollü indirin.",
+    "machine": "leg-press-machine"
   },
   {
     "title": "Lying Leg Curl",
-    "src": "design/assets/lyingLegcurl.gif",
+    "src": "design/assets/allGifs/lyingLegcurl.gif",
     "alt": "Lying Leg Curl",
-    "description": "Yüzüstü uzanın, topuklarınızı makine pedine doğru çekip hamstring kaslarınızı sıkın."
+    "description": "Yüzüstü uzanın, topuklarınızı makine pedine doğru çekip hamstring kaslarınızı sıkın.",
+    "machine": "lying-leg-curl-machine"
   },
   {
     "title": "Preacher Curl",
-    "src": "design/assets/preachercurl.gif",
+    "src": "design/assets/allGifs/preachercurl.gif",
     "alt": "Preacher Curl",
-    "description": "Kolunuzu pad üzerine yerleştirin ve dirsekten bükerek bileği omuza çekerek biceps kaslarınızı sıkın."
+    "description": "Kolunuzu pad üzerine yerleştirin ve dirsekten bükerek bileği omuza çekerek biceps kaslarınızı sıkın.",
+    "machine": "preacher-curl-machine"
+  },
+  {
+    "title": "Chest Butterfly",
+    "src": "design/assets/chestGifs/chestButterfly.gif",
+    "alt": "Chest Butterfly",
+    "description": "Makinede oturun, kollarınızı yana açarak göğüs kaslarınızı sıkın ve başlangıç pozisyonuna dönün.",
+    "machine": "pec-deck"
   },
   {
     "title": "Rear Delt Fly",
-    "src": "design/assets/rearDeltFly.gif",
+    "src": "design/assets/allGifs/rearDeltFly.gif",
     "alt": "Rear Delt Fly",
-    "description": "Öne eğilin, kolları yana doğru açarak arka omuz kaslarınızı sıkın ve başlangıca dönün."
+    "description": "Öne eğilin, kolları yana doğru açarak arka omuz kaslarınızı sıkın ve başlangıca dönün.",
+    "machine": "pec-deck"
   },
   {
     "title": "Rear Shoulder Press",
-    "src": "design/assets/rearShoulderPress.gif",
+    "src": "design/assets/allGifs/rearShoulderPress.gif",
     "alt": "Rear Shoulder Press",
-    "description": "Makinede dik oturarak kolları geriye itip omuz arka kısmınızı çalıştırın."
+    "description": "Makinede dik oturarak kolları geriye itip omuz arka kısmınızı çalıştırın.",
+    "machine": "shoulder-press-machine"
   },
   {
     "title": "Reverse Grip Triceps",
-    "src": "design/assets/reverseGripTriceps.gif",
+    "src": "design/assets/allGifs/reverseGripTriceps.gif",
     "alt": "Reverse Grip Triceps",
-    "description": "Kabloyu ters tutuşla kavrayın ve dirsekleri yerinde sabitleyerek kolu aşağı doğru çekin."
+    "description": "Kabloyu ters tutuşla kavrayın ve dirsekleri yerinde sabitleyerek kolu aşağı doğru çekin.",
+    "machine": "cable-machine"
   },
   {
     "title": "Rotator Cuff",
-    "src": "design/assets/rotatorCuff.gif",
+    "src": "design/assets/allGifs/rotatorCuff.gif",
     "alt": "Rotator Cuff",
-    "description": "Yan oturarak veya ayakta, dirseği vücuda sabitleyip önkolla dışa rotasyon yapın."
+    "description": "Yan oturarak veya ayakta, dirseği vücuda sabitleyip önkolla dışa rotasyon yapın.",
+    "machine": "cable-machine"
   },
   {
     "title": "Seated Leg Curl",
-    "src": "design/assets/seatedLegcurl.gif",
+    "src": "design/assets/allGifs/seatedLegcurl.gif",
     "alt": "Seated Leg Curl",
-    "description": "Oturun, bacak pedini topuklarına yerleştirin, dizleri bükerek hamstring kaslarınızı sıkın."
+    "description": "Oturun, bacak pedini topuklarına yerleştirin, dizleri bükerek hamstring kaslarınızı sıkın.",
+    "machine": "seated-leg-curl-machine"
   },
   {
     "title": "Smith Good Mornings",
-    "src": "design/assets/smithGoodMornings.gif",
+    "src": "design/assets/allGifs/smithGoodMornings.gif",
     "alt": "Smith Good Mornings",
-    "description": "Smith makinesinde çubuğu omuz arkasına yerleştirin, belden öne eğilip kalkın."
+    "description": "Smith makinesinde çubuğu omuz arkasına yerleştirin, belden öne eğilip kalkın.",
+    "machine": "smith-machine"
   },
   {
     "title": "Smith Squat",
-    "src": "design/assets/smithSquat.gif",
+    "src": "design/assets/allGifs/smithSquat.gif",
     "alt": "Smith Squat",
-    "description": "Smith makinesinde çubuğu omuz hizasına getirin, çömelme yaparak quadriceps ve glute kaslarınızı çalıştırın."
+    "description": "Smith makinesinde çubuğu omuz hizasına getirin, çömelme yaparak quadriceps ve glute kaslarınızı çalıştırın.",
+    "machine": "smith-machine"
   },
   {
     "title": "Shoulder Press (Smith)",
-    "src": "design/assets/shoulderPress_smith.gif",
+    "src": "design/assets/allGifs/shoulderPress_smith.gif",
     "alt": "Shoulder Press (Smith)",
-    "description": "Smith makinesinde oturarak çubuğu omuz hizasından yukarı doğru itin ve indirin."
+    "description": "Smith makinesinde oturarak çubuğu omuz hizasından yukarı doğru itin ve indirin.",
+    "machine": "smith-machine"
   },
   {
     "title": "Titled Lateral Raises",
-    "src": "design/assets/titledLateralRaises.gif",
+    "src": "design/assets/allGifs/titledLateralRaises.gif",
     "alt": "Titled Lateral Raises",
-    "description": "Yana kalkık bankta yana açış yaparak deltoid kaslarınızı çalıştırın."
+    "description": "Yana kalkık bankta yana açış yaparak deltoid kaslarınızı çalıştırın.",
+    "machine": "incline-bench"
   },
   {
     "title": "Triceps Pushdown",
-    "src": "design/assets/triceps_pushdown.gif",
+    "src": "design/assets/allGifs/triceps_pushdown.gif",
     "alt": "Triceps Pushdown",
-    "description": "Ayakta durun, kablo tutacaklarını dirsek sabitken aşağıya doğru iterek triceps kaslarınızı sıkın."
+    "description": "Ayakta durun, kablo tutacaklarını dirsek sabitken aşağıya doğru iterek triceps kaslarınızı sıkın.",
+    "machine": "cable-machine"
   },
   {
     "title": "Triceps Pushdown Rope",
-    "src": "design/assets/triceps_pushdown_rope.gif",
+    "src": "design/assets/allGifs/triceps_pushdown_rope.gif",
     "alt": "Triceps Pushdown Rope",
-    "description": "Kablo halatını iki elde tutarak dirsek sabitken aşağı doğru çekin ve dirsekleri açarak son noktada sıkın."
+    "description": "Kablo halatını iki elde tutarak dirsek sabitken aşağı doğru çekin ve dirsekleri açarak son noktada sıkın.",
+    "machine": "cable-machine"
   },
   {
     "title": "Cable Biceps Curl",
-    "src": "design/assets/cable_bicepsCurl.gif",
+    "src": "design/assets/allGifs/cable_bicepsCurl.gif",
     "alt": "Cable Biceps Curl",
-    "description": "Ayakta durun, kabloyu avuç içleriniz yukarı bakacak şekilde tutun, dirsekten büküp biceps kaslarınızı sıkın."
+    "description": "Ayakta durun, kabloyu avuç içleriniz yukarı bakacak şekilde tutun, dirsekten büküp biceps kaslarınızı sıkın.",
+    "machine": "cable-machine"
   },
   {
     "title": "Side Hip Abduction",
-    "src": "design/assets/sideHipAbduction.gif",
+    "src": "design/assets/allGifs/sideHipAbduction.gif",
     "alt": "Side Hip Abduction",
-    "description": "Yan oturarak bacağı yana doğru kaldırın, kalça dış kaslarınızı sıkın ve kontrollü indirin."
+    "description": "Yan oturarak bacağı yana doğru kaldırın, kalça dış kaslarınızı sıkın ve kontrollü indirin.",
+    "machine": "hip-abduction-machine"
   },
   {
     "title": "Leg Raises 2",
-    "src": "design/assets/legraises2.gif",
+    "src": "design/assets/allGifs/legraises2.gif",
     "alt": "Leg Raises 2",
-    "description": "Bar tutunarak asılı pozisyonda bacaklarınızı öne doğru kaldırın, alt karın kaslarınızı sıkın."
+    "description": "Bar tutunarak asılı pozisyonda bacaklarınızı öne doğru kaldırın, alt karın kaslarınızı sıkın.",
+    "machine": "pull-up-bar"
   },
   {
     "title": "Leg Raises 3",
-    "src": "design/assets/legraises3.gif",
+    "src": "design/assets/allGifs/legraises3.gif",
     "alt": "Leg Raises 3",
-    "description": "Bar tutunarak asılı durumda dizleri bükerek karın kaslarınızı çalıştırın."
+    "description": "Bar tutunarak asılı durumda dizleri bükerek karın kaslarınızı çalıştırın.",
+    "machine": "pull-up-bar"
   },
   {
     "title": "Twisted Hyperextension Abs",
-    "src": "design/assets/twistedHyperExtensionAbs.gif",
+    "src": "design/assets/allGifs/twistedHyperExtensionAbs.gif",
     "alt": "Twisted Hyperextension Abs",
-    "description": "Hyperextension sehpasında yan bükülerek karın yan kaslarınızı sıkın ve başlangıca dönün."
+    "description": "Hyperextension sehpasında yan bükülerek karın yan kaslarınızı sıkın ve başlangıca dönün.",
+    "machine": "hyperextension-bench"
   }
 ]
