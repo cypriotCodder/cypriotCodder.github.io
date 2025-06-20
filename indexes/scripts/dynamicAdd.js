@@ -33,7 +33,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 1. Fetch the JSON file
     let exercises = [];
-    fetch('./design/data/exercises.json')
+    let exJson_tr = "exercises_tr";
+    let exJson_eng ="exercises_eng";
+    let exJson_ru = "exercises_ru";
+
+    fetch(`./design/data/${exJson_tr}.json`)
     .then(res => {
         if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
         return res.json();
