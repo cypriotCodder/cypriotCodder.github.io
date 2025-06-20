@@ -21,16 +21,16 @@
       <br>
       <br>
       <br>
-      <h2 class="sidebar__title">Bölgeler</h2>
+      <h2 class="sidebar__title" data-i18n="Body Parts">Bölgeler</h2>
       <ul class="sidebar__list">
-          <li><a id="backPart"      href="#"      class="sidebar__link">Sırt</a></li>
-          <li><a id="chestPart"     href="#"      class="sidebar__link">Göğüs</a></li>
-          <li><a id="armsPart"      href="#"      class="sidebar__link">Kol</a></li>
-          <li><a id="shoulderPart"  href="#"      class="sidebar__link">Omuz</a></li>
-          <li><a id="legsPart"      href="#"      class="sidebar__link">Bacak</a></li>
-          <li><a id="glutePart"     href="#"      class="sidebar__link">Kalça</a></li>
-          <li><a id="absPart"       href="#"      class="sidebar__link">Karın</a></li>
-          <li><a id="cardioPart"    href="#"      class="sidebar__link">Kardiyo</a></li>
+          <li><a id="backPart"      href="#"  data-i18n="sidebarBack"    class="sidebar__link">Sırt</a></li>
+          <li><a id="chestPart"     href="#"  data-i18n="sidebarChest"    class="sidebar__link">Göğüs</a></li>
+          <li><a id="armsPart"      href="#"  data-i18n="sidebarArms"    class="sidebar__link">Kol</a></li>
+          <li><a id="shoulderPart"  href="#"  data-i18n="sidebarShoulder"    class="sidebar__link">Omuz</a></li>
+          <li><a id="legsPart"      href="#"  data-i18n="sidebarLeg"    class="sidebar__link">Bacak</a></li>
+          <li><a id="glutePart"     href="#"  data-i18n="sidebarGlute"    class="sidebar__link">Kalça</a></li>
+          <li><a id="absPart"       href="#"  data-i18n="sidebarAbs"    class="sidebar__link">Karın</a></li>
+          <li><a id="cardioPart"    href="#"  data-i18n="sidebarCardio"    class="sidebar__link">Kardiyo</a></li>
       </ul>
     </aside>
 
@@ -43,11 +43,11 @@
           <div class="logo"> <img class="TAlogo" src="design/logo/logo.png" alt="logo"></div>
             <a id="nav_icon" class="nav-toggle">☰</a> 
             <ul class="nav-links">
-                <li><a id="home"      href="home.html">     Ana Sayfa   </a></li>
-                <li><a id="program"   href="home.html#programs">     Programlar  </a></li>
-                <li><a id="machines"   href="machines.html"> Aletler     </a></li>
-                <li><a id="trainer"   href="#trainers">     Trainers    </a></li>
-                <li><a id="contacts"  href="#contact">      İletişim    </a></li>
+                <li><a id="home"      data-i18n="navHome"       href="home.html">     Ana Sayfa   </a></li>
+                <li><a id="program"   data-i18n="navProgs"      href="home.html#programs">     Programlar  </a></li>
+                <li><a id="machines"  data-i18n="navMachines"   href="machines.html"> Aletler     </a></li>
+                <li><a id="trainer"   data-i18n="navTrainers"   href="#trainers">     Trainers    </a></li>
+                <li><a id="contacts"  data-i18n="navContacts"   href="#contact">      İletişim    </a></li>
             </ul>
             <!-- Language dropdown -->
             <div class="lang-switcher">
@@ -61,7 +61,8 @@
                 🌐
               </button>
               <ul id="langMenu" class="lang-switcher__menu" hidden>
-                <li><button class="lang-switcher__item" data-lang="tr">Türkçe</button></li>
+                <li><button class="lang-switcher__item" data-lang="tr">Turkish</button></li>
+                <li><button class="lang-switcher__item" data-lang="el">Greek</button></li>
                 <li><button class="lang-switcher__item" data-lang="en">English</button></li>
                 <li><button class="lang-switcher__item" data-lang="ru">Russian</button></li>
                 <!-- add more languages here -->

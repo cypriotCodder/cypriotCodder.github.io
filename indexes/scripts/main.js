@@ -1,3 +1,7 @@
+// Main JavaScript file for the fitness website
+// This file handles the navigation bar toggle, body parts sidebar toggle, and gif section toggling
+// Ensure the document is fully loaded before running scripts
+
 // navigation bar toggle
 const toggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('.nav-links');
@@ -24,7 +28,6 @@ function bodyPartsSideBarToggle() {
   // body parts sidebar wrap
   coll.classList.toggle("open")
 }
-
 
 //FUNCTIONS END #################################################
 
