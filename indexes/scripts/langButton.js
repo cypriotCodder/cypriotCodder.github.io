@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('language', lang); // Save selected language
       console.log('Language saved:', lang);
       setLanguage(lang);
+      window.location.reload(); // Reload to apply changes
       console.log('Switch to:', lang);
       // close menu
       toggle.setAttribute('aria-expanded', 'false');
