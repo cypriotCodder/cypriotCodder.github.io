@@ -515,17 +515,18 @@ footer p { font-size: 0.9rem; }
   -o-transition:  transform 0.7s  ;
 }
 .machine-card__img {
-  width: 50%;
+  width: 60%;
   height: 60%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
 .machine-card__name {
+  
   padding: 0.75rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #222;
+  margin: 10px;
 }
- 
 
 #locationQR{
   width: 300px;
