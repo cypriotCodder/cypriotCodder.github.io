@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tekin Adali Spor | Ana Sayfa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="design/mainStyle.css">
+  <link rel="icon" type="image/png" href="design/logo/logo.png">
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <nav>
+      <div class="logo"> <img class="TAlogo" src="design/logo/logo.png" alt="logo"></div>
+        <a id="nav_icon" class="nav-toggle">☰</a> 
+        <ul class="nav-links">
+            <li><a id="home"      data-i18n="navHome"       href="home.html">     Ana Sayfa   </a></li>
+            <li><a id="program"   data-i18n="navProgs"      href="home.html#programs">     Programlar  </a></li>
+            <li><a id="machines"  data-i18n="navMachines"   href="machines.html"> Aletler     </a></li>
+            <li><a id="trainer"   data-i18n="navTrainers"   href="#trainers">     Trainers    </a></li>
+            <li><a id="contacts"  data-i18n="navContacts"   href="#contact">      İletişim    </a></li>
+        </ul>
+        <!-- Language dropdown -->
+        <div class="lang-switcher">
+          <button
+            id="langToggle"
+            class="lang-switcher__button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-label="Dili değiştir / Change language"
+          >
+            🌐
+          </button>
+          <ul id="langMenu" class="lang-switcher__menu" hidden>
+            <li><button class="lang-switcher__item" data-lang="tr">Turkish</button></li>
+            <li><button class="lang-switcher__item" data-lang="el">Greek</button></li>
+            <li><button class="lang-switcher__item" data-lang="en">English</button></li>
+            <li><button class="lang-switcher__item" data-lang="ru">Russian</button></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+        <section class="blogContainer">
+            <div class="mainBlog">
+                <!-- Post form -->
+                <div class="update-form">
+                <textarea id="updateInput" placeholder="Neler oluyor? (280 karakterle sınırlı)"></textarea>
+                <button id="postButton" disabled>Yayınla</button>
+                </div>
+
+                <!-- Updates list -->
+                <ul id="updatesList" class="updates-list"></ul>
+            </div>
+        </section>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2025 Tekin Adalı Spor Tesisi, AL-BEL LTD. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="https://www.instagram.com/tekinadalisporkompleksi" rel="noopener" target="_blank">Instagram</a>
+      <a href="#">Twitter</a>
+      <a data-i18n="location" href="location.html#locationContainer">Konum</a>
+    </div>
+  </footer>
+
+  <button id="goTopBtn" class="go-top" aria-label="Go to top">↑</button>
+  <script src="scripts/main.js">  </script>
+  <script src="scripts/langButton.js" ></script>
+</body>
+</html>
