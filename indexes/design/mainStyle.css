@@ -498,21 +498,25 @@ footer p { font-size: 0.9rem; }
 }
 
 .machine-card {
-  background: #fff;
+  background: #ffffff;
   border-radius: 8px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: transform 0.6s;
+  -webkit-transition: transform 0.6s;
+  -moz-transition: transform 0.6s;
+  -ms-transition: transform 0.6s;
+  -o-transition: transform 0.6s;
 }
 .machine-card:hover {
+  background-color: #eaedef;
   transform: scale(1.25);
-  background-color: #ecf2f7;
-  transition:  transform 0.7s;
-  -webkit-transition:  transform 0.7s  ;
-  -moz-transition:  transform 0.7s  ;
-  -ms-transition:  transform 0.7s  ;
-  -o-transition:  transform 0.7s  ;
+  transition:  transform 0.9s;
+  -webkit-transition:  transform 0.9s;
+  -moz-transition:  transform 0.9s;
+  -ms-transition:  transform 0.9s;
+  -o-transition:  transform 0.9s;
 }
 .machine-card__img {
   width: 120px;
