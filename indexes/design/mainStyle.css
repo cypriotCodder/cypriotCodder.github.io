@@ -80,12 +80,16 @@ footer p { font-size: 0.9rem; }
 /* Responsive Styles */
 .feature:hover{
   transform: scale(1.05);
-  transition: transform 0.3s;
+  transition: transform 0.6s;
   cursor: pointer;
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
+  -webkit-transition: transform 0.6s;
+  -moz-transition: transform 0.6s;
+  -ms-transition: transform 0.6s;
+  -o-transition: transform 0.6s;
 }
 
 /*selection*/
@@ -495,6 +499,7 @@ footer p { font-size: 0.9rem; }
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 .machine-card {
