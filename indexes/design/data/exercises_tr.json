@@ -228,14 +228,14 @@
     "src": "design/assets/allGifs/legraises2.gif",
     "alt": "Leg Raises 2",
     "description": "Bar tutunarak asılı pozisyonda bacaklarınızı öne doğru kaldırın, alt karın kaslarınızı sıkın.",
-    "machine": "pull-up-bar"
+    "machine": "assisted-dip-chin"
   },
   {
     "title": "Leg Raises 3",
     "src": "design/assets/allGifs/legraises3.gif",
     "alt": "Leg Raises 3",
     "description": "Bar tutunarak asılı durumda dizleri bükerek karın kaslarınızı çalıştırın.",
-    "machine": "pull-up-bar"
+    "machine": "assisted-dip-chin"
   },
   {
     "title": "Twisted Hyperextension Abs",
