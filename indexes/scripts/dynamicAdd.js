@@ -33,9 +33,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 1. Fetch the JSON file
     let exercises = [];
-    let exJson_tr = "exercises_tr";
-    let exJson_en ="exercises_eng";
-    let exJson_ru = "exercises_ru";
 
     let lang = localStorage.getItem('language') || 'tr'; // Default to Turkish if not set
     
