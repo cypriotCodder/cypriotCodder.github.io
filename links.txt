@@ -1,0 +1,15 @@
+https://tekinadali.com/machinesDisplay.html?machine=pec-deck
+https://tekinadali.com/machinesDisplay.html?machine=lat-pulldown-machine
+https://tekinadali.com/machinesDisplay.html?machine=assisted-dip-chin
+https://tekinadali.com/machinesDisplay.html?machine=bench
+https://tekinadali.com/machinesDisplay.html?machine=seated-row-machine
+https://tekinadali.com/machinesDisplay.html?machine=smith-machine
+https://tekinadali.com/machinesDisplay.html?machine=chest-hammer
+https://tekinadali.com/machinesDisplay.html?machine=shoulder-press-machine
+https://tekinadali.com/machinesDisplay.html?machine=cable-machine
+https://tekinadali.com/machinesDisplay.html?machine=leg-extension-machine
+https://tekinadali.com/machinesDisplay.html?machine=leg-press-machine
+https://tekinadali.com/machinesDisplay.html?machine=seated-leg-curl-machine
+https://tekinadali.com/machinesDisplay.html?machine=abduction-adduction
+https://tekinadali.com/machinesDisplay.html?machine=kick-back-machine
+https://tekinadali.com/machinesDisplay.html?machine=hyperextension-bench

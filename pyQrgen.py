@@ -17,10 +17,12 @@ def generate_qr_code(url, filename):
 
     print(f"QR code saved as {filename}")
 
-print("Enter the URL: ")
-url = input()
-print("Choose the file name: ")
-name = input()
-name = name+".png"
-
-generate_qr_code(url=url, filename=name)
+url = 1
+name = ""
+while url != 0:
+    print("Enter the URL: ")
+    url = input()
+    print("Choose the file name: ")
+    name = input()
+    name = name+".png"
+    generate_qr_code(url=url, filename=name)

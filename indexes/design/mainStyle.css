@@ -80,12 +80,16 @@ footer p { font-size: 0.9rem; }
 /* Responsive Styles */
 .feature:hover{
   transform: scale(1.05);
-  transition: transform 0.3s;
+  transition: transform 0.6s;
   cursor: pointer;
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
+  -webkit-transition: transform 0.6s;
+  -moz-transition: transform 0.6s;
+  -ms-transition: transform 0.6s;
+  -o-transition: transform 0.6s;
 }
 
 /*selection*/
@@ -495,28 +499,33 @@ footer p { font-size: 0.9rem; }
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 .machine-card {
-  background: #fff;
+  background: #ffffff;
   border-radius: 8px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: transform 0.6s;
+  -webkit-transition: transform 0.6s;
+  -moz-transition: transform 0.6s;
+  -ms-transition: transform 0.6s;
+  -o-transition: transform 0.6s;
 }
 .machine-card:hover {
+  background-color: #eaedef;
   transform: scale(1.25);
-  background-color: #ecf2f7;
-  transition:  transform 0.7s;
-  -webkit-transition:  transform 0.7s  ;
-  -moz-transition:  transform 0.7s  ;
-  -ms-transition:  transform 0.7s  ;
-  -o-transition:  transform 0.7s  ;
+  transition:  transform 0.9s;
+  -webkit-transition:  transform 0.9s;
+  -moz-transition:  transform 0.9s;
+  -ms-transition:  transform 0.9s;
+  -o-transition:  transform 0.9s;
 }
 .machine-card__img {
-  width: 60%;
-  height: 60%;
+  width: 120px;
+  height: 120px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -553,3 +562,73 @@ footer p { font-size: 0.9rem; }
   -o-border-radius: 8px;
 }
 
+
+/* ---- Updates Feed Styles ---- */
+.blogContainer {
+  padding: 2rem 1rem;
+}
+.mainBlog {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Post form */
+.update-form {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.update-form textarea {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: .5rem;
+  resize: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+.update-form button {
+  margin-top: .5rem;
+  padding: .5rem 1rem;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.update-form button:disabled {
+  background: #999;
+  cursor: default;
+}
+
+/* Updates list */
+.updates-list {
+  list-style: none;
+  padding: 0;
+}
+.update-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.update-card__meta {
+  font-size: .85rem;
+  color: #555;
+  margin-bottom: .5rem;
+}
+.update-card__text {
+  font-size: 1rem;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .update-form textarea { height: 60px; }
+}
