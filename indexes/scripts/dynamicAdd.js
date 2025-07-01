@@ -63,6 +63,11 @@ document.addEventListener('DOMContentLoaded', function() {
             }); 
         }
 
-        initExercises(localStorage.getItem('selectedMachine'), exercises);
+        const params = new URLSearchParams(window.location.search);
+        const machine = params.get('machine');
+
+        if(machine){
+            initExercises(localStorage.getItem('selectedMachine'), exercises);
+        }
     });
 })
