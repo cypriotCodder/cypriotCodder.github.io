@@ -45,29 +45,27 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('JSON data fetched successfully!');
         exercises = data;
 
+        const params = new URLSearchParams(window.location.search);
+        const machine = params.get('machine');
+
+        if(machine){
+            initExercises(machine, exercises);
+        }
+
         // 2. create the vars for each machine card
         const cards = document.querySelectorAll('.machine-card')
-
         // 3. Add event listeners to each machine card
-        if(cards) {
+        if(cards.length > 0) {
             cards.forEach(card => {
                 card.addEventListener('click', () => {
                     // Store the selected machine in localStorage before navigating
                     const key = card.dataset.machine;
-                    localStorage.removeItem('selectedMachine'); // Clear previous selection
-                    localStorage.setItem('selectedMachine', key);
                     window.location.href = `machinesDisplay.html?machine=${encodeURIComponent(key)}`;
-                    // Do not call initExercises here, as the page will reload
                     console.log('Lat Pulldown clicked', key);
                 });
             }); 
         }
 
-        const params = new URLSearchParams(window.location.search);
-        const machine = params.get('machine');
-
-        if(machine){
-            initExercises(localStorage.getItem('selectedMachine'), exercises);
-        }
+        
     });
 })
