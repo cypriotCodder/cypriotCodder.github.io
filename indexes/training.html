@@ -23,14 +23,14 @@
       <br>
       <h2 class="sidebar__title" data-i18n="Body Parts">Bölgeler</h2>
       <ul class="sidebar__list">
-          <li><a id="backPart"      href="#"  data-i18n="sidebarBack"    class="sidebar__link">Sırt</a></li>
-          <li><a id="chestPart"     href="#"  data-i18n="sidebarChest"    class="sidebar__link">Göğüs</a></li>
-          <li><a id="armsPart"      href="#"  data-i18n="sidebarArms"    class="sidebar__link">Kol</a></li>
-          <li><a id="shoulderPart"  href="#"  data-i18n="sidebarShoulder"    class="sidebar__link">Omuz</a></li>
-          <li><a id="legsPart"      href="#"  data-i18n="sidebarLeg"    class="sidebar__link">Bacak</a></li>
-          <li><a id="glutePart"     href="#"  data-i18n="sidebarGlute"    class="sidebar__link">Kalça</a></li>
-          <li><a id="absPart"       href="#"  data-i18n="sidebarAbs"    class="sidebar__link">Karın</a></li>
-          <li><a id="cardioPart"    href="#"  data-i18n="sidebarCardio"    class="sidebar__link">Kardiyo</a></li>
+          <li><a id="backPart"      href="#"  data-i18n="sidebarBack"   data-part="back"        class="sidebar__link">Sırt</a></li>
+          <li><a id="chestPart"     href="#"  data-i18n="sidebarChest"  data-part="chest"       class="sidebar__link">Göğüs</a></li>
+          <li><a id="armsPart"      href="#"  data-i18n="sidebarArms"   data-part="arms"        class="sidebar__link">Kol</a></li>
+          <li><a id="shoulderPart"  href="#"  data-i18n="sidebarShoulder" data-part="shoulder"  class="sidebar__link">Omuz</a></li>
+          <li><a id="legsPart"      href="#"  data-i18n="sidebarLeg"    data-part="legs"        class="sidebar__link">Bacak</a></li>
+          <li><a id="glutePart"     href="#"  data-i18n="sidebarGlute"  data-part="glutes"      class="sidebar__link">Kalça</a></li>
+          <li><a id="absPart"       href="#"  data-i18n="sidebarAbs"    data-part="abs"         class="sidebar__link">Karın</a></li>
+          <li><a id="cardioPart"    href="#"  data-i18n="sidebarCardio" data-part="cardio"      class="sidebar__link">Kardiyo</a></li>
       </ul>
     </aside>
 
@@ -76,10 +76,10 @@
         <div class="mainGif">
           <!-- …buttons, headings, gifs… -->
 
-           <!-- back gifs section -->
+          <div class="gifs">
+            <!-- add the gifs here dynamically -->
 
-          
-
+          </div>
 
           <div id="backGifs" class="gifs">
             <div class="gif-card">
@@ -414,6 +414,7 @@
   <script src="scripts/memeLoader.js"></script>
   <script src="scripts/main.js"></script>
   <script src="scripts/langButton.js" ></script>
+  <script src="scripts/dynamicAdd.js"></script>
 </body>
 </html>
 

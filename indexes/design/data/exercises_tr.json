@@ -243,5 +243,491 @@
     "alt": "Twisted Hyperextension Abs",
     "description": "Hyperextension sehpasında yan bükülerek karın yan kaslarınızı sıkın ve başlangıca dönün.",
     "machine": "hyperextension-bench"
+  },
+
+  
+
+
+
+
+  {
+    "title": "Alternate Leg Raises",
+    "src": "design/assets/allGifs/Alternate-Leg-Raises.gif",
+    "alt": "Alternate Leg Raises",
+    "description": "Sırtüstü uzanın, bir bacağınızı dik şekilde kaldırın, karın kaslarınızı sıkın ve kontrollü indirin.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Alternating Dumbbell Front Raise",
+    "src": "design/assets/allGifs/Alternating-Dumbbell-Front-Raise.gif",
+    "alt": "Alternating Dumbbell Front Raise",
+    "description": "Ayakta durun, birer dambili öne omuz seviyesine kadar kaldırıp kontrollü indirin.",
+    "machine": "none",
+    "parts": "omuz"
+  },
+  {
+    "title": "Arm Blaster Hammer Curl",
+    "src": "design/assets/allGifs/Arm-Blaster-Hammer-Curl.gif",
+    "alt": "Arm Blaster Hammer Curl",
+    "description": "Arm-blaster’a yaslanarak dambili çekiç tutuşla kaldırıp biceps kaslarınızı sıkın.",
+    "machine": "none",
+    "parts": "biceps"
+  },
+  {
+    "title": "Arnold Press",
+    "src": "design/assets/allGifs/Arnold-Press.gif",
+    "alt": "Arnold Press",
+    "description": "Oturur pozisyonda dambilleri avuç içleri size dönük iken yukarı itin ve omuzlarınızı sıkın.",
+    "machine": "none",
+    "parts": "omuz"
+  },
+  {
+    "title": "Barbell Hip Thrust",
+    "src": "design/assets/allGifs/Barbell-Hip-Thrust.gif",
+    "alt": "Barbell Hip Thrust",
+    "description": "Sırtınızı bench’e dayayıp çubuğu kalçalarınıza yerleştirerek kalçanızı yukarı itin.",
+    "machine": "barbell",
+    "parts": "kalça"
+  },
+  {
+    "title": "Barbell Pin Squat",
+    "src": "design/assets/allGifs/Barbell-Pin-Squat.gif",
+    "alt": "Barbell Pin Squat",
+    "description": "Pin’lerin üzerine çubuğu koyup çömelerek quadriceps ve glute kaslarınızı çalıştırın.",
+    "machine": "power-rack",
+    "parts": "bacak"
+  },
+  {
+    "title": "Barbell Rear Delt Raise",
+    "src": "design/assets/allGifs/Barbell-Rear-Delt-Raise.gif",
+    "alt": "Barbell Rear Delt Raise",
+    "description": "Öne eğilerek barbell’i önden tutuşla yana açın ve arka omuz kaslarınızı sıkın.",
+    "machine": "none",
+    "parts": "omuz"
+  },
+  {
+    "title": "Barbell Reverse Wrist Curl",
+    "src": "design/assets/allGifs/Barbell-Reverse-Wrist-Curl.gif",
+    "alt": "Barbell Reverse Wrist Curl",
+    "description": "Ön kolları bench’e dayayıp avuç içleriniz aşağı bakacak şekilde bilekleri çevirin.",
+    "machine": "barbell",
+    "parts": "önkol"
+  },
+  {
+    "title": "Barbell Standing Military Press",
+    "src": "design/assets/allGifs/Barbell-Standing-Military-Press.gif",
+    "alt": "Barbell Standing Military Press",
+    "description": "Ayakta barbell’i omuz hizasında tutup yukarı itin, omuz kaslarınızı sıkın.",
+    "machine": "barbell",
+    "parts": "omuz"
+  },
+  {
+    "title": "Barbell Triceps Extension",
+    "src": "design/assets/allGifs/Barbell-Triceps-Extension.gif",
+    "alt": "Barbell Triceps Extension",
+    "description": "Yatar pozisyonda barbell’i kafanızın gerisinden yukarı itip triceps kaslarınızı sıkın.",
+    "machine": "barbell",
+    "parts": "triceps"
+  },
+  {
+    "title": "Bench Side Bend",
+    "src": "design/assets/allGifs/Bench-Side-Bend.gif",
+    "alt": "Bench Side Bend",
+    "description": "Bench kenarına yana yana eğilerek oblik kaslarınızı sıkın ve geri dönün.",
+    "machine": "bench",
+    "parts": "core"
+  },
+  {
+    "title": "Bent Over Reverse Cable Fly",
+    "src": "design/assets/allGifs/bent-over-reverse-cable-fly.gif",
+    "alt": "Bent Over Reverse Cable Fly",
+    "description": "Öne eğilin, kablonun kollarını önden tutuşla yana açarak arka omuzları çalıştırın.",
+    "machine": "cable-machine",
+    "parts": "omuz"
+  },
+  {
+    "title": "Cable Front Squat",
+    "src": "design/assets/allGifs/Cable-Front-Squat.gif",
+    "alt": "Cable Front Squat",
+    "description": "Kablo tutamağını göğüs hizasında tutup çömelme hareketi yapın.",
+    "machine": "cable-machine",
+    "parts": "bacak"
+  },
+  {
+    "title": "Cable Reverse Grip EZ-bar Biceps Curl",
+    "src": "design/assets/allGifs/Cable-Reverse-Grip-EZ-bar-Biceps-Curl.gif",
+    "alt": "Cable Reverse Grip EZ-bar Biceps Curl",
+    "description": "EZ-barı ters tutuşla kavrayıp, dirsek sabitken biceps’i çekin.",
+    "machine": "cable-machine",
+    "parts": "biceps"
+  },
+  {
+    "title": "Cable Rope Overhead Triceps Extension",
+    "src": "design/assets/allGifs/Cable-Rope-Overhead-Triceps-Extension.gif",
+    "alt": "Cable Rope Overhead Triceps Extension",
+    "description": "Kablo halatını başınızın üstünden tutarak triceps’i yukarı-itin.",
+    "machine": "cable-machine",
+    "parts": "triceps"
+  },
+  {
+    "title": "Cable Side Triceps Extension",
+    "src": "design/assets/allGifs/Cable-Side-Triceps-Extension.gif",
+    "alt": "Cable Side Triceps Extension",
+    "description": "Bir elle kablo tutuşunu sabitleyip dirsek sabit kalarak triceps’i indirin.",
+    "machine": "cable-machine",
+    "parts": "triceps"
+  },
+  {
+    "title": "Cable Squat",
+    "src": "design/assets/allGifs/Cable-Squat.gif",
+    "alt": "Cable Squat",
+    "description": "Kabloyi önde tutarak çömelme hareketi yapın ve quadriceps’i çalıştırın.",
+    "machine": "cable-machine",
+    "parts": "bacak"
+  },
+  {
+    "title": "Cable Upper Chest Crossovers",
+    "src": "design/assets/allGifs/Cable-Upper-Chest-Crossovers.gif",
+    "alt": "Cable Upper Chest Crossovers",
+    "description": "Kabloları yüksekten kavrayıp önde çaprazlayarak göğsü sıkın.",
+    "machine": "cable-machine",
+    "parts": "göğüs"
+  },
+  {
+    "title": "Chest Dips",
+    "src": "design/assets/allGifs/Chest-Dips.gif",
+    "alt": "Chest Dips",
+    "description": "Paralel barlara tutunup gövdenizi öne eğerek dips hareketi yapın.",
+    "machine": "none",
+    "parts": "göğüs"
+  },
+  {
+    "title": "Close Grip Dumbbell Press",
+    "src": "design/assets/allGifs/Close-Grip-Dumbbell-Press.gif",
+    "alt": "Close Grip Dumbbell Press",
+    "description": "Bench’e yatarak dambilleri göğüste birbirine yakın tutup itin.",
+    "machine": "none",
+    "parts": "göğüs"
+  },
+  {
+    "title": "Close Grip Z-Bar Curl",
+    "src": "design/assets/allGifs/Close-Grip-Z-Bar-Curl.gif",
+    "alt": "Close Grip Z-Bar Curl",
+    "description": "Z-barı dar tutuşla kavrayarak biceps’i kaldırıp indirin.",
+    "machine": "none",
+    "parts": "biceps"
+  },
+  {
+    "title": "Concentration Curl",
+    "src": "design/assets/allGifs/Concentration-Curl.gif",
+    "alt": "Concentration Curl",
+    "description": "Oturup dirseğinizi uyluğunuzun içine dayayarak dambili kaldırın.",
+    "machine": "none",
+    "parts": "biceps"
+  },
+  {
+    "title": "Cross Crunch",
+    "src": "design/assets/allGifs/Cross-Crunch.gif",
+    "alt": "Cross Crunch",
+    "description": "Yere uzanıp çapraz dirsek-diz temas ettirerek oblikleri çalıştırın.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Decline Chest Press Machine",
+    "src": "design/assets/allGifs/Decline-Chest-Press-Machine.gif",
+    "alt": "Decline Chest Press Machine",
+    "description": "Decline bench’i ayarlayıp makinada itme hareketi yapın.",
+    "machine": "chest-press-machine",
+    "parts": "göğüs"
+  },
+  {
+    "title": "Double Arm Dumbbell Curl",
+    "src": "design/assets/allGifs/Double-Arm-Dumbbell-Curl.gif",
+    "alt": "Double Arm Dumbbell Curl",
+    "description": "Ayakta ikili dambilleri avuç içleri öne bakacak kaldırıp indirin.",
+    "machine": "none",
+    "parts": "biceps"
+  },
+  {
+    "title": "Dumbbell Bulgarian Split Squat",
+    "src": "design/assets/allGifs/Dumbbell-Bulgarian-Split-Squat.gif",
+    "alt": "Dumbbell Bulgarian Split Squat",
+    "description": "Arkada ayağınız bench’de iken öndeki bacağınızla çömelin.",
+    "machine": "none",
+    "parts": "bacak"
+  },
+  {
+    "title": "Dumbbell Goblet Squat",
+    "src": "design/assets/allGifs/Dumbbell-Goblet-Squat.gif",
+    "alt": "Dumbbell Goblet Squat",
+    "description": "Göğüs önünde dambil tutarak çömelme hareketi yapın.",
+    "machine": "none",
+    "parts": "bacak"
+  },
+  {
+    "title": "EZ-Bar Lying Close Grip Triceps Extension Behind Head",
+    "src": "design/assets/allGifs/EZ-Bar-Lying-Close-Grip-Triceps-Extension-Behind-Head.gif",
+    "alt": "EZ-Bar Close Grip Triceps Extension Behind Head",
+    "description": "Yatarak EZ-barı başınızın arkasından öne itip triceps’i çalıştırın.",
+    "machine": "bench",
+    "parts": "triceps"
+  },
+  {
+    "title": "Face Pull",
+    "src": "design/assets/allGifs/Face-Pull.gif",
+    "alt": "Face Pull",
+    "description": "Kabloyu yüz hizasında tutup dirsekleri geriye çekerek arka omuzları çalıştırın.",
+    "machine": "cable-machine",
+    "parts": "omuz"
+  },
+  {
+    "title": "Half Kneeling High Cable Row Rope",
+    "src": "design/assets/allGifs/Half-Kneeling-High-Cable-Row-Rope.gif",
+    "alt": "Half Kneeling High Cable Row Rope",
+    "description": "Diz üstü çömelerek kabloyu kendinize doğru çekin.",
+    "machine": "cable-machine",
+    "parts": "sırt"
+  },
+  {
+    "title": "Hanging Knee Raises",
+    "src": "design/assets/allGifs/Hanging-Knee-Raises.gif",
+    "alt": "Hanging Knee Raises",
+    "description": "Bar tutunarak asılı pozisyonda dizlerinizi göğse çekin.",
+    "machine": "pull-up-bar",
+    "parts": "abs"
+  },
+  {
+    "title": "Incline Push Up",
+    "src": "design/assets/allGifs/Incline-Push-Up.gif",
+    "alt": "Incline Push Up",
+    "description": "Eller yükseltilmiş bir yüzeyde iken şınav çekerek göğsü çalıştırın.",
+    "machine": "none",
+    "parts": "göğüs"
+  },
+  {
+    "title": "Kneeling Push-up",
+    "src": "design/assets/allGifs/Kneeling-Push-up.gif",
+    "alt": "Kneeling Push-up",
+    "description": "Dizler yerde iken şınav çekerek üst gövde kaslarınızı çalıştırın.",
+    "machine": "none",
+    "parts": "göğüs"
+  },
+  {
+    "title": "Leg Raise Dragon Flag",
+    "src": "design/assets/allGifs/Leg-Raise-Dragon-Flag.gif",
+    "alt": "Leg Raise Dragon Flag",
+    "description": "Bench’e yaslanarak tüm vücudu düz tutup bacakları kaldırın.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Lever Shoulder Press",
+    "src": "design/assets/allGifs/Lever-Shoulder-Press.gif",
+    "alt": "Lever Shoulder Press",
+    "description": "Makinada omuz kolunu yukarı-iterek omuz kaslarını çalıştırın.",
+    "machine": "shoulder-press-machine",
+    "parts": "omuz"
+  },
+  {
+    "title": "Lever Side Hip Abduction",
+    "src": "design/assets/allGifs/Lever-Side-Hip-Abduction.gif",
+    "alt": "Lever Side Hip Abduction",
+    "description": "Makinada yandan kaldırarak kalça dış kaslarınızı sıkın.",
+    "machine": "hip-abduction-machine",
+    "parts": "kalça"
+  },
+  {
+    "title": "Lever Standing Leg Raise",
+    "src": "design/assets/allGifs/Lever-Standing-Leg-Raise.gif",
+    "alt": "Lever Standing Leg Raise",
+    "description": "Makinada bacağınızı önde kaldırarak karın kaslarınızı çalıştırın.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Low Cable Crossover",
+    "src": "design/assets/allGifs/Low-Cable-Crossover.gif",
+    "alt": "Low Cable Crossover",
+    "description": "Alttan gelen kabloları önünüzde çaprazlayarak göğüs kaslarını sıkın.",
+    "machine": "cable-machine",
+    "parts": "göğüs"
+  },
+  {
+    "title": "Lying Leg Raise",
+    "src": "design/assets/allGifs/Lying-Leg-Raise.gif",
+    "alt": "Lying Leg Raise",
+    "description": "Sırtüstü uzanarak bacaklarınızı düz kaldırıp indirin.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "One Arm Lying Triceps Extension",
+    "src": "design/assets/allGifs/One-Arm-Lying-Triceps-Extension.gif",
+    "alt": "One Arm Lying Triceps Extension",
+    "description": "Yatarak tek kol ile dambili başınızın yanından iterek triceps’i çalıştırın.",
+    "machine": "bench",
+    "parts": "triceps"
+  },
+  {
+    "title": "Overhead Cable Curl",
+    "src": "design/assets/allGifs/overhead-cable-curl.gif",
+    "alt": "Overhead Cable Curl",
+    "description": "Kablo kol başının üstünden avuç içleri yukarı bakacak şekilde curl yapın.",
+    "machine": "cable-machine",
+    "parts": "biceps"
+  },
+  {
+    "title": "Plank",
+    "src": "design/assets/allGifs/plank.gif",
+    "alt": "Plank",
+    "description": "Dirsekler ve ayak parmakları üzerinde vücudu düz tutarak core’u koruyun.",
+    "machine": "none",
+    "parts": "core"
+  },
+  {
+    "title": "Reverse Grip Pushdown",
+    "src": "design/assets/allGifs/Reverse-Grip-Pushdown.gif",
+    "alt": "Reverse Grip Pushdown",
+    "description": "Kabloyu ters tutuşla kavrayıp triceps’i aşağı doğru çekin.",
+    "machine": "cable-machine",
+    "parts": "triceps"
+  },
+  {
+    "title": "Seated Bench Leg Pull-in",
+    "src": "design/assets/allGifs/Seated-Bench-Leg-Pull-in.gif",
+    "alt": "Seated Bench Leg Pull-in",
+    "description": "Bench’e oturup bacakları dizden çekerek alt karın kaslarınızı çalıştırın.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Seated Zottman Curl",
+    "src": "design/assets/allGifs/Seated-Zottman-Curl.gif",
+    "alt": "Seated Zottman Curl",
+    "description": "Oturup avuç içleri yukarı düşük tutuşla curl üstte dönerek indirin.",
+    "machine": "none",
+    "parts": "biceps"
+  },
+  {
+    "title": "Sled Hack Squat",
+    "src": "design/assets/allGifs/Sled-Hack-Squat.gif",
+    "alt": "Sled Hack Squat",
+    "description": "Hack sled üzerinde çömelme hareketi yaparak quadriceps’i çalıştırın.",
+    "machine": "hack-squat-machine",
+    "parts": "bacak"
+  },
+  {
+    "title": "Smith Machine Hex Press",
+    "src": "design/assets/allGifs/Smith-Machine-Hex-Press.gif",
+    "alt": "Smith Machine Hex Press",
+    "description": "Smith makinesinde hex bar ile bench press hareketi yapın.",
+    "machine": "smith-machine",
+    "parts": "göğüs"
+  },
+  {
+    "title": "Smith Machine Incline Bench Press",
+    "src": "design/assets/allGifs/Smith-Machine-Incline-Bench-Press.gif",
+    "alt": "Smith Machine Incline Bench Press",
+    "description": "Smith makinesinde incline açıyla bench press yapın.",
+    "machine": "smith-machine",
+    "parts": "göğüs"
+  },
+  {
+    "title": "Smith Machine Leg Press",
+    "src": "design/assets/allGifs/Smith-Machine-Leg-Press.gif",
+    "alt": "Smith Machine Leg Press",
+    "description": "Smith makinesinde platformu iterek bacak kaslarınızı çalıştırın.",
+    "machine": "smith-machine",
+    "parts": "bacak"
+  },
+  {
+    "title": "Smith Machine Squat",
+    "src": "design/assets/allGifs/smith-machine-squat.gif",
+    "alt": "Smith Machine Squat",
+    "description": "Smith makinesinde çubuğu omuz hizasında tutup çömelme yapın.",
+    "machine": "smith-machine",
+    "parts": "bacak"
+  },
+  {
+    "title": "Standing Barbell Close Grip Military Press",
+    "src": "design/assets/allGifs/Standing-Barbell-Close-Grip-Military-Press.gif",
+    "alt": "Standing Barbell Close Grip Military Press",
+    "description": "Ayakta dar tutuşla barbell’i omuz hizasından yukarı itin.",
+    "machine": "barbell",
+    "parts": "omuz"
+  },
+  {
+    "title": "Teaser Pilates",
+    "src": "design/assets/allGifs/Teaser-Pilates.gif",
+    "alt": "Teaser Pilates",
+    "description": "Pilates mat üzerinde V pozisyonu alarak karın kaslarınızı sıkın.",
+    "machine": "none",
+    "parts": "karın"
+  },
+  {
+    "title": "Triceps Dips",
+    "src": "design/assets/allGifs/Triceps-Dips.gif",
+    "alt": "Triceps Dips",
+    "description": "Paralel barlarda kolları bükerek triceps’i çalıştırın.",
+    "machine": "dip-station",
+    "parts": "triceps"
+  },
+  {
+    "title": "Triceps Dips on Floor",
+    "src": "design/assets/allGifs/Triceps-Dips-on-Floor.gif",
+    "alt": "Triceps Dips on Floor",
+    "description": "Yere oturup ellerle kendinizi kaldırarak triceps’i çalıştırın.",
+    "machine": "none",
+    "parts": "triceps"
+  },
+  {
+    "title": "Tuck Crunch",
+    "src": "design/assets/allGifs/Tuck-Crunch.gif",
+    "alt": "Tuck Crunch",
+    "description": "Sırtüstü uzanıp dizleri göğse doğru çekerek karın kaslarını sıkın.",
+    "machine": "none",
+    "parts": "karın"
+  },
+  {
+    "title": "Two Arm Cable Front Raise",
+    "src": "design/assets/allGifs/Two-Arm-Cable-Front-Raise.gif",
+    "alt": "Two Arm Cable Front Raise",
+    "description": "Kabloyu iki elle kavrayıp avuç içleri aşağı bakacak öne kaldırın.",
+    "machine": "cable-machine",
+    "parts": "omuz"
+  },
+  {
+    "title": "Waiter Curl",
+    "src": "design/assets/allGifs/waiter-curl.gif",
+    "alt": "Waiter Curl",
+    "description": "Dambili baş üstünde tutarak curl hareketiyle omuz ve biceps çalıştırın.",
+    "machine": "none",
+    "parts": "biceps"
+  },
+  {
+    "title": "Weighted Crunch",
+    "src": "design/assets/allGifs/Weighted-Crunch.gif",
+    "alt": "Weighted Crunch",
+    "description": "Göğsünüze ağırlık yerleştirip crunch hareketini yapın.",
+    "machine": "none",
+    "parts": "karın"
+  },
+  {
+    "title": "Weighted Front Raise",
+    "src": "design/assets/allGifs/Weighted-Front-Raise.gif",
+    "alt": "Weighted Front Raise",
+    "description": "Dambilleri öne kaldırıp ön omuz kaslarınızı çalıştırın.",
+    "machine": "none",
+    "parts": "omuz"
+  },
+  {
+    "title": "Z-Bar Preacher Curl",
+    "src": "design/assets/allGifs/Z-Bar-Preacher-Curl.gif",
+    "alt": "Z-Bar Preacher Curl",
+    "description": "Preacher bench’e yaslanarak Z-bar curl hareketini yapın.",
+    "machine": "preacher-curl-machine",
+    "parts": "biceps"
   }
 ]

@@ -28,6 +28,27 @@ function initExercises(machine, exercises) {
     });
 }
 
+function bodypartsExercises(bPart, exercises){
+    const container = document.querySelector('.gifs');
+    if(!container){
+        console.warn("Container with class 'machine-gifs' not found.");
+    }
+    exercises.forEach(ex => {
+        if(ex.part = bPart){
+            container.insertAdjacentHTML('beforeend', `
+                    <div class="gif-card">
+                        <div class="gif-card__body">
+                            <h3 class="gif-headers">${ex.title}</h3>
+                            <img src="${ex.src}" alt="${ex.alt}" class="gif-card__img">
+                            <p class="gif-card__desc">${ex.description}</p>
+                        </div>
+                    </div>
+                `);
+                console.log(`Added exercise: ${ex.machine} - ${ex.title} - ${ex.src}`);
+        }
+    });
+}
+
 //<<<<<<<<<<<<<<<<<<<<<<__DOCLOADED__>>>>>>>>>>>>>>>>>>>>
 document.addEventListener('DOMContentLoaded', function() {
     
@@ -61,11 +82,25 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Store the selected machine in localStorage before navigating
                     const key = card.dataset.machine;
                     window.location.href = `machinesDisplay.html?machine=${encodeURIComponent(key)}`;
-                    console.log('Lat Pulldown clicked', key);
+                    console.log(`${key} clicked`);
                 });
             }); 
         }
 
-        
+        const part = params.get('part');
+        if(part){
+            bodypartsExercises(part, exercises)
+        }
+
+        const partList = document.querySelector('.sidebar__link');
+        if(partList.length > 0){
+            partList.forEach(part => {
+                part.addEventListener('click', ()=> {
+                    const key = part.dataset.part;
+                    window.location.href = `training.html?part=${encodeURIComponent(key)}`;
+                    console.log(`${key} clicked`);
+                })
+            })
+        }
     });
 })

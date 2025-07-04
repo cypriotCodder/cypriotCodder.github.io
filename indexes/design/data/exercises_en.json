@@ -243,5 +243,488 @@
     "alt": "Twisted Hyperextension Abs",
     "description": "On the hyperextension bench, twist to one side, squeeze your obliques, and return to the starting position.",
     "machine": "hyperextension-bench"
+  },
+
+  
+
+  {
+    "title": "Alternate Leg Raises",
+    "src": "design/assets/allGifs/Alternate-Leg-Raises.gif",
+    "alt": "Alternate Leg Raises",
+    "description": "Lie on your back, lift one leg straight up, contract your abdominal muscles, and lower it in a controlled manner.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Alternating Dumbbell Front Raise",
+    "src": "design/assets/allGifs/Alternating-Dumbbell-Front-Raise.gif",
+    "alt": "Alternating Dumbbell Front Raise",
+    "description": "Stand and alternately lift each dumbbell to shoulder height in front of you, then lower in a controlled manner.",
+    "machine": "none",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Arm Blaster Hammer Curl",
+    "src": "design/assets/allGifs/Arm-Blaster-Hammer-Curl.gif",
+    "alt": "Arm Blaster Hammer Curl",
+    "description": "Lean against the arm blaster, lift the dumbbell with a hammer grip, and squeeze your biceps.",
+    "machine": "none",
+    "parts": "biceps"
+  },
+  {
+    "title": "Arnold Press",
+    "src": "design/assets/allGifs/Arnold-Press.gif",
+    "alt": "Arnold Press",
+    "description": "While seated, press the dumbbells upward with your palms facing you, then rotate and squeeze your shoulders.",
+    "machine": "none",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Barbell Hip Thrust",
+    "src": "design/assets/allGifs/Barbell-Hip-Thrust.gif",
+    "alt": "Barbell Hip Thrust",
+    "description": "Rest your upper back on a bench, place the barbell on your hips, and thrust your hips upward.",
+    "machine": "barbell",
+    "parts": "glutes"
+  },
+  {
+    "title": "Barbell Pin Squat",
+    "src": "design/assets/allGifs/Barbell-Pin-Squat.gif",
+    "alt": "Barbell Pin Squat",
+    "description": "Place the barbell on the pins, squat down, and work your quadriceps and glutes.",
+    "machine": "power-rack",
+    "parts": "legs"
+  },
+  {
+    "title": "Barbell Rear Delt Raise",
+    "src": "design/assets/allGifs/Barbell-Rear-Delt-Raise.gif",
+    "alt": "Barbell Rear Delt Raise",
+    "description": "Bend forward, hold the barbell with an overhand grip, raise it to the sides, and squeeze your rear delts.",
+    "machine": "none",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Barbell Reverse Wrist Curl",
+    "src": "design/assets/allGifs/Barbell-Reverse-Wrist-Curl.gif",
+    "alt": "Barbell Reverse Wrist Curl",
+    "description": "Rest your forearms on a bench, palms facing down, and curl your wrists upward.",
+    "machine": "barbell",
+    "parts": "forearm"
+  },
+  {
+    "title": "Barbell Standing Military Press",
+    "src": "design/assets/allGifs/Barbell-Standing-Military-Press.gif",
+    "alt": "Barbell Standing Military Press",
+    "description": "Stand holding the barbell at shoulder height, press it overhead, and squeeze your shoulders.",
+    "machine": "barbell",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Barbell Triceps Extension",
+    "src": "design/assets/allGifs/Barbell-Triceps-Extension.gif",
+    "alt": "Barbell Triceps Extension",
+    "description": "Lying down, lower the barbell behind your head and press it up, squeezing your triceps.",
+    "machine": "barbell",
+    "parts": "triceps"
+  },
+  {
+    "title": "Bench Side Bend",
+    "src": "design/assets/allGifs/Bench-Side-Bend.gif",
+    "alt": "Bench Side Bend",
+    "description": "Lean sideways over the edge of a bench, contract your obliques, and return to the starting position.",
+    "machine": "bench",
+    "parts": "core"
+  },
+  {
+    "title": "Bent Over Reverse Cable Fly",
+    "src": "design/assets/allGifs/bent-over-reverse-cable-fly.gif",
+    "alt": "Bent Over Reverse Cable Fly",
+    "description": "Bend forward, hold the cable handles with an overhand grip, and open your arms to the sides to work your rear delts.",
+    "machine": "cable-machine",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Cable Front Squat",
+    "src": "design/assets/allGifs/Cable-Front-Squat.gif",
+    "alt": "Cable Front Squat",
+    "description": "Hold the cable handle at chest height and perform a squat.",
+    "machine": "cable-machine",
+    "parts": "legs"
+  },
+  {
+    "title": "Cable Reverse Grip EZ-bar Biceps Curl",
+    "src": "design/assets/allGifs/Cable-Reverse-Grip-EZ-bar-Biceps-Curl.gif",
+    "alt": "Cable Reverse Grip EZ-bar Biceps Curl",
+    "description": "Grip the EZ-bar with a reverse grip, keep your elbows steady, and curl to work your biceps.",
+    "machine": "cable-machine",
+    "parts": "biceps"
+  },
+  {
+    "title": "Cable Rope Overhead Triceps Extension",
+    "src": "design/assets/allGifs/Cable-Rope-Overhead-Triceps-Extension.gif",
+    "alt": "Cable Rope Overhead Triceps Extension",
+    "description": "Hold the cable rope overhead and extend your arms upward to work your triceps.",
+    "machine": "cable-machine",
+    "parts": "triceps"
+  },
+  {
+    "title": "Cable Side Triceps Extension",
+    "src": "design/assets/allGifs/Cable-Side-Triceps-Extension.gif",
+    "alt": "Cable Side Triceps Extension",
+    "description": "Hold the cable with one hand, keep your elbow steady, and extend your arm to work your triceps.",
+    "machine": "cable-machine",
+    "parts": "triceps"
+  },
+  {
+    "title": "Cable Squat",
+    "src": "design/assets/allGifs/Cable-Squat.gif",
+    "alt": "Cable Squat",
+    "description": "Hold the cable in front of you, perform a squat, and work your quadriceps.",
+    "machine": "cable-machine",
+    "parts": "legs"
+  },
+  {
+    "title": "Cable Upper Chest Crossovers",
+    "src": "design/assets/allGifs/Cable-Upper-Chest-Crossovers.gif",
+    "alt": "Cable Upper Chest Crossovers",
+    "description": "Hold the cables from above, cross them in front of you, and squeeze your chest.",
+    "machine": "cable-machine",
+    "parts": "chest"
+  },
+  {
+    "title": "Chest Dips",
+    "src": "design/assets/allGifs/Chest-Dips.gif",
+    "alt": "Chest Dips",
+    "description": "Hold onto parallel bars, lean your torso forward, and perform dips to work your chest.",
+    "machine": "none",
+    "parts": "chest"
+  },
+  {
+    "title": "Close Grip Dumbbell Press",
+    "src": "design/assets/allGifs/Close-Grip-Dumbbell-Press.gif",
+    "alt": "Close Grip Dumbbell Press",
+    "description": "Lie on a bench, hold the dumbbells close together at your chest, and press upward.",
+    "machine": "none",
+    "parts": "chest"
+  },
+  {
+    "title": "Close Grip Z-Bar Curl",
+    "src": "design/assets/allGifs/Close-Grip-Z-Bar-Curl.gif",
+    "alt": "Close Grip Z-Bar Curl",
+    "description": "Grip the Z-bar with a narrow grip and curl to work your biceps.",
+    "machine": "none",
+    "parts": "biceps"
+  },
+  {
+    "title": "Concentration Curl",
+    "src": "design/assets/allGifs/Concentration-Curl.gif",
+    "alt": "Concentration Curl",
+    "description": "Sit down, brace your elbow against your inner thigh, and curl the dumbbell.",
+    "machine": "none",
+    "parts": "biceps"
+  },
+  {
+    "title": "Cross Crunch",
+    "src": "design/assets/allGifs/Cross-Crunch.gif",
+    "alt": "Cross Crunch",
+    "description": "Lie on the floor and touch your elbow to the opposite knee to work your obliques.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Decline Chest Press Machine",
+    "src": "design/assets/allGifs/Decline-Chest-Press-Machine.gif",
+    "alt": "Decline Chest Press Machine",
+    "description": "Adjust the decline bench and perform a pressing motion on the machine.",
+    "machine": "chest-press-machine",
+    "parts": "chest"
+  },
+  {
+    "title": "Double Arm Dumbbell Curl",
+    "src": "design/assets/allGifs/Double-Arm-Dumbbell-Curl.gif",
+    "alt": "Double Arm Dumbbell Curl",
+    "description": "Stand and curl two dumbbells with palms facing forward, then lower them.",
+    "machine": "none",
+    "parts": "biceps"
+  },
+  {
+    "title": "Dumbbell Bulgarian Split Squat",
+    "src": "design/assets/allGifs/Dumbbell-Bulgarian-Split-Squat.gif",
+    "alt": "Dumbbell Bulgarian Split Squat",
+    "description": "With your back foot on a bench, squat down with your front leg.",
+    "machine": "none",
+    "parts": "legs"
+  },
+  {
+    "title": "Dumbbell Goblet Squat",
+    "src": "design/assets/allGifs/Dumbbell-Goblet-Squat.gif",
+    "alt": "Dumbbell Goblet Squat",
+    "description": "Hold a dumbbell in front of your chest and perform a squat.",
+    "machine": "none",
+    "parts": "legs"
+  },
+  {
+    "title": "EZ-Bar Lying Close Grip Triceps Extension Behind Head",
+    "src": "design/assets/allGifs/EZ-Bar-Lying-Close-Grip-Triceps-Extension-Behind-Head.gif",
+    "alt": "EZ-Bar Close Grip Triceps Extension Behind Head",
+    "description": "Lying on a bench, lower the EZ-bar behind your head and press it up to work your triceps.",
+    "machine": "bench",
+    "parts": "triceps"
+  },
+  {
+    "title": "Face Pull",
+    "src": "design/assets/allGifs/Face-Pull.gif",
+    "alt": "Face Pull",
+    "description": "Hold the cable at face level and pull your elbows back to work your rear delts.",
+    "machine": "cable-machine",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Half Kneeling High Cable Row Rope",
+    "src": "design/assets/allGifs/Half-Kneeling-High-Cable-Row-Rope.gif",
+    "alt": "Half Kneeling High Cable Row Rope",
+    "description": "Kneel on one knee and pull the cable toward you to work your back.",
+    "machine": "cable-machine",
+    "parts": "back"
+  },
+  {
+    "title": "Hanging Knee Raises",
+    "src": "design/assets/allGifs/Hanging-Knee-Raises.gif",
+    "alt": "Hanging Knee Raises",
+    "description": "Hang from a bar and pull your knees up to your chest.",
+    "machine": "pull-up-bar",
+    "parts": "abs"
+  },
+  {
+    "title": "Incline Push Up",
+    "src": "design/assets/allGifs/Incline-Push-Up.gif",
+    "alt": "Incline Push Up",
+    "description": "With your hands on an elevated surface, perform push-ups to work your chest.",
+    "machine": "none",
+    "parts": "chest"
+  },
+  {
+    "title": "Kneeling Push-up",
+    "src": "design/assets/allGifs/Kneeling-Push-up.gif",
+    "alt": "Kneeling Push-up",
+    "description": "With your knees on the ground, perform push-ups to work your upper body.",
+    "machine": "none",
+    "parts": "chest"
+  },
+  {
+    "title": "Leg Raise Dragon Flag",
+    "src": "design/assets/allGifs/Leg-Raise-Dragon-Flag.gif",
+    "alt": "Leg Raise Dragon Flag",
+    "description": "Lie on a bench, keep your body straight, and lift your legs upward.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Lever Shoulder Press",
+    "src": "design/assets/allGifs/Lever-Shoulder-Press.gif",
+    "alt": "Lever Shoulder Press",
+    "description": "On the machine, press the lever arms upward to work your shoulders.",
+    "machine": "shoulder-press-machine",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Lever Side Hip Abduction",
+    "src": "design/assets/allGifs/Lever-Side-Hip-Abduction.gif",
+    "alt": "Lever Side Hip Abduction",
+    "description": "On the machine, lift your leg to the side to work your outer glutes.",
+    "machine": "hip-abduction-machine",
+    "parts": "glutes"
+  },
+  {
+    "title": "Lever Standing Leg Raise",
+    "src": "design/assets/allGifs/Lever-Standing-Leg-Raise.gif",
+    "alt": "Lever Standing Leg Raise",
+    "description": "On the machine, lift your leg forward to work your abs.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Low Cable Crossover",
+    "src": "design/assets/allGifs/Low-Cable-Cross-over.gif",
+    "alt": "Low Cable Crossover",
+    "description": "Hold the cables from below, cross them in front of you, and squeeze your chest.",
+    "machine": "cable-machine",
+    "parts": "chest"
+  },
+  {
+    "title": "Lying Leg Raise",
+    "src": "design/assets/allGifs/Lying-Leg-Raise.gif",
+    "alt": "Lying Leg Raise",
+    "description": "Lie on your back and lift your legs straight up and down.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "One Arm Lying Triceps Extension",
+    "src": "design/assets/allGifs/One-Arm-Lying-Triceps-Extension.gif",
+    "alt": "One Arm Lying Triceps Extension",
+    "description": "Lying on a bench, extend a dumbbell overhead with one arm to work your triceps.",
+    "machine": "bench",
+    "parts": "triceps"
+  },
+  {
+    "title": "Overhead Cable Curl",
+    "src": "design/assets/allGifs/overhead-cable-curl.gif",
+    "alt": "Overhead Cable Curl",
+    "description": "Hold the cable overhead with palms up and curl to work your biceps.",
+    "machine": "cable-machine",
+    "parts": "biceps"
+  },
+  {
+    "title": "Plank",
+    "src": "design/assets/allGifs/plank.gif",
+    "alt": "Plank",
+    "description": "Hold your body straight, supported on your elbows and toes, to engage your core.",
+    "machine": "none",
+    "parts": "core"
+  },
+  {
+    "title": "Reverse Grip Pushdown",
+    "src": "design/assets/allGifs/Reverse-Grip-Pushdown.gif",
+    "alt": "Reverse Grip Pushdown",
+    "description": "Grip the cable with a reverse grip and push down to work your triceps.",
+    "machine": "cable-machine",
+    "parts": "triceps"
+  },
+  {
+    "title": "Seated Bench Leg Pull-in",
+    "src": "design/assets/allGifs/Seated-Bench-Leg-Pull-in.gif",
+    "alt": "Seated Bench Leg Pull-in",
+    "description": "Sit on a bench and pull your knees toward your chest to work your lower abs.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Seated Zottman Curl",
+    "src": "design/assets/allGifs/Seated-Zottman-Curl.gif",
+    "alt": "Seated Zottman Curl",
+    "description": "Sit, curl the dumbbells with palms up, rotate at the top, and lower with palms down.",
+    "machine": "none",
+    "parts": "biceps"
+  },
+  {
+    "title": "Sled Hack Squat",
+    "src": "design/assets/allGifs/Sled-Hack-Squat.gif",
+    "alt": "Sled Hack Squat",
+    "description": "On the hack squat sled, perform a squat to work your quadriceps.",
+    "machine": "hack-squat-machine",
+    "parts": "legs"
+  },
+  {
+    "title": "Smith Machine Hex Press",
+    "src": "design/assets/allGifs/Smith-Machine-Hex-Press.gif",
+    "alt": "Smith Machine Hex Press",
+    "description": "On the Smith machine, perform a bench press with a hex bar.",
+    "machine": "smith-machine",
+    "parts": "chest"
+  },
+  {
+    "title": "Smith Machine Incline Bench Press",
+    "src": "design/assets/allGifs/Smith-Machine-Incline-Bench-Press.gif",
+    "alt": "Smith Machine Incline Bench Press",
+    "description": "On the Smith machine, perform a bench press at an incline angle.",
+    "machine": "smith-machine",
+    "parts": "chest"
+  },
+  {
+    "title": "Smith Machine Leg Press",
+    "src": "design/assets/allGifs/Smith-Machine-Leg-Press.gif",
+    "alt": "Smith Machine Leg Press",
+    "description": "On the Smith machine, press the platform to work your leg muscles.",
+    "machine": "smith-machine",
+    "parts": "legs"
+  },
+  {
+    "title": "Smith Machine Squat",
+    "src": "design/assets/allGifs/smith-machine-squat.gif",
+    "alt": "Smith Machine Squat",
+    "description": "On the Smith machine, hold the bar at shoulder height and perform a squat.",
+    "machine": "smith-machine",
+    "parts": "legs"
+  },
+  {
+    "title": "Standing Barbell Close Grip Military Press",
+    "src": "design/assets/allGifs/Standing-Barbell-Close-Grip-Military-Press.gif",
+    "alt": "Standing Barbell Close Grip Military Press",
+    "description": "Stand and press the barbell overhead with a close grip from shoulder height.",
+    "machine": "barbell",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Teaser Pilates",
+    "src": "design/assets/allGifs/Teaser-Pilates.gif",
+    "alt": "Teaser Pilates",
+    "description": "On a Pilates mat, hold a V position to contract your abdominal muscles.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Triceps Dips",
+    "src": "design/assets/allGifs/Triceps-Dips.gif",
+    "alt": "Triceps Dips",
+    "description": "On parallel bars, bend your arms to lower your body and work your triceps.",
+    "machine": "dip-station",
+    "parts": "triceps"
+  },
+  {
+    "title": "Triceps Dips on Floor",
+    "src": "design/assets/allGifs/Triceps-Dips-on-Floor.gif",
+    "alt": "Triceps Dips on Floor",
+    "description": "Sit on the floor, lift your body with your hands, and work your triceps.",
+    "machine": "none",
+    "parts": "triceps"
+  },
+  {
+    "title": "Tuck Crunch",
+    "src": "design/assets/allGifs/Tuck-Crunch.gif",
+    "alt": "Tuck Crunch",
+    "description": "Lie on your back, pull your knees toward your chest, and contract your abs.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Two Arm Cable Front Raise",
+    "src": "design/assets/allGifs/Two-Arm-Cable-Front-Raise.gif",
+    "alt": "Two Arm Cable Front Raise",
+    "description": "Hold the cable with both hands, palms down, and raise it in front of you.",
+    "machine": "cable-machine",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Waiter Curl",
+    "src": "design/assets/allGifs/waiter-curl.gif",
+    "alt": "Waiter Curl",
+    "description": "Hold the dumbbell overhead and perform a curl to work your shoulders and biceps.",
+    "machine": "none",
+    "parts": "biceps"
+  },
+  {
+    "title": "Weighted Crunch",
+    "src": "design/assets/allGifs/Weighted-Crunch.gif",
+    "alt": "Weighted Crunch",
+    "description": "Place a weight on your chest and perform a crunch.",
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Weighted Front Raise",
+    "src": "design/assets/allGifs/Weighted-Front-Raise.gif",
+    "alt": "Weighted Front Raise",
+    "description": "Lift the dumbbells in front of you to work your front shoulder muscles.",
+    "machine": "none",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Z-Bar Preacher Curl",
+    "src": "design/assets/allGifs/Z-Bar-Preacher-Curl.gif",
+    "alt": "Z-Bar Preacher Curl",
+    "description": "Lean against the preacher bench and perform a curl with the Z-bar.",
+    "machine": "preacher-curl-machine",
+    "parts": "biceps"
   }
 ]
