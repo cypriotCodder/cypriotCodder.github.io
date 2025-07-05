@@ -173,7 +173,7 @@ footer p { font-size: 0.9rem; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 1rem;
-  display: none;
+  display: block;
   width: 50%;
 }
 

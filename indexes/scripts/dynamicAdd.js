@@ -30,11 +30,12 @@ function initExercises(machine, exercises) {
 
 function bodypartsExercises(bPart, exercises){
     const container = document.querySelector('.gifs');
+    console.log("Active")
     if(!container){
         console.warn("Container with class 'machine-gifs' not found.");
     }
     exercises.forEach(ex => {
-        if(ex.part = bPart){
+        if(ex.parts == bPart){
             container.insertAdjacentHTML('beforeend', `
                     <div class="gif-card">
                         <div class="gif-card__body">
@@ -45,6 +46,7 @@ function bodypartsExercises(bPart, exercises){
                     </div>
                 `);
                 console.log(`Added exercise: ${ex.machine} - ${ex.title} - ${ex.src}`);
+                console.log(`part: ${ex.part}`)
         }
     });
 }
@@ -69,6 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const params = new URLSearchParams(window.location.search);
         const machine = params.get('machine');
 
+
         if(machine){
             initExercises(machine, exercises);
         }
@@ -92,10 +95,11 @@ document.addEventListener('DOMContentLoaded', function() {
             bodypartsExercises(part, exercises)
         }
 
-        const partList = document.querySelector('.sidebar__link');
+        const partList = document.querySelectorAll('.sidebar__link');
         if(partList.length > 0){
             partList.forEach(part => {
                 part.addEventListener('click', ()=> {
+                    console.log(`hey`);
                     const key = part.dataset.part;
                     window.location.href = `training.html?part=${encodeURIComponent(key)}`;
                     console.log(`${key} clicked`);

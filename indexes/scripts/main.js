@@ -80,93 +80,93 @@ window.addEventListener('DOMContentLoaded', () => {
   const gifSections = [];
   gifSections.push(backgifs, chestgifs, armsgifs, shouldergifs, absgifs, cardiogifs, glutegifs, leggifs);
 
-  const hash = window.location.hash;
-  if (hash) {
-    const target = document.querySelector(hash);
-    if (target && target.classList.contains("gifs")) {
-      // Hide all gifs sections
-      document.querySelectorAll(".gifs").forEach(section => {
-        toggleOff(section, gifSections)
-      });
+  // const hash = window.location.hash;
+  // if (hash) {
+  //   const target = document.querySelector(hash);
+  //   if (target && target.classList.contains("gifs")) {
+  //     // Hide all gifs sections
+  //     document.querySelectorAll(".gifs").forEach(section => {
+  //       toggleOff(section, gifSections)
+  //     });
 
-      // Show the one matching the hash
-      target.classList.toggle('hidden');
-      target.scrollIntoView({ behavior: "smooth" });
-    }
+  //     // Show the one matching the hash
+  //     target.classList.toggle('hidden');
+  //     target.scrollIntoView({ behavior: "smooth" });
+  //   }
     
-  }
+  // }
 
-  // toggle gifs by body part
-    if(backgifs) {
-      back.addEventListener('click', () =>{
-      backgifs.classList.toggle('hidden');
-      toggleOff(backgifs, gifSections);
-      console.log("clicked");
+  // // toggle gifs by body part
+  //   if(backgifs) {
+  //     back.addEventListener('click', () =>{
+  //     backgifs.classList.toggle('hidden');
+  //     toggleOff(backgifs, gifSections);
+  //     console.log("clicked");
 
-      if(window.innerWidth <= 768)
-        bodyPartsSideBarToggle()
-    })
-    }
-    if(chestgifs) {
-      chest.addEventListener('click', () =>{
-        chestgifs.classList.toggle('hidden');
-        toggleOff(chestgifs, gifSections);
-        console.log("clicked");
+  //     if(window.innerWidth <= 768)
+  //       bodyPartsSideBarToggle()
+  //   })
+  //   }
+  //   if(chestgifs) {
+  //     chest.addEventListener('click', () =>{
+  //       chestgifs.classList.toggle('hidden');
+  //       toggleOff(chestgifs, gifSections);
+  //       console.log("clicked");
 
-        if(window.innerWidth <= 768)
-          bodyPartsSideBarToggle()
-      })
-  } 
-    if(shouldergifs) {
-      shoulders.addEventListener('click', () =>{
-      shouldergifs.classList.toggle('hidden');
-      toggleOff(shouldergifs, gifSections);
-      console.log("clicked");
+  //       if(window.innerWidth <= 768)
+  //         bodyPartsSideBarToggle()
+  //     })
+  // } 
+  //   if(shouldergifs) {
+  //     shoulders.addEventListener('click', () =>{
+  //     shouldergifs.classList.toggle('hidden');
+  //     toggleOff(shouldergifs, gifSections);
+  //     console.log("clicked");
 
-      if(window.innerWidth <= 768)
-        bodyPartsSideBarToggle()
-    })
-    }
-    if(armsgifs) {
-      arms.addEventListener('click', () =>{
-      armsgifs.classList.toggle('hidden');
-      toggleOff(armsgifs, gifSections);
-      console.log("clicked");
+  //     if(window.innerWidth <= 768)
+  //       bodyPartsSideBarToggle()
+  //   })
+  //   }
+  //   if(armsgifs) {
+  //     arms.addEventListener('click', () =>{
+  //     armsgifs.classList.toggle('hidden');
+  //     toggleOff(armsgifs, gifSections);
+  //     console.log("clicked");
 
-      if(window.innerWidth <= 768)
-        bodyPartsSideBarToggle()
-    })
-    }
-    if(leggifs) {
-      legs.addEventListener('click', () =>{
-      leggifs.classList.toggle('hidden');
-      toggleOff(leggifs, gifSections);
-      console.log("clicked");
+  //     if(window.innerWidth <= 768)
+  //       bodyPartsSideBarToggle()
+  //   })
+  //   }
+  //   if(leggifs) {
+  //     legs.addEventListener('click', () =>{
+  //     leggifs.classList.toggle('hidden');
+  //     toggleOff(leggifs, gifSections);
+  //     console.log("clicked");
 
-      if(window.innerWidth <= 768)
-        bodyPartsSideBarToggle()
-    })
-    }
-    if(absgifs) {
-      abs.addEventListener('click', () =>{
-      absgifs.classList.toggle('hidden');
-      toggleOff(absgifs, gifSections);
-      console.log("clicked");
+  //     if(window.innerWidth <= 768)
+  //       bodyPartsSideBarToggle()
+  //   })
+  //   }
+  //   if(absgifs) {
+  //     abs.addEventListener('click', () =>{
+  //     absgifs.classList.toggle('hidden');
+  //     toggleOff(absgifs, gifSections);
+  //     console.log("clicked");
 
-      if(window.innerWidth <= 768)
-        bodyPartsSideBarToggle()
-    })
-    }
-    if(glutegifs) {
-      glutes.addEventListener('click', () =>{
-      glutegifs.classList.toggle('hidden');
-      toggleOff(glutegifs, gifSections);
-      console.log("clicked");
+  //     if(window.innerWidth <= 768)
+  //       bodyPartsSideBarToggle()
+  //   })
+  //   }
+  //   if(glutegifs) {
+  //     glutes.addEventListener('click', () =>{
+  //     glutegifs.classList.toggle('hidden');
+  //     toggleOff(glutegifs, gifSections);
+  //     console.log("clicked");
 
-      if(window.innerWidth <= 768)
-        bodyPartsSideBarToggle()
-    })
-    }
+  //     if(window.innerWidth <= 768)
+  //       bodyPartsSideBarToggle()
+  //   })
+  //   }
     
   //TODO cardio  
 

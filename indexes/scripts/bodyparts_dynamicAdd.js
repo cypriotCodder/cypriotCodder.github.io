@@ -25,6 +25,6 @@ function initExercises(machine, exercises) {
 
 document.addEventListener('DOMContentLoaded', () => {
 
-
+    
 
 });
