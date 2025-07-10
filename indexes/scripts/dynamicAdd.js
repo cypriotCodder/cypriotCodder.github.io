@@ -14,12 +14,13 @@ function initExercises(machine, exercises) {
         // Exercises under this machine
         //filter the exercises based on the machine
         if (ex.machine == machine){
+            let lang = localStorage.getItem('language') || 'tr'; // Default to Turkish if not set
             container.insertAdjacentHTML('beforeend', `
                 <div class="gif-card">
                     <div class="gif-card__body">
                         <h3 class="gif-headers">${ex.title}</h3>
                         <img src="${ex.src}" alt="${ex.alt}" class="gif-card__img">
-                        <p class="gif-card__desc">${ex.description}</p>
+                        <p class="gif-card__desc">${ex.description[lang]}</p>
                     </div>
                 </div>
             `);
