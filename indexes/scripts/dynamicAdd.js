@@ -36,12 +36,13 @@ function bodypartsExercises(bPart, exercises){
     }
     exercises.forEach(ex => {
         if(ex.parts == bPart){
+            let lang = localStorage.getItem('language') || 'tr'; // Default to Turkish if not set
             container.insertAdjacentHTML('beforeend', `
                     <div class="gif-card">
                         <div class="gif-card__body">
                             <h3 class="gif-headers">${ex.title}</h3>
                             <img src="${ex.src}" alt="${ex.alt}" class="gif-card__img">
-                            <p class="gif-card__desc">${ex.description}</p>
+                            <p class="gif-card__desc">${ex.description[lang]}</p>
                         </div>
                     </div>
                 `);
@@ -57,9 +58,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // 1. Fetch the JSON file
     let exercises = [];
 
-    let lang = localStorage.getItem('language') || 'tr'; // Default to Turkish if not set
     
-    fetch(`./design/data/exercises_${lang}.json`)
+    
+    fetch(`./design/data/exercises_allLang.json`)
     .then(res => {
         if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
         return res.json();

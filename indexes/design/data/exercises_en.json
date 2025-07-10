@@ -164,7 +164,7 @@
     "src": "design/assets/allGifs/Bench-Side-Bend.gif",
     "alt": "Bench Side Bend",
     "description": "Lean sideways over the edge of a bench, contract your obliques, and return to the starting position.",
-    "machine": "bench",
+    "machine": "hyperextension-bench",
     "parts": "core"
   },
   {
@@ -268,7 +268,7 @@
     "src": "design/assets/allGifs/Decline-Chest-Press-Machine.gif",
     "alt": "Decline Chest Press Machine",
     "description": "Adjust the decline bench and perform a pressing motion on the machine.",
-    "machine": "chest-press-machine",
+    "machine": "chest-hammer",
     "parts": "chest"
   },
   {
@@ -348,7 +348,7 @@
     "src": "design/assets/allGifs/Leg-Raise-Dragon-Flag.gif",
     "alt": "Leg Raise Dragon Flag",
     "description": "Lie on a bench, keep your body straight, and lift your legs upward.",
-    "machine": "none",
+    "machine": "bench",
     "parts": "abs"
   },
   {
@@ -428,7 +428,7 @@
     "src": "design/assets/allGifs/Seated-Bench-Leg-Pull-in.gif",
     "alt": "Seated Bench Leg Pull-in",
     "description": "Sit on a bench and pull your knees toward your chest to work your lower abs.",
-    "machine": "none",
+    "machine": "bench",
     "parts": "abs"
   },
   {

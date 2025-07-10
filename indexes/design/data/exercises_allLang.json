@@ -1,0 +1,912 @@
+[
+  {
+    "title": "Abduction",
+    "src": "design/assets/allGifs/abduction.gif",
+    "alt": "Abduction",
+    "description": {
+      "en": "While seated in the machine, spread your legs outward, squeeze your outer hip muscles, and return them in a controlled manner.",
+      "tr": "Makinede otururken bacaklarınızı dışarıya doğru açın, dış kalça kaslarınızı sıkın ve kontrollü bir şekilde başlangıç pozisyonuna geri getirin.",
+      "el": "Καθισμένοι στο μηχάνημα, ανοίξτε τα πόδια προς τα έξω, σφίξτε τους έξω γλουτιαίους μυς και επιστρέψτε με ελεγχόμενο τρόπο.",
+      "ru": "Сидя в тренажёре, раздвиньте ноги в стороны, напрягите наружные ягодичные мышцы и верните в исходное положение контролируемо."
+    },
+    "machine": "hip-abduction-machine",
+    "parts": "glutes"
+  },
+  {
+    "title": "Adduction",
+    "src": "design/assets/allGifs/adduction.gif",
+    "alt": "Adduction",
+    "description": {
+      "en": "While seated in the machine, bring your legs inward, squeeze your inner thigh muscles, and return to the starting position in a controlled manner.",
+      "tr": "Makinede otururken bacaklarınızı içeri doğru kapatın, iç uyluk kaslarınızı sıkın ve kontrollü bir şekilde başlangıç pozisyonuna geri dönün.",
+      "el": "Καθισμένοι στο μηχάνημα, φέρτε τα πόδια προς τα μέσα, σφίξτε τους εσωτερικούς μηριαίους μυς και επιστρέψτε με ελεγχόμενο τρόπο στην αρχική θέση.",
+      "ru": "Сидя в тренажёре, сведите ноги внутрь, напрягите внутренние мышцы бедра и контролируемо вернитесь в исходное положение."
+    },
+    "machine": "hip-abduction-machine",
+    "parts": "legs"
+  },
+  {
+    "title": "Abs Leg Raises",
+    "src": "design/assets/allGifs/abs_legRaises.gif",
+    "alt": "Abs Leg Raises",
+    "description": {
+      "en": "Lie on your back, lift your legs until they are vertical, and slowly lower them using your lower abdominal muscles.",
+      "tr": "Sırt üstü uzanın, bacaklarınızı dikey olana kadar kaldırın ve alt karın kaslarınızı kullanarak yavaşça indirin.",
+      "el": "Ξαπλώστε ανάσκελα, σηκώστε τα πόδια μέχρι να γίνουν κάθετα και χαμηλώστε τα αργά χρησιμοποιώντας τους κάτω κοιλιακούς μυς.",
+      "ru": "Лягте на спину, поднимите ноги до вертикального положения и медленно опустите, используя нижние мышцы пресса."
+    },
+    "machine": "captains-chair",
+    "parts": "abs"
+  },
+  {
+    "title": "Crunch",
+    "src": "design/assets/allGifs/abs1.gif",
+    "alt": "Crunch",
+    "description": {
+      "en": "Lie on your back with your knees bent, curl your torso up by contracting your abdominal muscles, then lower back down in a controlled manner.",
+      "tr": "Sırt üstü, dizleriniz bükülü olarak uzanın, karın kaslarınızı sıkarak gövdenizi yukarı doğru kaldırın ve kontrollü bir şekilde geri indirin.",
+      "el": "Ξαπλώστε ανάσκελα με λυγισμένα γόνατα, συσπάστε τους κοιλιακούς μυς για να ανυψώσετε τον κορμό και χαμηλώστε με ελεγχόμενο τρόπο.",
+      "ru": "Лягте на спину, согнув колени, напрягите пресс, поднимая корпус, затем контролируемо опуститесь обратно."
+    },
+    "machine": "mat",
+    "parts": "abs"
+  },
+  {
+    "title": "Seated Cable Row",
+    "src": "design/assets/allGifs/backRow.gif",
+    "alt": "Seated Cable Row",
+    "description": {
+      "en": "Sit with your chest upright and pull the handles toward your midsection, squeezing your shoulder blades together.",
+      "tr": "Göğsünüz dik, oturun ve kolları karın bölgenize doğru çekin, kürek kemiklerinizi birleştirerek sıkın.",
+      "el": "Καθίστε με το στήθος ψηλά και τραβήξτε τις λαβές προς το μέσο του σώματος, σφίγγοντας τις ωμοπλάτες.",
+      "ru": "Сядьте с выпрямленной грудью и тяните рукояти к середине тела, сводя лопатки."
+    },
+    "machine": "cable-row-machine",
+    "parts": "back"
+  },
+  {
+    "title": "Lat Pulldown",
+    "src": "design/assets/backGifs/backLatPulldown.gif",
+    "alt": "Lat Pulldown",
+    "description": {
+      "en": "Sit and grip the bar wide, pull it down until it's below your chin, and finish the movement by squeezing your lats.",
+      "tr": "Oturun ve barı geniş tutun, çenenizin altına inene kadar çekin ve hareketi lat kaslarınızı sıkarak tamamlayın.",
+      "el": "Καθίστε και κρατήστε το μπαρ φαρδιά, τραβήξτε το μέχρι κάτω από το πηγούνι και ολοκληρώστε το με σφίξιμο των πλατών.",
+      "ru": "Сядьте и возьмитесь за перекладину широко, тягуйте вниз до уровня подбородка и завершите движение, напрягая широчайшие."
+    },
+    "machine": "lat-pulldown-machine",
+    "parts": "back"
+  },
+  {
+    "title": "Cable Shoulder Lateral Raises",
+    "src": "design/assets/allGifs/cablecross_shoulderlateralRaises.gif",
+    "alt": "Cable Shoulder Lateral Raises",
+    "description": {
+      "en": "Hold the cable to your side and, with your elbow bent, raise your arm to shoulder level.",
+      "tr": "Kabloyu yanınızda tutun ve dirseğiniz bükülü olarak kolunuzu omuz hizasına kadar kaldırın.",
+      "el": "Κρατήστε το καλώδιο στο πλάι σας και με λυγμένο αγκώνα, σηκώστε το χέρι στο ύψος του ώμου.",
+      "ru": "Держите кабель сбоку, согнув локоть, поднимите руку до уровня плеч."
+    },
+    "machine": "cable-machine",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Cable Crunch 1",
+    "src": "design/assets/allGifs/cableCrunch1.gif",
+    "alt": "Cable Crunch 1",
+    "description": {
+      "en": "Bend your knees, hold the cable behind your head, crunch your abs, and pull your torso downward.",
+      "tr": "Dizlerinizi bükün, kabloyu başınızın arkasında tutun, karın kaslarınızı sıkın ve gövdenizi aşağı doğru çekin.",
+      "el": "Λυγίστε τα γόνατα, κρατήστε το καλώδιο πίσω από το κεφάλι, σφίξτε τους κοιλιακούς και τραβήξτε τον κορμό προς τα κάτω.",
+      "ru": "Согните колени, держите кабель за головой, напрягите пресс и тяните корпус вниз."
+    },
+    "machine": "cable-machine",
+    "parts": "abs"
+  },
+  {
+    "title": "Cable Crunch 2",
+    "src": "design/assets/allGifs/cableCrunch2.gif",
+    "alt": "Cable Crunch 2",
+    "description": {
+      "en": "Kneel, hold the cable above your head, and bend forward using your abdominal muscles.",
+      "tr": "Diz çökün, kabloyu başınızın üzerinde tutun ve karın kaslarınızı kullanarak öne doğru eğilin.",
+      "el": "Γονατίστε, κρατήστε το καλώδιο πάνω από το κεφάλι και σκύψτε μπροστά χρησιμοποιώντας τους κοιλιακούς.",
+      "ru": "Встаньте на колени, держите кабель над головой и наклонитесь вперёд, используя пресс."
+    },
+    "machine": "cable-machine",
+    "parts": "abs"
+  },
+  {
+    "title": "Cable Overhead Extension",
+    "src": "design/assets/allGifs/cableOverheadExtension.gif",
+    "alt": "Cable Overhead Extension",
+    "description": {
+      "en": "Grasp the cable overhead, extend your arms upward, and squeeze your triceps at the top of the movement.",
+      "tr": "Kabloyu başınızın üzerinde kavrayın, kollarınızı yukarı uzatın ve hareketin üst noktasında trisepslerinizi sıkın.",
+      "el": "Κρατήστε το καλώδιο πάνω από το κεφάλι, τεντώστε τα χέρια ψηλά και σφίξτε τους τρικεφάλους στην κορυφή της κίνησης.",
+      "ru": "Возьмитесь за кабель над головой, выпрямите руки вверх и сожмите трицепсы в верхней точке."
+    },
+    "machine": "cable-machine",
+    "parts": "arms"
+  },
+  {
+    "title": "Alternate Leg Raises",
+    "src": "design/assets/allGifs/Alternate-Leg-Raises.gif",
+    "alt": "Alternate Leg Raises",
+    "description": {
+      "en": "Lie on your back, lift one leg straight up, contract your abdominal muscles, and lower it in a controlled manner.",
+      "tr": "Sırt üstü uzanın, bir bacağı dik olarak kaldırın, karın kaslarınızı sıkın ve kontrollü bir şekilde indirin.",
+      "el": "Ξαπλώστε ανάσκελα, σηκώστε ένα πόδι κάθετα, συσπάστε τους κοιλιακούς και χαμηλώστε με ελεγχόμενο τρόπο.",
+      "ru": "Лягте на спину, поднимите одну ногу вертикально, напрягите пресс и медленно опустите."
+    },
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Alternating Dumbbell Front Raise",
+    "src": "design/assets/allGifs/Alternating-Dumbbell-Front-Raise.gif",
+    "alt": "Alternating Dumbbell Front Raise",
+    "description": {
+      "en": "Stand and alternately lift each dumbbell to shoulder height in front of you, then lower in a controlled manner.",
+      "tr": "Ayakta durun ve birer birer dambili omuz hizasına kadar kaldırın, ardından kontrollü şekilde indirin.",
+      "el": "Σταθείτε όρθιοι και ανεβάστε εναλλάξ κάθε αλτήρα στο ύψος του ώμου, έπειτα χαμηλώστε με ελεγχόμενο τρόπο.",
+      "ru": "Встаньте, поочерёдно поднимайте гантели до уровня плеч и медленно опускайте."
+    },
+    "machine": "none",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Arm Blaster Hammer Curl",
+    "src": "design/assets/allGifs/Arm-Blaster-Hammer-Curl.gif",
+    "alt": "Arm Blaster Hammer Curl",
+    "description": {
+      "en": "Lean against the arm blaster, lift the dumbbell with a hammer grip, and squeeze your biceps.",
+      "tr": "Kol destek aletine yaslanın, dambili çekici tutuşla kaldırın ve bicepslerinizi sıkın.",
+      "el": "Συγκρατηθείτε στο arm blaster, σηκώστε την αλτήρα με λαβή σφυριού και σφίξτε τους δικεφάλους.",
+      "ru": "Опирайтесь на arm blaster, поднимайте гантель нейтральным хватом и напрягайте бицепс."
+    },
+    "machine": "none",
+    "parts": "arms"
+  },
+  {
+    "title": "Arnold Press",
+    "src": "design/assets/allGifs/Arnold-Press.gif",
+    "alt": "Arnold Press",
+    "description": {
+      "en": "While seated, press the dumbbells upward with your palms facing you, then rotate and squeeze your shoulders.",
+      "tr": "Otururken dambilleri avuç içleriniz size bakacak şekilde yukarı itin, ardından döndürüp omuzlarınızı sıkın.",
+      "el": "Καθιστοί, πιέστε τις αλτήρες προς τα πάνω με τις παλάμες προς το σώμα, μετά περιστρέψτε και σφίξτε τους ώμους.",
+      "ru": "Сидя, поднимайте гантели вверх ладонями к себе, затем поверните и сожмите плечи."
+    },
+    "machine": "none",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Barbell Hip Thrust",
+    "src": "design/assets/allGifs/Barbell-Hip-Thrust.gif",
+    "alt": "Barbell Hip Thrust",
+    "description": {
+      "en": "Rest your upper back on a bench, place the barbell on your hips, and thrust your hips upward.",
+      "tr": "Üst sırtınızı bench’e dayayın, barı kalçanıza yerleştirin ve kalçalarınızı yukarı doğru itin.",
+      "el": "Στηρίξτε τον άνω μέρος της πλάτης σε πάγκο, τοποθετήστε την μπάρα στους γοφούς και ανυψώστε τους.",
+      "ru": "Положите верхнюю часть спины на скамью, поставьте штангу на бедра и поднимите их вверх."
+    },
+    "machine": "barbell",
+    "parts": "glutes"
+  },
+  {
+    "title": "Barbell Pin Squat",
+    "src": "design/assets/allGifs/Barbell-Pin-Squat.gif",
+    "alt": "Barbell Pin Squat",
+    "description": {
+      "en": "Place the barbell on the pins, squat down, and work your quadriceps and glutes.",
+      "tr": "Barı pimlere yerleştirin, çömelin ve kuadriseps ile kalçalarınızı çalıştırın.",
+      "el": "Τοποθετήστε την μπάρα στις πινέζες, κάντε καθίσματα και δουλέψτε τετρακέφαλους και γλουτούς.",
+      "ru": "Поместите штангу на опоры, сделайте присед и нагрузите квадрицепсы и ягодицы."
+    },
+    "machine": "power-rack",
+    "parts": "legs"
+  },
+  {
+    "title": "Barbell Rear Delt Raise",
+    "src": "design/assets/allGifs/Barbell-Rear-Delt-Raise.gif",
+    "alt": "Barbell Rear Delt Raise",
+    "description": {
+      "en": "Bend forward, hold the barbell with an overhand grip, raise it to the sides, and squeeze your rear delts.",
+      "tr": "Öne doğru eğilin, barı overhand tutuşla tutun, yanlara kaldırın ve arka omuz kaslarınızı sıkın.",
+      "el": "Σκύψτε μπροστά, κρατήστε την μπάρα με υπέρλαβή, σηκώστε πλάγια και σφίξτε τους οπίσθιους δελτοειδείς.",
+      "ru": "Наклонитесь вперёд, возьмитесь за штангу верхним хватом, поднимите в стороны и напрягите задние дельты."
+    },
+    "machine": "none",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Barbell Reverse Wrist Curl",
+    "src": "design/assets/allGifs/Barbell-Reverse-Wrist-Curl.gif",
+    "alt": "Barbell Reverse Wrist Curl",
+    "description": {
+      "en": "Rest your forearms on a bench, palms facing down, and curl your wrists upward.",
+      "tr": "Ön kollarınızı bench’e dayayın, avuç içleriniz aşağı dönük, bileklerinizi yukarı doğru bükün.",
+      "el": "Στηρίξτε τους πήχεις σε πάγκο, με τις παλάμες προς τα κάτω, λυγίστε τους καρπούς προς τα πάνω.",
+      "ru": "Положите предплечья на скамью, ладони вниз, и заворачивайте запястья вверх."
+    },
+    "machine": "barbell",
+    "parts": "forearm"
+  },
+  {
+    "title": "Barbell Standing Military Press",
+    "src": "design/assets/allGifs/Barbell-Standing-Military-Press.gif",
+    "alt": "Barbell Standing Military Press",
+    "description": {
+      "en": "Stand holding the barbell at shoulder height, press it overhead, and squeeze your shoulders.",
+      "tr": "Barı omuz hizasında tutarak ayakta durun, başınızın üzerinden itin ve omuzlarınızı sıkın.",
+      "el": "Σταθείτε κρατώντας τη μπάρα στο ύψος των ώμων, πιέστε την πάνω από το κεφάλι και σφίξτε τους ώμους.",
+      "ru": "Встаньте, держа штангу на уровне плеч, выжмите её над головой и напрягите плечи."
+    },
+    "machine": "barbell",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Barbell Triceps Extension",
+    "src": "design/assets/allGifs/Barbell-Triceps-Extension.gif",
+    "alt": "Barbell Triceps Extension",
+    "description": {
+      "en": "Lying down, lower the barbell behind your head and press it up, squeezing your triceps.",
+      "tr": "Yatarak barı başınızın arkasına indirin ve trisepslerinizi sıkarak yukarı itin.",
+      "el": "Ξαπλωμένοι, χαμηλώστε τη μπάρα πίσω από το κεφάλι και πιέστε την προς τα πάνω σφίγγοντας τους τρικεφάλους.",
+      "ru": "Лёжа, опустите штангу за голову и выжмите вверх, сжимая трицепсы."
+    },
+    "machine": "barbell",
+    "parts": "arms"
+  },
+  {
+    "title": "Bench Side Bend",
+    "src": "design/assets/allGifs/Bench-Side-Bend.gif",
+    "alt": "Bench Side Bend",
+    "description": {
+      "en": "Lean sideways over the edge of a bench, contract your obliques, and return to the starting position.",
+      "tr": "Bench’in kenarına doğru yana eğilin, oblik kaslarınızı sıkın ve başlangıç pozisyonuna dönün.",
+      "el": "Γείρετε στο πλάι πάνω από την άκρη ενός πάγκου, σφίξτε τους λοξούς κοιλιακούς και επιστρέψτε.",
+      "ru": "Наклоняйтесь в сторону над краем скамьи, напрягайте косые мышцы живота и возвращайтесь."
+    },
+    "machine": "hyperextension-bench",
+    "parts": "core"
+  },
+  {
+    "title": "Bent Over Reverse Cable Fly",
+    "src": "design/assets/allGifs/bent-over-reverse-cable-fly.gif",
+    "alt": "Bent Over Reverse Cable Fly",
+    "description": {
+      "en": "Bend forward, hold the cable handles with an overhand grip, and open your arms to the sides to work your rear delts.",
+      "tr": "Öne doğru eğilin, kablo kulplarını overhand tutuşla kavrayın ve kollarınızı yanlara açarak arka omuzları çalıştırın.",
+      "el": "Σκύψτε μπροστά, κρατήστε τις λαβές καλωδίου με υπέρλαβή και ανοίξτε τα χέρια πλάγια για τους οπίσθιους δελτοειδείς.",
+      "ru": "Наклонитесь вперёд, возьмите рукояти кабеля верхним хватом и разведите руки в стороны, нагружая задние дельты."
+    },
+    "machine": "cable-machine",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Cable Front Squat",
+    "src": "design/assets/allGifs/Cable-Front-Squat.gif",
+    "alt": "Cable Front Squat",
+    "description": {
+      "en": "Hold the cable handle at chest height and perform a squat.",
+      "tr": "Kablo kolunu göğüs hizasında tutun ve squat yapın.",
+      "el": "Κρατήστε τη λαβή του καλωδίου στο ύψος του στήθους και κάντε καθίσματα.",
+      "ru": "Держите рукоять кабеля на уровне груди и выполните присед."
+    },
+    "machine": "cable-machine",
+    "parts": "legs"
+  },
+  {
+    "title": "Cable Reverse Grip EZ-bar Biceps Curl",
+    "src": "design/assets/allGifs/Cable-Reverse-Grip-EZ-bar-Biceps-Curl.gif",
+    "alt": "Cable Reverse Grip EZ-bar Biceps Curl",
+    "description": {
+      "en": "Grip the EZ-bar with a reverse grip, keep your elbows steady, and curl to work your biceps.",
+      "tr": "EZ-barı ters tutuşla kavrayın, dirseklerinizi sabit tutun ve bicepslerinizi çalıştırmak için curl yapın.",
+      "el": "Κρατήστε την EZ-bar με ανάποδη λαβή, σταθεροποιήστε τους αγκώνες και κάντε κάμψεις για τους δικεφάλους.",
+      "ru": "Возьмите EZ-штангу обратным хватом, держите локти неподвижно и выполните сгибание на бицепс."
+    },
+    "machine": "cable-machine",
+    "parts": "arms"
+  },
+  {
+    "title": "Cable Rope Overhead Triceps Extension",
+    "src": "design/assets/allGifs/Cable-Rope-Overhead-Triceps-Extension.gif",
+    "alt": "Cable Rope Overhead Triceps Extension",
+    "description": {
+      "en": "Hold the cable rope overhead and extend your arms upward to work your triceps.",
+      "tr": "Kablo ipini başınızın üzerinde tutun ve trisepslerinizi çalıştırmak için kollarınızı yukarıya uzatın.",
+      "el": "Κρατήστε το σχοινί καλωδίου πάνω από το κεφάλι και τεντώστε τους τρικεφάλους ψηλά.",
+      "ru": "Держите канат кабеля над головой и выпрямляйте руки вверх для нагрузки трицепсов."
+    },
+    "machine": "cable-machine",
+    "parts": "arms"
+  },
+  {
+    "title": "Cable Side Triceps Extension",
+    "src": "design/assets/allGifs/Cable-Side-Triceps-Extension.gif",
+    "alt": "Cable Side Triceps Extension",
+    "description": {
+      "en": "Hold the cable with one hand, keep your elbow steady, and extend your arm to work your triceps.",
+      "tr": "Kabloyu bir elinizle tutun, dirseğinizi sabit tutun ve trisepslerinizi çalıştırmak için kolunuzu uzatın.",
+      "el": "Κρατήστε το καλώδιο με το ένα χέρι, σταθεροποιήστε τον αγκώνα και τεντώστε τον βραχίονα για τους τρικεφάλους.",
+      "ru": "Держите кабель одной рукой, локоть неподвижен, и выпрямляйте руку для нагрузки трицепса."
+    },
+    "machine": "cable-machine",
+    "parts": "arms"
+  },
+  {
+    "title": "Cable Squat",
+    "src": "design/assets/allGifs/Cable-Squat.gif",
+    "alt": "Cable Squat",
+    "description": {
+      "en": "Hold the cable in front of you, perform a squat, and work your quadriceps.",
+      "tr": "Kabloyu önünüzde tutun, squat yapın ve kuadrisepslerinizi çalıştırın.",
+      "el": "Κρατήστε το καλώδιο μπροστά σας, κάντε καθίσματα και δουλέψτε τους τετρακέφαλους.",
+      "ru": "Держите кабель перед собой, выполните присед и нагрузите квадрицепсы."
+    },
+    "machine": "cable-machine",
+    "parts": "legs"
+  },
+  {
+    "title": "Cable Upper Chest Crossovers",
+    "src": "design/assets/allGifs/Cable-Upper-Chest-Crossovers.gif",
+    "alt": "Cable Upper Chest Crossovers",
+    "description": {
+      "en": "Hold the cables from above, cross them in front of you, and squeeze your chest.",
+      "tr": "Kabları yukarıdan tutun, önünüzde çaprazlayın ve göğüs kaslarınızı sıkın.",
+      "el": "Κρατήστε τα καλώδια από πάνω, διασταυρώστε τα μπροστά σας και σφίξτε το στήθος.",
+      "ru": "Держите кабели сверху, скрестите их перед собой и напрягите грудные мышцы."
+    },
+    "machine": "cable-machine",
+    "parts": "chest"
+  },
+  {
+    "title": "Chest Dips",
+    "src": "design/assets/allGifs/Chest-Dips.gif",
+    "alt": "Chest Dips",
+    "description": {
+      "en": "Hold onto parallel bars, lean your torso forward, and perform dips to work your chest.",
+      "tr": "Paralel barlara tutun, gövdenizi öne eğin ve göğüs kaslarınızı çalıştırmak için dips yapın.",
+      "el": "Κρατηθείτε από παράλληλες μπάρες, γείρετε τον κορμό μπροστά και κάντε dips για το στήθος.",
+      "ru": "Возьмитесь за брусья, наклоните корпус вперёд и сделайте отжимания для груди."
+    },
+    "machine": "none",
+    "parts": "chest"
+  },
+  {
+    "title": "Close Grip Dumbbell Press",
+    "src": "design/assets/allGifs/Close-Grip-Dumbbell-Press.gif",
+    "alt": "Close Grip Dumbbell Press",
+    "description": {
+      "en": "Lie on a bench, hold the dumbbells close together at your chest, and press upward.",
+      "tr": "Bench’e uzanın, dambilleri göğüs hizasında yakın tutun ve yukarı doğru itin.",
+      "el": "Ξαπλώστε σε πάγκο, κρατήστε τις αλτήρες κοντά στο στήθος και πιέστε προς τα πάνω.",
+      "ru": "Лягте на скамью, держите гантели вместе на груди и выжмите вверх."
+    },
+    "machine": "none",
+    "parts": "chest"
+  },
+  {
+    "title": "Close Grip Z-Bar Curl",
+    "src": "design/assets/allGifs/Close-Grip-Z-Bar-Curl.gif",
+    "alt": "Close Grip Z-Bar Curl",
+    "description": {
+      "en": "Grip the Z-bar with a narrow grip and curl to work your biceps.",
+      "tr": "Z-barı dar tutuşla kavrayın ve bicepslerinizi çalıştırmak için curl yapın.",
+      "el": "Κρατήστε την Z-bar με στενή λαβή και κάντε κάμψεις για τους δικεφάλους.",
+      "ru": "Возьмите Z-штангу узким хватом и выполните сгибание на бицепс."
+    },
+    "machine": "none",
+    "parts": "arms"
+  },
+  {
+    "title": "Concentration Curl",
+    "src": "design/assets/allGifs/Concentration-Curl.gif",
+    "alt": "Concentration Curl",
+    "description": {
+      "en": "Sit down, brace your elbow against your inner thigh, and curl the dumbbell.",
+      "tr": "Oturun, dirseğinizi iç uyluğunuza dayayın ve dambili curl yapın.",
+      "el": "Καθίστε, στηρίξτε τον αγκώνα στον εσωτερικό μηρό και κάντε κάμψη με την αλτήρα.",
+      "ru": "Сядьте, опирая локоть о внутреннюю поверхность бедра, и выполните сгибание гантели."
+    },
+    "machine": "none",
+    "parts": "arms"
+  },
+  {
+    "title": "Cross Crunch",
+    "src": "design/assets/allGifs/Cross-Crunch.gif",
+    "alt": "Cross Crunch",
+    "description": {
+      "en": "Lie on the floor and touch your elbow to the opposite knee to work your obliques.",
+      "tr": "Yere yatın ve dirseğinizi karşı dizinize değdirerek oblik kaslarınızı çalıştırın.",
+      "el": "Ξαπλώστε στο έδαφος και φέρτε τον αγκώνα στο αντίθετο γόνατο για τους λοξούς.",
+      "ru": "Лягте на пол и прикоснитесь локтем к противоположному колену для работы косых мышц."
+    },
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Decline Chest Press Machine",
+    "src": "design/assets/allGifs/Decline-Chest-Press-Machine.gif",
+    "alt": "Decline Chest Press Machine",
+    "description": {
+      "en": "Adjust the decline bench and perform a pressing motion on the machine.",
+      "tr": "Decline bench’i ayarlayın ve makinede pressing hareketi yapın.",
+      "el": "Ρυθμίστε τον μειωμένο πάγκο και κάντε κίνηση πιέσεως στη μηχανή.",
+      "ru": "Настройте скамью под отрицательным углом и выполните жим на тренажёре."
+    },
+    "machine": "chest-hammer",
+    "parts": "chest"
+  },
+  {
+    "title": "Double Arm Dumbbell Curl",
+    "src": "design/assets/allGifs/Double-Arm-Dumbbell-Curl.gif",
+    "alt": "Double Arm Dumbbell Curl",
+    "description": {
+      "en": "Stand and curl two dumbbells with palms facing forward, then lower them.",
+      "tr": "Ayakta durun, avuç içleriniz öne bakacak şekilde iki dambili curl yapın ve indirin.",
+      "el": "Σταθείτε όρθιοι, με τις παλάμες προς τα εμπρός κάντε κάμψεις με δύο αλτήρες και χαμηλώστε.",
+      "ru": "Встаньте и выполните сгибание двух гантелей, ладони вперёд, затем опустите."
+    },
+    "machine": "none",
+    "parts": "arms"
+  },
+  {
+    "title": "Dumbbell Bulgarian Split Squat",
+    "src": "design/assets/allGifs/Dumbbell-Bulgarian-Split-Squat.gif",
+    "alt": "Dumbbell Bulgarian Split Squat",
+    "description": {
+      "en": "With your back foot on a bench, squat down with your front leg.",
+      "tr": "Arka ayağınızı bench’e koyun, ön bacağınızdaki squat yapın.",
+      "el": "Βάλτε το πίσω πόδι σε πάγκο και κάντε καθίσματα με το μπροστινό πόδι.",
+      "ru": "Поставьте заднюю ногу на скамью и выполните присед передней ногой."
+    },
+    "machine": "none",
+    "parts": "legs"
+  },
+  {
+    "title": "Dumbbell Goblet Squat",
+    "src": "design/assets/allGifs/Dumbbell-Goblet-Squat.gif",
+    "alt": "Dumbbell Goblet Squat",
+    "description": {
+      "en": "Hold a dumbbell in front of your chest and perform a squat.",
+      "tr": "Dambili göğüs hizasında tutun ve squat yapın.",
+      "el": "Κρατήστε μια αλτήρα μπροστά στο στήθος και κάντε καθίσματα.",
+      "ru": "Держите гантель перед грудью и выполните присед."
+    },
+    "machine": "none",
+    "parts": "legs"
+  },
+  {
+    "title": "EZ-Bar Lying Close Grip Triceps Extension Behind Head",
+    "src": "design/assets/allGifs/EZ-Bar-Lying-Close-Grip-Triceps-Extension-Behind-Head.gif",
+    "alt": "EZ-Bar Close Grip Triceps Extension Behind Head",
+    "description": {
+      "en": "Lying on a bench, lower the EZ-bar behind your head and press it up to work your triceps.",
+      "tr": "Bench’e uzanın, EZ-barı başınızın arkasına indirin ve trisepslerinizi çalıştırmak için ittirin.",
+      "el": "Ξαπλωμένοι σε πάγκο, χαμηλώστε την EZ-bar πίσω από το κεφάλι και πιέστε για τους τρικεφάλους.",
+      "ru": "Лёжа на скамье, опустите EZ-штангу за голову и выжмите вверх для работы трицепсов."
+    },
+    "machine": "bench",
+    "parts": "arms"
+  },
+  {
+    "title": "Face Pull",
+    "src": "design/assets/allGifs/Face-Pull.gif",
+    "alt": "Face Pull",
+    "description": {
+      "en": "Hold the cable at face level and pull your elbows back to work your rear delts.",
+      "tr": "Kabloyu yüz hizasında tutun ve dirseklerinizi geriye çekerek arka omuz kaslarınızı çalıştırın.",
+      "el": "Κρατήστε το καλώδιο στο ύψος του προσώπου και τραβήξτε τους αγκώνες πίσω για τους οπίσθιους δελτοειδείς.",
+      "ru": "Держите кабель на уровне лица и тяните локти назад для нагрузки задних дельт."
+    },
+    "machine": "cable-machine",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Half Kneeling High Cable Row Rope",
+    "src": "design/assets/allGifs/Half-Kneeling-High-Cable-Row-Rope.gif",
+    "alt": "Half Kneeling High Cable Row Rope",
+    "description": {
+      "en": "Kneel on one knee and pull the cable toward you to work your back.",
+      "tr": "Bir dizinizin üzerinde diz çökün ve kabloyu kendinize doğru çekerek sırt kaslarınızı çalıştırın.",
+      "el": "Γονατίστε με ένα γόνατο και τραβήξτε το καλώδιο προς το μέρος σας για την πλάτη.",
+      "ru": "Встаньте на одно колено и тяните кабель к себе для нагрузки спины."
+    },
+    "machine": "cable-machine",
+    "parts": "back"
+  },
+  {
+    "title": "Hanging Knee Raises",
+    "src": "design/assets/allGifs/Hanging-Knee-Raises.gif",
+    "alt": "Hanging Knee Raises",
+    "description": {
+      "en": "Hang from a bar and pull your knees up to your chest.",
+      "tr": "Bara asılın ve dizlerinizi göğsünüze doğru çekin.",
+      "el": "Κρεμαστείτε από μπάρα και φέρτε τα γόνατα στο στήθος.",
+      "ru": "Повисните на перекладине и подтяните колени к груди."
+    },
+    "machine": "pull-up-bar",
+    "parts": "abs"
+  },
+  {
+    "title": "Incline Push Up",
+    "src": "design/assets/allGifs/Incline-Push-Up.gif",
+    "alt": "Incline Push Up",
+    "description": {
+      "en": "With your hands on an elevated surface, perform push-ups to work your chest.",
+      "tr": "Ellerinizi yükseltilmiş bir zemine koyarak göğüs kaslarınızı çalıştırmak için şınav çekin.",
+      "el": "Τοποθετήστε τα χέρια σε ανυψωμένη επιφάνεια και κάντε push-ups για το στήθος.",
+      "ru": "Положите руки на возвышенную поверхность и выполните отжимания для груди."
+    },
+    "machine": "none",
+    "parts": "chest"
+  },
+  {
+    "title": "Kneeling Push-up",
+    "src": "design/assets/allGifs/Kneeling-Push-up.gif",
+    "alt": "Kneeling Push-up",
+    "description": {
+      "en": "With your knees on the ground, perform push-ups to work your upper body.",
+      "tr": "Dizleriniz yere değecek şekilde gövde kaslarınızı çalıştırmak için şınav çekin.",
+      "el": "Με τα γόνατα στο έδαφος, κάντε push-up για το άνω σώμα.",
+      "ru": "С колен на полу выполните отжимания для верхней части тела."
+    },
+    "machine": "none",
+    "parts": "chest"
+  },
+  {
+    "title": "Leg Raise Dragon Flag",
+    "src": "design/assets/allGifs/Leg-Raise-Dragon-Flag.gif",
+    "alt": "Leg Raise Dragon Flag",
+    "description": {
+      "en": "Lie on a bench, keep your body straight, and lift your legs upward.",
+      "tr": "Bench’e uzanın, vücudunuzu düz tutun ve bacaklarınızı yukarı kaldırın.",
+      "el": "Ξαπλώστε σε πάγκο, κρατήστε το σώμα ίσιο και σηκώστε τα πόδια πάνω.",
+      "ru": "Лягте на скамью, держите тело ровно и поднимите ноги вверх."
+    },
+    "machine": "bench",
+    "parts": "abs"
+  },
+  {
+    "title": "Lever Shoulder Press",
+    "src": "design/assets/allGifs/Lever-Shoulder-Press.gif",
+    "alt": "Lever Shoulder Press",
+    "description": {
+      "en": "On the machine, press the lever arms upward to work your shoulders.",
+      "tr": "Makinede kolları yukarı bastırarak omuzlarınızı çalıştırın.",
+      "el": "Στον μηχανισμό, πιέστε τους μοχλούς προς τα πάνω για τους ώμους.",
+      "ru": "На тренажёре выжмите рычаги вверх для нагрузки плеч."
+    },
+    "machine": "shoulder-press-machine",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Lever Side Hip Abduction",
+    "src": "design/assets/allGifs/Lever-Side-Hip-Abduction.gif",
+    "alt": "Lever Side Hip Abduction",
+    "description": {
+      "en": "On the machine, lift your leg to the side to work your outer glutes.",
+      "tr": "Makinede bacağınızı yana kaldırarak dış kalça kaslarınızı çalıştırın.",
+      "el": "Στον μηχανισμό, σηκώστε το πόδι πλάγια για τους έξω γλουτιαίους.",
+      "ru": "На тренажёре поднимите ногу в сторону для нагрузки наружных ягодиц."
+    },
+    "machine": "hip-abduction-machine",
+    "parts": "glutes"
+  },
+  {
+    "title": "Lever Standing Leg Raise",
+    "src": "design/assets/allGifs/Lever-Standing-Leg-Raise.gif",
+    "alt": "Lever Standing Leg Raise",
+    "description": {
+      "en": "On the machine, lift your leg forward to work your abs.",
+      "tr": "Makinede bacağınızı öne kaldırarak karın kaslarınızı çalıştırın.",
+      "el": "Στον μηχανισμό, σηκώστε το πόδι μπροστά για τους κοιλιακούς.",
+      "ru": "На тренажёре поднимите ногу вперёд для нагрузки пресса."
+    },
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Low Cable Crossover",
+    "src": "design/assets/allGifs/Low-Cable-Cross-over.gif",
+    "alt": "Low Cable Crossover",
+    "description": {
+      "en": "Hold the cables from below, cross them in front of you, and squeeze your chest.",
+      "tr": "Kabları alttan tutun, önünüzde çaprazlayın ve göğüs kaslarınızı sıkın.",
+      "el": "Κρατήστε τα καλώδια από κάτω, διασταυρώστε τα μπροστά και σφίξτε το στήθος.",
+      "ru": "Держите кабели снизу, скрестите их перед собой и напрягите грудь."
+    },
+    "machine": "cable-machine",
+    "parts": "chest"
+  },
+  {
+    "title": "Lying Leg Raise",
+    "src": "design/assets/allGifs/Lying-Leg-Raise.gif",
+    "alt": "Lying Leg Raise",
+    "description": {
+      "en": "Lie on your back and lift your legs straight up and down.",
+      "tr": "Sırt üstü uzanın ve bacaklarınızı düz şekilde yukarı-aşağı kaldırın.",
+      "el": "Ξαπλώστε ανάσκελα και σηκώστε τα πόδια ευθύγραμμα πάνω-κάτω.",
+      "ru": "Лягте на спину и поднимайте ноги прямо вверх-вниз."
+    },
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "One Arm Lying Triceps Extension",
+    "src": "design/assets/allGifs/One-Arm-Lying-Triceps-Extension.gif",
+    "alt": "One Arm Lying Triceps Extension",
+    "description": {
+      "en": "Lying on a bench, extend a dumbbell overhead with one arm to work your triceps.",
+      "tr": "Bench’e uzanın ve bir kolunuzla dambili başınızın üzerine uzatarak trisepslerinizi çalıştırın.",
+      "el": "Ξαπλωμένοι σε πάγκο, τεντώστε μια αλτήρα πάνω από το κεφάλι με ένα χέρι για τρικεφάλους.",
+      "ru": "Лёжа на скамье, выжмите гантель одной рукой над головой для трицепса."
+    },
+    "machine": "bench",
+    "parts": "arms"
+  },
+  {
+    "title": "Overhead Cable Curl",
+    "src": "design/assets/allGifs/overhead-cable-curl.gif",
+    "alt": "Overhead Cable Curl",
+    "description": {
+      "en": "Hold the cable overhead with palms up and curl to work your biceps.",
+      "tr": "Kabloyu başınızın üzerinde avuç içleriniz yukarı bakacak şekilde tutun ve bicepslerinizi çalıştırmak için curl yapın.",
+      "el": "Κρατήστε το καλώδιο πάνω από το κεφάλι με τις παλάμες προς τα πάνω και κάντε κάμψεις για δικεφάλους.",
+      "ru": "Держите кабель над головой ладонями вверх и выполните сгибание на бицепс."
+    },
+    "machine": "cable-machine",
+    "parts": "arms"
+  },
+  {
+    "title": "Plank",
+    "src": "design/assets/allGifs/plank.gif",
+    "alt": "Plank",
+    "description": {
+      "en": "Hold your body straight, supported on your elbows and toes, to engage your core.",
+      "tr": "Dirsekleriniz ve ayak parmaklarınız üzerinde vücudunuzu düz tutarak core kaslarınızı çalıştırın.",
+      "el": "Κρατήστε το σώμα ίσιο στηριζόμενο σε αγκώνες και δάχτυλα ποδιών για τον κορμό.",
+      "ru": "Держите тело прямо, опёршись на локти и носки, чтобы напрячь корпус."
+    },
+    "machine": "none",
+    "parts": "core"
+  },
+  {
+    "title": "Reverse Grip Pushdown",
+    "src": "design/assets/allGifs/Reverse-Grip-Pushdown.gif",
+    "alt": "Reverse Grip Pushdown",
+    "description": {
+      "en": "Grip the cable with a reverse grip and push down to work your triceps.",
+      "tr": "Kabloyu ters tutuşla kavrayın ve trisepslerinizi çalıştırmak için aşağı itin.",
+      "el": "Κρατήστε το καλώδιο με ανάποδη λαβή και πιέστε προς τα κάτω για τρικεφάλους.",
+      "ru": "Возьмите кабель обратным хватом и опустите вниз для нагрузки трицепсов."
+    },
+    "machine": "cable-machine",
+    "parts": "arms"
+  },
+  {
+    "title": "Seated Bench Leg Pull-in",
+    "src": "design/assets/allGifs/Seated-Bench-Leg-Pull-in.gif",
+    "alt": "Seated Bench Leg Pull-in",
+    "description": {
+      "en": "Sit on a bench and pull your knees toward your chest to work your lower abs.",
+      "tr": "Bench’e oturun ve dizlerinizi göğsünüze doğru çekerek alt karın kaslarınızı çalıştırın.",
+      "el": "Κάθισε σε πάγκο και τραβήξτε τα γόνατα προς το στήθος για κάτω κοιλιακούς.",
+      "ru": "Сядьте на скамью и подтяните колени к груди для нагрузки нижнего пресса."
+    },
+    "machine": "bench",
+    "parts": "abs"
+  },
+  {
+    "title": "Seated Zottman Curl",
+    "src": "design/assets/allGifs/Seated-Zottman-Curl.gif",
+    "alt": "Seated Zottman Curl",
+    "description": {
+      "en": "Sit, curl the dumbbells with palms up, rotate at the top, and lower with palms down.",
+      "tr": "Oturun, dambilleri avuç içleriniz yukarı bakacak şekilde curl yapın, üstte rotasyon yapın ve avuç içleriniz aşağı bakacak şekilde indirin.",
+      "el": "Κάθισε, κάνε κάμψεις με παλάμες προς τα πάνω, περιστρέψου στην κορυφή και χαμήλωσε με παλάμες προς τα κάτω.",
+      "ru": "Сядьте, выполните сгибание гантелей ладонями вверх, вверху поверните и опустите ладонями вниз."
+    },
+    "machine": "none",
+    "parts": "arms"
+  },
+  {
+    "title": "Sled Hack Squat",
+    "src": "design/assets/allGifs/Sled-Hack-Squat.gif",
+    "alt": "Sled Hack Squat",
+    "description": {
+      "en": "On the hack squat sled, perform a squat to work your quadriceps.",
+      "tr": "Hack squat sled’inde squat yaparak kuadrisepslerinizi çalıştırın.",
+      "el": "Στον sled hack squat, κάντε καθίσματα για τους τετρακέφαλους.",
+      "ru": "На sled hack squat выполните присед для нагрузки квадрицепсов."
+    },
+    "machine": "hack-squat-machine",
+    "parts": "legs"
+  },
+  {
+    "title": "Smith Machine Hex Press",
+    "src": "design/assets/allGifs/Smith-Machine-Hex-Press.gif",
+    "alt": "Smith Machine Hex Press",
+    "description": {
+      "en": "On the Smith machine, perform a bench press with a hex bar.",
+      "tr": "Smith machine üzerinde altıgen bar ile bench press yapın.",
+      "el": "Στον Smith machine, κάντε bench press με εξάγωνη μπάρα.",
+      "ru": "На Smith machine выполните жим лёжа шестиугольной штангой."
+    },
+    "machine": "smith-machine",
+    "parts": "chest"
+  },
+  {
+    "title": "Smith Machine Incline Bench Press",
+    "src": "design/assets/allGifs/Smith-Machine-Incline-Bench-Press.gif",
+    "alt": "Smith Machine Incline Bench Press",
+    "description": {
+      "en": "On the Smith machine, perform a bench press at an incline angle.",
+      "tr": "Smith machine üzerinde eğimli bench press yapın.",
+      "el": "Στον Smith machine, κάντε bench press σε κεκλιμένη θέση.",
+      "ru": "На Smith machine выполните жим лёжа под углом."
+    },
+    "machine": "smith-machine",
+    "parts": "chest"
+  },
+  {
+    "title": "Smith Machine Leg Press",
+    "src": "design/assets/allGifs/Smith-Machine-Leg-Press.gif",
+    "alt": "Smith Machine Leg Press",
+    "description": {
+      "en": "On the Smith machine, press the platform to work your leg muscles.",
+      "tr": "Smith machine üzerinde platformu press ederek bacak kaslarınızı çalıştırın.",
+      "el": "Στον Smith machine, πιέστε την πλατφόρμα για τα πόδια.",
+      "ru": "На Smith machine нажмите платформу для нагрузки мышц ног."
+    },
+    "machine": "smith-machine",
+    "parts": "legs"
+  },
+  {
+    "title": "Smith Machine Squat",
+    "src": "design/assets/allGifs/smith-machine-squat.gif",
+    "alt": "Smith Machine Squat",
+    "description": {
+      "en": "On the Smith machine, hold the bar at shoulder height and perform a squat.",
+      "tr": "Smith machine üzerinde barı omuz hizasında tutun ve squat yapın.",
+      "el": "Στον Smith machine, κρατήστε τη μπάρα στο ύψος των ώμων και κάντε καθίσματα.",
+      "ru": "На Smith machine держите штангу на уровне плеч и выполните присед."
+    },
+    "machine": "smith-machine",
+    "parts": "legs"
+  },
+  {
+    "title": "Standing Barbell Close Grip Military Press",
+    "src": "design/assets/allGifs/Standing-Barbell-Close-Grip-Military-Press.gif",
+    "alt": "Standing Barbell Close Grip Military Press",
+    "description": {
+      "en": "Stand and press the barbell overhead with a close grip from shoulder height.",
+      "tr": "Ayakta durun ve omuz hizasından dar tutuşla barı başınızın üzerine itin.",
+      "el": "Σταθείτε και πιέστε τη μπάρα πάνω από το κεφάλι με στενή λαβή στο ύψος των ώμων.",
+      "ru": "Встаньте и выжмите штангу над головой узким хватом от уровня плеч."
+    },
+    "machine": "barbell",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Teaser Pilates",
+    "src": "design/assets/allGifs/Teaser-Pilates.gif",
+    "alt": "Teaser Pilates",
+    "description": {
+      "en": "On a Pilates mat, hold a V position to contract your abdominal muscles.",
+      "tr": "Pilates matında V pozisyonu alarak karın kaslarınızı sıkın.",
+      "el": "Σε στρώμα Pilates, κρατήστε σχήμα V για τους κοιλιακούς.",
+      "ru": "На мате для пилатеса удерживайте положение V, напрягая пресс."
+    },
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Triceps Dips",
+    "src": "design/assets/allGifs/Triceps-Dips.gif",
+    "alt": "Triceps Dips",
+    "description": {
+      "en": "On parallel bars, bend your arms to lower your body and work your triceps.",
+      "tr": "Paralel barlarda kollarınızı bükerek vücudunuzu aşağı indirin ve trisepslerinizi çalıştırın.",
+      "el": "Σε παράλληλες μπάρες, λυγίστε τα χέρια για να κατεβάσετε το σώμα και να δουλέψετε τους τρικεφάλους.",
+      "ru": "На брусьях согните руки, опустите тело и нагрузите трицепсы."
+    },
+    "machine": "dip-station",
+    "parts": "arms"
+  },
+  {
+    "title": "Triceps Dips on Floor",
+    "src": "design/assets/allGifs/Triceps-Dips-on-Floor.gif",
+    "alt": "Triceps Dips on Floor",
+    "description": {
+      "en": "Sit on the floor, lift your body with your hands, and work your triceps.",
+      "tr": "Yere oturun, ellerinizle vücudunuzu yukarı itin ve trisepslerinizi çalıştırın.",
+      "el": "Καθίστε στο πάτωμα, σηκώστε το σώμα με τα χέρια και δουλέψτε τους τρικεφάλους.",
+      "ru": "Сядьте на пол, поднимитесь руками и нагрузите трицепсы."
+    },
+    "machine": "none",
+    "parts": "arms"
+  },
+  {
+    "title": "Tuck Crunch",
+    "src": "design/assets/allGifs/Tuck-Crunch.gif",
+    "alt": "Tuck Crunch",
+    "description": {
+      "en": "Lie on your back, pull your knees toward your chest, and contract your abs.",
+      "tr": "Sırt üstü uzanın, dizlerinizi göğsünüze çekin ve karın kaslarınızı sıkın.",
+      "el": "Ξαπλώστε ανάσκελα, τραβήξτε τα γόνατα στο στήθος και σφίξτε τους κοιλιακούς.",
+      "ru": "Лягте на спину, подтяните колени к груди и напрягите пресс."
+    },
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Two Arm Cable Front Raise",
+    "src": "design/assets/allGifs/Two-Arm-Cable-Front-Raise.gif",
+    "alt": "Two Arm Cable Front Raise",
+    "description": {
+      "en": "Hold the cable with both hands, palms down, and raise it in front of you.",
+      "tr": "Kabloyu her iki elinizle, avuç içleri aşağı bakacak şekilde tutun ve önünüzde kaldırın.",
+      "el": "Κρατήστε το καλώδιο με τα δύο χέρια, παλάμες προς τα κάτω, και σηκώστε μπροστά σας.",
+      "ru": "Держите кабель обеими руками, ладони вниз, и поднимите перед собой."
+    },
+    "machine": "cable-machine",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Waiter Curl",
+    "src": "design/assets/allGifs/waiter-curl.gif",
+    "alt": "Waiter Curl",
+    "description": {
+      "en": "Hold the dumbbell overhead and perform a curl to work your shoulders and biceps.",
+      "tr": "Dambili başınızın üzerinde tutun ve omuzlarınızı ile bicepslerinizi çalıştırmak için curl yapın.",
+      "el": "Κρατήστε την αλτήρα πάνω από το κεφάλι και κάντε κάμψη για ώμους και δικεφάλους.",
+      "ru": "Держите гантель над головой и выполните сгибание для плеч и бицепсов."
+    },
+    "machine": "none",
+    "parts": "arms"
+  },
+  {
+    "title": "Weighted Crunch",
+    "src": "design/assets/allGifs/Weighted-Crunch.gif",
+    "alt": "Weighted Crunch",
+    "description": {
+      "en": "Place a weight on your chest and perform a crunch.",
+      "tr": "Göğsünüzün üzerine ağırlık koyun ve crunch yapın.",
+      "el": "Τοποθετήστε βάρος στο στήθος και κάντε crunch.",
+      "ru": "Положите вес на грудь и выполните скручивание."
+    },
+    "machine": "none",
+    "parts": "abs"
+  },
+  {
+    "title": "Weighted Front Raise",
+    "src": "design/assets/allGifs/Weighted-Front-Raise.gif",
+    "alt": "Weighted Front Raise",
+    "description": {
+      "en": "Lift the dumbbells in front of you to work your front shoulder muscles.",
+      "tr": "Dambilleri önünüzde kaldırarak ön omuz kaslarınızı çalıştırın.",
+      "el": "Σηκώστε τις αλτήρες μπροστά σας για τους πρόσθιους δελτοειδείς.",
+      "ru": "Поднимайте гантели перед собой для нагрузки передних дельт."
+    },
+    "machine": "none",
+    "parts": "shoulder"
+  },
+  {
+    "title": "Z-Bar Preacher Curl",
+    "src": "design/assets/allGifs/Z-Bar-Preacher-Curl.gif",
+    "alt": "Z-Bar Preacher Curl",
+    "description": {
+      "en": "Lean against the preacher bench and perform a curl with the Z-bar.",
+      "tr": "Preacher bench’e yaslanın ve Z-bar ile curl yapın.",
+      "el": "Γείρετε στον preacher πάγκο και κάντε κάμψη με Z-bar.",
+      "ru": "Опирайтесь на preacher bench и выполните сгибание Z-штангой."
+    },
+    "machine": "preacher-curl-machine",
+    "parts": "arms"
+  }
+]
