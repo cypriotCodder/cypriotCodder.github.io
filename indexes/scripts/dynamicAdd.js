@@ -2,6 +2,8 @@
 // Description: This script dynamically adds exercise GIFs to the machine display page  
 // Author: Nedim Can Huray
 
+import bodyPartsSideBarToggle from './main.js';
+
 //<<<<<<<<<<<<<<<<<<<<<<__Functions__>>>>>>>>>>>>>>>>>>>>
 // This script dynamically adds exercise GIFs to the machine display page
 function initExercises(machine, exercises) {
@@ -49,6 +51,8 @@ function bodypartsExercises(bPart, exercises){
                 `);
                 console.log(`Added exercise: ${ex.machine} - ${ex.title} - ${ex.src}`);
                 console.log(`part: ${ex.part}`)
+                if(window.innerWidth <= 768)
+                   bodyPartsSideBarToggle()
         }
     });
 }
@@ -105,6 +109,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     const key = part.dataset.part;
                     window.location.href = `training.html?part=${encodeURIComponent(key)}`;
                     console.log(`${key} clicked`);
+                    if(window.innerWidth <= 768)
+                        bodyPartsSideBarToggle();
                 })
             })
         }

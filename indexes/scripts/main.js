@@ -21,7 +21,7 @@ function toggleOff(element, gifSections){
 }
 
 //side bar toggle function
-function bodyPartsSideBarToggle() {
+export default function bodyPartsSideBarToggle() {
   const coll = document.querySelector('.sidebar');
   const title = coll.querySelector('.sidebar__title');
 

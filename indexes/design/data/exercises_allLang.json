@@ -13,6 +13,19 @@
     "parts": "glutes"
   },
   {
+    "title": "Leg Extension",
+    "src": "design/assets/allGifs/leg_extension.gif",
+    "alt": "Leg Extension",
+    "description": {
+      "en": "Sit, place the pad on your ankles, extend your knees, and squeeze your quadriceps.",
+      "tr": "Oturun, pedi ayak bileklerinize yerleştirin, dizlerinizi düzleştirerek quadriceps kaslarınızı sıkın.",
+      "el": "Καθίστε, τοποθετήστε το μαξιλαράκι στους αστραγάλους σας, εκτείνετε τα γόνατα και σφίξτε τους τετρακέφαλους.",
+      "ru": "Сядьте, поместите валики на лодыжки, выпрямите колени и сократите четырехглавые мышцы бедра."
+    },
+    "machine": "leg-extension-machine",
+    "parts": "quads"
+  },
+  {
     "title": "Adduction",
     "src": "design/assets/allGifs/adduction.gif",
     "alt": "Adduction",
@@ -61,7 +74,7 @@
       "el": "Καθίστε με το στήθος ψηλά και τραβήξτε τις λαβές προς το μέσο του σώματος, σφίγγοντας τις ωμοπλάτες.",
       "ru": "Сядьте с выпрямленной грудью и тяните рукояти к середине тела, сводя лопатки."
     },
-    "machine": "cable-row-machine",
+    "machine": "seated-row-machine",
     "parts": "back"
   },
   {
@@ -221,6 +234,19 @@
     "parts": "shoulder"
   },
   {
+    "title": "Rear Delt Fly",
+    "src": "design/assets/allGifs/rearDeltFly.gif",
+    "alt": "Rear Delt Fly",
+    "description": {
+      "en": "Lean forward, open your arms out to the sides, squeeze your rear delts, and return to start.",
+      "tr": "Öne eğilin, kollarınızı yana doğru açın, arka omuz (arka deltoid) kaslarınızı sıkarak başlangıç pozisyonuna dönün.",
+      "el": "Κλίνετε το σώμα προς τα εμπρός, ανοίξτε τα χέρια σας πλάγια, σφίξτε τους οπίσθιους δελτοειδείς και επιστρέψτε στην αρχική θέση.",
+      "ru": "Наклонитесь вперед, разведите руки в стороны, напрягите задние дельтовидные мышцы и вернитесь в исходное положение."
+    },
+    "machine": "pec-deck",
+    "parts": "shoulders"
+  },
+  {
     "title": "Barbell Reverse Wrist Curl",
     "src": "design/assets/allGifs/Barbell-Reverse-Wrist-Curl.gif",
     "alt": "Barbell Reverse Wrist Curl",
@@ -232,6 +258,45 @@
     },
     "machine": "barbell",
     "parts": "forearm"
+  },
+  {
+    "title": "Smith Shoulder Press",
+    "src": "design/assets/allGifs/smith_shoulderPress.gif",
+    "alt": "Smith Shoulder Press",
+    "description": {
+      "en": "Seated in the Smith machine, press the bar upward from shoulder level and lower it under control.",
+      "tr": "Smith makinesinde oturarak çubuğu omuz hizasından yukarı itin ve kontrollü şekilde indirin.",
+      "el": "Καθίστε στο Smith machine, πιέστε τη μπάρα προς τα πάνω από το ύψος των ώμων και χαμηλώστε την ελεγχόμενα.",
+      "ru": "Сидя в тренажёре Smith, поднимите штангу над плечами и опустите её под контролем."
+    },
+    "machine": "smith-machine",
+    "parts": "shoulders"
+  },
+  {
+    "title": "Cable Frontal Raises",
+    "src": "design/assets/allGifs/cable_frontalRises.gif",
+    "alt": "Cable Frontal Raises",
+    "description": {
+      "en": "Stand, hold the cable handle at hip level, raise your arms straight in front to shoulder height, then lower under control.",
+      "tr": "Ayakta durun, kablo tutamacını kalça hizasında tutarak kollarınızı öne omuz hizasına kadar kaldırın ve kontrollü şekilde indirin.",
+      "el": "Σταθείτε όρθιοι, κρατήστε τη λαβή του καλωδίου στο ύψος των γοφών, σηκώστε τα χέρια ευθεία μπροστά στο ύψος των ώμων και χαμηλώστε ελεγχόμενα.",
+      "ru": "Встаньте, держите ручку троса на уровне бёдер, поднимите руки прямо перед собой до уровня плеч и опустите под контролем."
+    },
+    "machine": "cable-machine",
+    "parts": "shoulders"
+  },
+  {
+    "title": "Smith Rear Delt Press",
+    "src": "design/assets/allGifs/smith_rearDeltPress.gif",
+    "alt": "Smith Rear Delt Press",
+    "description": {
+      "en": "Seated in the Smith machine, press the bar upward behind your head, focusing on your rear delts, then lower under control.",
+      "tr": "Smith makinesinde oturarak çubuğu başınızın arkasından yukarı itin, arka deltoid kaslarınızı hedefleyin ve kontrollü şekilde indirin.",
+      "el": "Καθίστε στο Smith machine, πιέστε τη μπάρα πίσω από το κεφάλι σας, εστιάζοντας στους οπίσθιους δελτοειδείς, και χαμηλώστε ελεγχόμενα.",
+      "ru": "Сядьте в тренажёр Smith, поднимите штангу за голову, концентрируясь на задних дельтах, и опустите под контролем."
+    },
+    "machine": "smith-machine",
+    "parts": "shoulders"
   },
   {
     "title": "Barbell Standing Military Press",
@@ -612,7 +677,7 @@
   },
   {
     "title": "Low Cable Crossover",
-    "src": "design/assets/allGifs/Low-Cable-Cross-over.gif",
+    "src": "design/assets/allGifs/Low-Cable-Crossover.gif",
     "alt": "Low Cable Crossover",
     "description": {
       "en": "Hold the cables from below, cross them in front of you, and squeeze your chest.",

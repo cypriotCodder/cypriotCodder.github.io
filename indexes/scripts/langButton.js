@@ -9,7 +9,7 @@
 
 //fetch the language from json file
 let TRANSLATIONS = {};
-savedLang = localStorage.getItem('language') || 'tr'; // Default to Turkish
+let savedLang = localStorage.getItem('language') || 'tr'; // Default to Turkish
 
 fetch('./design/data/translations.json')
   .then(response => response.json())
