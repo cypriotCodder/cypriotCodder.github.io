@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tekin Adali Spor | Ana Sayfa</title>
+  <title>Tekin Adali Spor</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -32,49 +32,51 @@
   </header>
 
   <!-- ===== PROGRAMS SECTION ===== -->
-  <main>
-    <section id="programs">
-      <h2 style="text-align:center; margin:2rem 0;">Program Seviyeleri</h2>
+  <section id="programs">
+    <h2 style="text-align:center; margin:2rem 0;">Program Seviyeleri</h2>
 
-      <div class="level-selector">
-        <button data-level="beginner" class="active">Başlangıç</button>
-        <button data-level="intermediate">Orta</button>
-        <button data-level="advanced">İleri</button>
+    <div class="level-selector">
+      <button data-level="beginner" class="active">Başlangıç</button>
+      <button data-level="intermediate">Orta</button>
+      <button data-level="advanced">İleri</button>
+    </div>
+
+    <div class="programs-grid">
+      <!-- Beginner Programs -->
+      <div class="program-card" data-level="beginner">
+        <h3>Kilo Verme Başlangıç</h3>
+        <p>Yavaş tempolu egzersizler ve temel hareketlerle form kazanın.</p>
+      </div>
+      <div class="program-card" data-level="beginner">
+        <h3>Temel Kuvvet</h3>
+        <p>Vücut ağırlığı ve hafif ağırlıklarla temel güç kazanımı.</p>
       </div>
 
-      <div class="programs-grid">
-        <!-- Beginner Programs -->
-        <div class="program-card" data-level="beginner">
-          <h3>Kilo Verme Başlangıç</h3>
-          <p>Yavaş tempolu egzersizler ve temel hareketlerle form kazanın.</p>
-        </div>
-        <div class="program-card" data-level="beginner">
-          <h3>Temel Kuvvet</h3>
-          <p>Vücut ağırlığı ve hafif ağırlıklarla temel güç kazanımı.</p>
-        </div>
-
-        <!-- Intermediate Programs -->
-        <div class="program-card" data-level="intermediate">
-          <h3>Kas Hacim Orta</h3>
-          <p>Orta seviye ağırlık ve set/tekrar düzeni ile kas kütlesi artırma.</p>
-        </div>
-        <div class="program-card" data-level="intermediate">
-          <h3>Kardiyo Dayanıklılık</h3>
-          <p>Koşu, bisiklet ve interval antrenmanlarla dayanıklılığınızı geliştirin.</p>
-        </div>
-
-        <!-- Advanced Programs -->
-        <div class="program-card" data-level="advanced">
-          <h3>Güç ve Patlayıcılık</h3>
-          <p>Deadlift, squat ve olimpik kaldırışlarla maksimum güç üretin.</p>
-        </div>
-        <div class="program-card" data-level="advanced">
-          <h3>İleri HIIT</h3>
-          <p>Yüksek tempolu interval protokollerle metabolizmanızı zirveye taşıyın.</p>
-        </div>
+      <!-- Intermediate Programs -->
+      <div class="program-card" data-level="intermediate">
+        <h3>Kas Hacim Orta</h3>
+        <p>Orta seviye ağırlık ve set/tekrar düzeni ile kas kütlesi artırma.</p>
       </div>
-    </section>
-  </main>
+      <div class="program-card" data-level="intermediate">
+        <h3>Kardiyo Dayanıklılık</h3>
+        <p>Koşu, bisiklet ve interval antrenmanlarla dayanıklılığınızı geliştirin.</p>
+      </div>
+
+      <!-- Advanced Programs -->
+      <div class="program-card" data-level="advanced">
+        <h3>Güç ve Patlayıcılık</h3>
+        <p>Deadlift, squat ve olimpik kaldırışlarla maksimum güç üretin.</p>
+      </div>
+      <div class="program-card" data-level="advanced">
+        <h3>İleri HIIT</h3>
+        <p>Yüksek tempolu interval protokollerle metabolizmanızı zirveye taşıyın.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="filler">
+    
+  </section>
 
   <footer>
     <p>&copy; 2025 Tekin Adalı Spor Tesisi, AL-BEL LTD. All rights reserved.</p>
@@ -91,6 +93,7 @@
   <script>
     // Level‐filter logic
     document.querySelectorAll('.level-selector button').forEach(btn=>{
+      btn.classList.remove('active');
       btn.addEventListener('click',()=>{
         // highlight active button
         document.querySelectorAll('.level-selector button')

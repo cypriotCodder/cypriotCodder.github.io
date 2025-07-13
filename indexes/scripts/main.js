@@ -36,7 +36,7 @@ window.addEventListener('DOMContentLoaded', () => {
   //buttons
   const strength = document.getElementById('strength');
   const backbtn  = document.getElementById('backbtn');
-  const programs = document.getElementById('programs');
+  const programs = document.getElementById('programme');
 
   if (strength) {
     strength.addEventListener('click', () => {
