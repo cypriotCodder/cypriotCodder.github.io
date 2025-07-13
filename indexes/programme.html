@@ -11,57 +11,99 @@
 </head>
 <body>
   
-  <div class="page-wrapper">
-    
-  <!-- ← Sidebar -->
-    <aside class="sidebar">
-      <br>
-      <br>
-      <h2 class="sidebar__title">Bölgeler</h2>
-      <ul class="sidebar__list">
-        <li><a id="backPart"        href="#backGifs"      class="sidebar__link">Sırt</a></li>
-          <li><a id="chestPart"     href="#chestGifs"     class="sidebar__link">Göğüs</a></li>
-          <li><a id="armsPart"      href="#armGifs"       class="sidebar__link">Kol</a></li>
-          <li><a id="shoulderPart"  href="#backGifs"      class="sidebar__link">Omuz</a></li>
-          <li><a id="legsPart"      href="#backGifs"      class="sidebar__link">Bacak</a></li>
-          <li><a id="glutePart"     href="#backGifs"      class="sidebar__link">Kalça</a></li>
-          <li><a id="absPart"       href="#backGifs"      class="sidebar__link">Karın</a></li>
-          <li><a id="cardioPart"    href="#backGifs"      class="sidebar__link">Kardiyo</a></li>
-      </ul>
-    </aside>
-
-    <!-- → Your existing content -->
-    <main class="main-content">
-
-      <header>
-        <div class="nav-container">
-          <div class="logo">Tekin Adalı Spor Tesisi</div>
-          <nav>
-            <ul class="nav-links">
-              <li><a href="home.html">Ana Sayfa</a></li>
-              <li><a href="home.html#programs">Programlar</a></li>
-              <li><a href="#trainers">Trainers</a></li>
-              <li><a href="#contacts">İletişim</a></li>
-            </ul>
-            <a id="nav_icon" class="nav-toggle">☰</a>
-          </nav>
+  <!-- ===== HEADER / NAV ===== -->
+  <header>
+    <div class="nav-container">
+      <nav>
+        <div class="logo">
+          <img class="TAlogo" src="design/logo/logo.png" alt="TA Spor Tesisi"/>
         </div>
-      </header>
-    <section class="hero">
-        
+        <a id="nav_icon" class="nav-toggle">☰</a>
+        <ul class="nav-links">
+          <li><a href="home.html">Ana Sayfa</a></li>
+          <li><a href="programs.html" class="active">Programlar</a></li>
+          <li><a href="machines.html">Aletler</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+        <!-- language switcher omitted for brevity -->
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== PROGRAMS SECTION ===== -->
+  <main>
+    <section id="programs">
+      <h2 style="text-align:center; margin:2rem 0;">Program Seviyeleri</h2>
+
+      <div class="level-selector">
+        <button data-level="beginner" class="active">Başlangıç</button>
+        <button data-level="intermediate">Orta</button>
+        <button data-level="advanced">İleri</button>
+      </div>
+
+      <div class="programs-grid">
+        <!-- Beginner Programs -->
+        <div class="program-card" data-level="beginner">
+          <h3>Kilo Verme Başlangıç</h3>
+          <p>Yavaş tempolu egzersizler ve temel hareketlerle form kazanın.</p>
+        </div>
+        <div class="program-card" data-level="beginner">
+          <h3>Temel Kuvvet</h3>
+          <p>Vücut ağırlığı ve hafif ağırlıklarla temel güç kazanımı.</p>
+        </div>
+
+        <!-- Intermediate Programs -->
+        <div class="program-card" data-level="intermediate">
+          <h3>Kas Hacim Orta</h3>
+          <p>Orta seviye ağırlık ve set/tekrar düzeni ile kas kütlesi artırma.</p>
+        </div>
+        <div class="program-card" data-level="intermediate">
+          <h3>Kardiyo Dayanıklılık</h3>
+          <p>Koşu, bisiklet ve interval antrenmanlarla dayanıklılığınızı geliştirin.</p>
+        </div>
+
+        <!-- Advanced Programs -->
+        <div class="program-card" data-level="advanced">
+          <h3>Güç ve Patlayıcılık</h3>
+          <p>Deadlift, squat ve olimpik kaldırışlarla maksimum güç üretin.</p>
+        </div>
+        <div class="program-card" data-level="advanced">
+          <h3>İleri HIIT</h3>
+          <p>Yüksek tempolu interval protokollerle metabolizmanızı zirveye taşıyın.</p>
+        </div>
+      </div>
     </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 Tekin Adalı Spor Tesisi, AL-BEL LTD. All rights reserved.</p>
     <div id="contacts" class="social-links">
-      <a href="#">Facebook</a>
+      <a href="https://www.facebook.com/people/Tekin-Adal%C4%B1-Spor-Tesisi/100091864284132/" rel="noopener" target="_blank">Facebook</a>
       <a href="https://www.instagram.com/tekinadalisporkompleksi" rel="noopener" target="_blank">Instagram</a>
       <a href="#">Twitter</a>
+      <a data-i18n="location" href="location.html#locationContainer">Konum</a>
     </div>
   </footer>
 
   <script type="module" src="scripts/main.js">  </script>
   <script type="module" src="scripts/langButton.js" ></script>
+  <script>
+    // Level‐filter logic
+    document.querySelectorAll('.level-selector button').forEach(btn=>{
+      btn.addEventListener('click',()=>{
+        // highlight active button
+        document.querySelectorAll('.level-selector button')
+                .forEach(b=>b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const lvl = btn.dataset.level;
+        document.querySelectorAll('.program-card').forEach(card=>{
+          card.classList.toggle('hidden', card.dataset.level !== lvl);
+        });
+      });
+    });
+  </script>
 </body>
 </html>
 
