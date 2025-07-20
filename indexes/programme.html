@@ -75,7 +75,7 @@
   </section>
 
   <section class="filler">
-    
+
   </section>
 
   <footer>
@@ -92,6 +92,7 @@
   <script type="module" src="scripts/langButton.js" ></script>
   <script>
     // Level‐filter logic
+    let flag = false;
     document.querySelectorAll('.level-selector button').forEach(btn=>{
       btn.classList.remove('active');
       btn.addEventListener('click',()=>{
@@ -100,6 +101,14 @@
                 .forEach(b=>b.classList.remove('active'));
         btn.classList.add('active');
 
+        if(btn.classList.contains('active')){
+          const lvl = btn.dataset.level;
+          document.querySelectorAll('.program-card').forEach(card=>{
+          card.classList.toggle('hidden', card.dataset.level == lvl);
+        });
+        }
+
+        // filter program cards
         const lvl = btn.dataset.level;
         document.querySelectorAll('.program-card').forEach(card=>{
           card.classList.toggle('hidden', card.dataset.level !== lvl);
