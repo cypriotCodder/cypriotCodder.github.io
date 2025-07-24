@@ -973,5 +973,18 @@
     },
     "machine": "preacher-curl-machine",
     "parts": "arms"
+  },
+  {
+    "title": "Lever Reverse Shoulder Press",
+    "src": "design/assets/allGifs/Lever-Reverse-Shoulder-Press.gif",
+    "alt": "Lever Reverse Shoulder Press",
+    "description": {
+      "en": "On the machine, press the lever arms backward to work your rear delts.",
+      "tr": "Makinede kolları geriye bastırarak arka omuz kaslarınızı çalıştırın.",
+      "el": "Στον μηχανισμό, πιέστε τους μοχλούς προς τα πίσω για τους οπίσθιους δελτοειδείς.",
+      "ru": "На тренажёре выжмите рычаги назад для нагрузки задних дельт."
+    },
+    "machine": "shoulder-press-machine",
+    "parts": "shoulder"
   }
 ]

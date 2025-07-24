@@ -75,10 +75,7 @@ window.addEventListener('DOMContentLoaded', () => {
   //     target.classList.toggle('hidden');
   //     target.scrollIntoView({ behavior: "smooth" });
   //   }
-    
   // }
-
-  
 
   const coll = document.querySelector('.sidebar');
   const title = coll.querySelector('.sidebar__title');
