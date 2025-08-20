@@ -7,6 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   color: #333; 
+  height: 100%;
 }
 @media screen and (max-width: 600px) {
   body { background-size: cover; } /* Adjust background position for smaller screens */
@@ -62,7 +63,7 @@ nav { display: flex; align-items: center; justify-content: end; padding: 0 10px;
 .feature p { color: #666; }
 
 /* Footer */
-footer { background: #222; color: #fff; padding: 2rem; text-align: center;}
+footer { background: #222; color: #fff; padding: 2rem; text-align: center; margin-top: auto;}
 footer p { font-size: 0.9rem; }
 .social-links a { margin: 0 0.5rem; color: #fff; font-size: 1.2rem; transition: color 0.3s; }
 .social-links a:hover { color: #84c172; }
@@ -690,7 +691,8 @@ footer p { font-size: 0.9rem; }
 .hidden { display: none !important; }
 
 .filler {
-  height: 100px;
+  min-height: calc(100vh - 440px); /* Adjust based on header/footer height */
   visibility: hidden;
   margin-top: 2rem;
+  flex: 1;
 }
