@@ -62,6 +62,16 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  //TODO
+  //click on the contact nav button to go to contact page
+  const contactBtn = document.getElementById('contacts');
+  if (contactBtn) {
+    contactBtn.addEventListener('click', () => {
+      window.location.href = '#social-links';
+      console.log('Contact button clicked');
+    });
+  }
+
   // const hash = window.location.hash;
   // if (hash) {
   //   const target = document.querySelector(hash);
